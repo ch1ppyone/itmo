@@ -1,0 +1,38 @@
+.card__title {
+  position: relative;
+  margin: 0 0 40px 0;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  color: #001337;
+}
+
+.card__title::after {
+  content: '';
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  background-color: #009FAC;
+  left: 0;
+  bottom: -20px;
+}
+
+@media (max-width: 1023px) {
+  .card__title {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 425px) {
+  .card__title {
+    margin: 0 0 24px 0;
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .card__title::after {
+    bottom: -12px;
+  }
+}

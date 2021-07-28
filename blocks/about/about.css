@@ -1,0 +1,10 @@
+.about {
+  background-color: #001337;
+  padding-bottom: 101px;
+}
+
+@media (max-width: 1023px) {
+  .about {
+    padding-bottom: 81px;
+  }
+}

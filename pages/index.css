@@ -5,8 +5,9 @@
 @import url(../blocks/page/__centered/page__centered.css);
 
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__menu-container/header__menu-container.css);
 @import url(../blocks/header/__section/header__section.css);
-@import url(../blocks/header/__button/header__button.css);
+@import url(../blocks/header/__burger/header__burger.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__menu/header__menu.css);
 @import url(../blocks/header/__menu-item/header__menu-item.css);
@@ -14,7 +15,11 @@
 @import url(../blocks/header/__menu-link/header__menu-link.css);
 @import url(../blocks/header/__menu-link/_type/header__menu-link_type_submenu.css);
 @import url(../blocks/header/__submenu/header__submenu.css);
-
+@import url(../blocks/header/__title-container/header__title-container.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__subtitle/header__subtitle.css);
+@import url(../blocks/header/__span-accent/header__span-accent.css);
+@import url(../blocks/header/__button/header__button.css);
 
 @import url(../blocks/about/about.css);
 @import url(../blocks/about/__title/about__title.css);

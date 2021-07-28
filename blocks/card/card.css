@@ -18,6 +18,7 @@
 @media (max-width: 425px) {
   .card {
     padding: 16px;
+    max-width: 288px;
   }
 }
 

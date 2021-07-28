@@ -1,6 +1,6 @@
 .header__menu-link {
   display: inline-block;
-  color: #ffffff;
+  color: var(--color-white);
   text-decoration: none;
   cursor: pointer;
   font-family: Open Sans;
@@ -16,7 +16,7 @@
 
 .header__menu-link:hover {
   font-weight: 600;
-  box-shadow: 0px 2px 0px #009FAC;
+  box-shadow: 0px 2px 0px var(--color-emerald);
 }
 
 @media screen and (max-width: 1053px) {

@@ -1,9 +1,9 @@
 .header__submenu {
-  display: none;
+  display: block;
   position: absolute;
   top: 61px;
   left: 0;
-  background: #000D26;
+  background: var(--color-dark-blue);
   z-index: 10;
   transition: 0.5s ease-in-out;
   margin: 0;

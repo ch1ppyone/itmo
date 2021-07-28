@@ -1,2 +1,13 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__section/header__section.css);
+@import url(../blocks/header/__button/header__button.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__menu-item/header__menu-item.css);
+@import url(../blocks/header/__menu-item/_type/header__menu-item_type_submenu.css);
+@import url(../blocks/header/__menu-link/header__menu-link.css);
+@import url(../blocks/header/__menu-link/_type/header__menu-link_type_submenu.css);
+@import url(../blocks/header/__submenu/header__submenu.css);

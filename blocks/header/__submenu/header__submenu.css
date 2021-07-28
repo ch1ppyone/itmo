@@ -1,0 +1,17 @@
+.header__submenu {
+  display: none;
+  position: absolute;
+  top: 61px;
+  left: 0;
+  background: #000D26;
+  z-index: 10;
+  transition: 0.5s ease-in-out;
+  margin: 0;
+  padding-left: 0;
+}
+
+@media screen and (max-width: 1053px) {
+  .header__submenu {
+    top: 52px;
+  }
+}

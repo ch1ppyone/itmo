@@ -1,99 +1,13 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
-
-.page {
-  height: 100vh;
-  background: grey;
-}
-.header__section {
-  max-width: 1110px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.header {
-  padding: 13px 165px;
-  background: #000D26;
-}
-
-.header__logo {
-  width: 150px;
-}
-
-.header__menu {
-  max-width: 825px;
-  display: flex;
-	flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0;
-  padding-left: 0;
-}
-
-.header__menu-item {
-  list-style-type: none;
-}
-
-.header__menu-link {
-  display: inline-block;
-  color: #ffffff;
-  text-decoration: none;
-  cursor: pointer;
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 44px;
-  letter-spacing: 0.1px;
-  width: 100px;
-  height: 44px;
-  margin-left: 20.83px;
-  text-align: center;
-
-}
-
-.header__menu-link:hover {
-  font-weight: 600;
-  box-shadow: 0px 2px 0px #009FAC;
-}
-
-.header__submenu_top {
-  position: relative;
-}
-
-.header__submenu {
-  position: absolute;
-/*   top: 61px;
-  left: 21px; */
-  top: 100%;
-  left: 0;
-  background: #000D26;
-  z-index: 10;
-  transition: 0.5s ease-in-out;
-  margin: 0;
-  padding-left: 0;
-  transform: scaleY(0);
-  transform-origin: 0 0;
-}
-
-.header__menu-link_submenu {
-  margin-left: 0;
-  width: 120px;
-  text-align: start;
-  padding-left: 8px;
-box-sizing: border-box;
-height: 28px;
-line-height: 28px;
-
-}
-
-.header__menu-link_submenu:hover {
-  background: #009FAC;
-}
-
-.header__submenu:hover {
-  transform: scaleY(1);
-
-}
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__section/header__section.css);
+@import url(../blocks/header/__button/header__button.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__menu-item/header__menu-item.css);
+@import url(../blocks/header/__menu-item/_type/header__menu-item_type_submenu.css);
+@import url(../blocks/header/__menu-link/header__menu-link.css);
+@import url(../blocks/header/__menu-link/_type/header__menu-link_type_submenu.css);
+@import url(../blocks/header/__submenu/header__submenu.css);

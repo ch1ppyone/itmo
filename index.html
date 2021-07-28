@@ -1,17 +1,86 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Сайт национального центра когнитивных разработок">
-  <meta name="keywords" content="html, css, javascript">
-  <meta name="author" content="Сергей Соколов, Андрей Гудков, Максим Николюкин, Иван Кудряшов">
-  <title>ITMO</title>
-  <link rel="stylesheet" href="pages/index.css" />
-</head>
-<body class="page">
-  <section class="about" id="about">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Сайт национального центра когнитивных разработок"
+    />
+    <meta name="keywords" content="html, css, javascript" />
+    <meta
+      name="author"
+      content="Сергей Соколов, Андрей Гудков, Максим Николюкин, Иван Кудряшов"
+    />
+    <title>ITMO</title>
+    <link rel="stylesheet" href="pages/index.css" />
+  </head>
+  <body class="page">
+    <header class="header">
+      <div class="header__menu-container">
+          <button
+            type="button"
+            class="header__burger"
+            aria-label="кнопка главного меню"
+          ></button>
+          <img
+            class="header__logo"
+            src="./icons/logos/Logo_AI 1.png"
+            alt="логотип INDUSTRIAL AI RESEARCH LAB"
+          />
+          <nav>
+            <ul class="header__menu">
+              <li class="header__menu-item">
+                <a class="header__menu-link" href="#about">О нас</a>
+              </li>
+              <li class="header__menu-item">
+                <a class="header__menu-link" href="#lab">Лаборатория</a>
+              </li>
+              <li class="header__menu-item">
+                <a class="header__menu-link" href="#projects">Проекты</a>
+              </li>
+              <li class="header__menu-item">
+                <a class="header__menu-link" href="#education">Образование</a>
+                <ul class="header__submenu">
+                  <li class="header__menu-item header__menu-item_type_submenu">
+                    <a
+                      class="header__menu-link header__menu-link_type_submenu"
+                      href="#"
+                      >Аспирантура</a
+                    >
+                  </li>
+                  <li class="header__menu-item header__menu-item_type_submenu">
+                    <a
+                      class="header__menu-link header__menu-link_type_submenu"
+                      href="#"
+                      >Магистратура</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="header__menu-item">
+                <a class="header__menu-link" href="#articles">Публикации</a>
+              </li>
+              <li class="header__menu-item">
+                <a class="header__menu-link" href="#team">Команда</a>
+              </li>
+              <li class="header__menu-item">
+                <a class="header__menu-link" href="#contact">Связаться</a>
+              </li>
+            </ul>
+          </nav>
+      </div>
+
+      <div class="header__title-container">
+        <h1 class="header__title"><span class="header__span-accent">Когнитивные технологии,</span> машинное обучение</h1>
+        <h2 class="header__subtitle">Системы прикладного искусственного интеллекта</h2>
+        <button class="header__button">НАШИ ПРОЕКТЫ</button>
+      </div>
+    </header>
+
+<main>
+<section class="about" id="about">
     <h2 class="about__title">Несколько слов о нас</h2>
     <p class="about__descr">Национальный центр когнитивных разработок – центр национальной технологической инициативы (НТИ), получивший государственную поддержку по направлению «Технологии машинного обучения и когнитивные технологии».</p>
     <div class="about__cards">
@@ -115,7 +184,6 @@
         </svg></button>
     </div>
   </section>
-
-
-</body>
+    </main>
+  </body>
 </html>

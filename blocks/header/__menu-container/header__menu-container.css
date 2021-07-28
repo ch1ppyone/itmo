@@ -1,0 +1,28 @@
+.header__menu-container{
+  padding: 13px 165px;
+    background: #000D26;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 1305px) {
+  .header__menu-container{
+    padding-left: 39px;
+    padding-right: 39px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__menu-container {
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__menu-container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

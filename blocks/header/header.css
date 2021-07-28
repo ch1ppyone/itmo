@@ -1,18 +1,12 @@
 .header {
-  padding: 13px 165px;
-  background: #000D26;
+  background: url("../../images/background.jpg");
+  background-repeat: no-repeat;
+  height: 1024px;
+  background-size: cover;
 }
 
-@media screen and (max-width: 1305px) {
+@media screen and (max-width: 768px) {
   .header {
-    padding-left: 39px;
-    padding-right: 39px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .header {
-    padding-left: 16px;
-    padding-right: 16px;
+    background:url("../../images/background_m.png")  no-repeat center;
   }
 }

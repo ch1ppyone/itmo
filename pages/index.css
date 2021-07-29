@@ -1,20 +1,26 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 @import url(../vars/vars.css);
+
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__centered/page__centered.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__menu-container/header__menu-container.css);
-@import url(../blocks/header/__section/header__section.css);
 @import url(../blocks/header/__burger/header__burger.css);
 @import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__logo/_type/header__logo_type_popup.css);
 @import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__menu/_type/header__menu_type_popup.css);
 @import url(../blocks/header/__menu-item/header__menu-item.css);
 @import url(../blocks/header/__menu-item/_type/header__menu-item_type_submenu.css);
+@import url(../blocks/header/__menu-item/_type/header__menu-item_type_popup.css);
 @import url(../blocks/header/__menu-link/header__menu-link.css);
 @import url(../blocks/header/__menu-link/_type/header__menu-link_type_submenu.css);
+@import url(../blocks/header/__menu-link/_type/header__menu-link_type_popup.css);
+@import url(../blocks/header/__menu-link/_type/header__menu-link_type_submenu-popup.css);
 @import url(../blocks/header/__submenu/header__submenu.css);
+@import url(../blocks/header/__submenu-popup/header__submenu-popup.css);
 @import url(../blocks/header/__title-container/header__title-container.css);
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__subtitle/header__subtitle.css);
@@ -38,3 +44,10 @@
 @import url(../blocks/about/__dots/about__dots.css);
 @import url(../blocks/about/__dot/about__dot.css);
 @import url(../blocks/about/__dot/_active/about__dot_active.css);
+
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/_opened/popup_opened.css);
+@import url(../blocks/popup/__container/popup__container.css);
+
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/_type/button_type_close.css);

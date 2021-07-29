@@ -40,6 +40,15 @@
 @import url(../blocks/about/__dot/_active/about__dot_active.css);
 
 
+@import url('../blocks/contact/contact.css');
+@import url('../blocks/contact/__container/contact__container.css');
+@import url('../blocks/contact/__title/contact__title.css');
+@import url('../blocks/contact/__subtitle/contact__subtitle.css');
+@import url('../blocks/contact/__contact-form/contact__contact-form.css');
+@import url('../blocks/contact/__input/contact__input.css');
+@import url('../blocks/contact/__textarea/contact__textarea.css');
+@import url('../blocks/contact/__submit/contact__submit.css');
+
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__wrapper/footer__wrapper.css');
 @import url('../blocks/footer/__logo/footer__logo.css');

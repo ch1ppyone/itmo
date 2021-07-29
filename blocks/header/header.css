@@ -1,12 +1,19 @@
 .header {
   background: url("../../images/background.jpg");
   background-repeat: no-repeat;
-  height: 1024px;
+  height: 776px;
   background-size: cover;
 }
 
 @media screen and (max-width: 768px) {
   .header {
+    height: 708px;
     background:url("../../images/background_m.png")  no-repeat center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    height: 458px;
   }
 }

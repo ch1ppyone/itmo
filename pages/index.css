@@ -1,6 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
-
+@import url(../vars/vars.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__centered/page__centered.css);
 

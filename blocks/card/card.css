@@ -1,0 +1,24 @@
+.card {
+  display: none;
+  position: relative;
+  box-sizing: border-box;
+  max-width: 348px;
+  border-radius: 10px;
+  background-color: #E0F0FF;
+  padding: 20px 20px 30px;
+}
+
+@media (max-width: 1023px) {
+  .card {
+    max-width: 330px;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 425px) {
+  .card {
+    padding: 16px;
+    max-width: 288px;
+  }
+}
+

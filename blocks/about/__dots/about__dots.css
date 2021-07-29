@@ -1,0 +1,9 @@
+.about__dots {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 68px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+}

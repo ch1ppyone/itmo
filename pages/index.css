@@ -1,6 +1,45 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 
+@import url(../blocks/page/page.css);
+@import url(../blocks/page/__centered/page__centered.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__menu-container/header__menu-container.css);
+@import url(../blocks/header/__section/header__section.css);
+@import url(../blocks/header/__burger/header__burger.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__menu-item/header__menu-item.css);
+@import url(../blocks/header/__menu-item/_type/header__menu-item_type_submenu.css);
+@import url(../blocks/header/__menu-link/header__menu-link.css);
+@import url(../blocks/header/__menu-link/_type/header__menu-link_type_submenu.css);
+@import url(../blocks/header/__submenu/header__submenu.css);
+@import url(../blocks/header/__title-container/header__title-container.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__subtitle/header__subtitle.css);
+@import url(../blocks/header/__span-accent/header__span-accent.css);
+@import url(../blocks/header/__button/header__button.css);
+
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__title/about__title.css);
+@import url(../blocks/about/__descr/about__descr.css);
+@import url(../blocks/about/__cards/about__cards.css);
+@import url(../blocks/about/__cards-wrapper/about__cards-wrapper.css);
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/_acitve/card_active.css);
+@import url(../blocks/card/__date/card__date.css);
+@import url(../blocks/card/__title/card__title.css);
+@import url(../blocks/card/__text/card__text.css);
+@import url(../blocks/card/__icon/card__icon.css);
+@import url(../blocks/about/__btn/about__btn.css);
+@import url(../blocks/about/__btn/_position/about__btn_position_left.css);
+@import url(../blocks/about/__btn/_position/about__btn_position_right.css);
+@import url(../blocks/about/__dots/about__dots.css);
+@import url(../blocks/about/__dot/about__dot.css);
+@import url(../blocks/about/__dot/_active/about__dot_active.css);
+
+
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__wrapper/footer__wrapper.css');
 @import url('../blocks/footer/__logo/footer__logo.css');

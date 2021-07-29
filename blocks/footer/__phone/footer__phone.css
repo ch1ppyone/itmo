@@ -1,0 +1,17 @@
+.footer__phone {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 400;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+@media (max-width: 1109px) {
+  .footer__phone {
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+  }
+}

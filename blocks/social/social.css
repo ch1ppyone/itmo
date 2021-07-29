@@ -1,0 +1,21 @@
+.social {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 152px;
+  justify-content: space-between;
+}
+
+@media (max-width: 1109px) {
+  .social {
+    padding: 31px 0 0;
+  }
+}
+
+@media (max-width: 710px) {
+  .social {
+    padding: 19px 0 0;
+  }
+}

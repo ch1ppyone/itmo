@@ -1,0 +1,24 @@
+.footer__mail {
+  margin: 15px 0 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 400;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+@media (max-width: 1109px) {
+  .footer__mail {
+    margin: 13px 0 0;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+  }
+}
+
+@media (max-width: 710px) {
+  .footer__mail {
+    margin: 8px 0 0;
+  }
+}

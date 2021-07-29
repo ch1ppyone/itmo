@@ -1,0 +1,20 @@
+.footer__menu-list {
+  margin: 12px 0 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-row-gap: 8px;
+}
+
+@media (max-width: 1109px) {
+  .footer__menu-list {
+    grid-row-gap: 5px;
+  }
+}
+
+@media (max-width: 710px) {
+  .footer__menu-list {
+    grid-row-gap: 0;
+    margin: 9px 0 0;
+  }
+}

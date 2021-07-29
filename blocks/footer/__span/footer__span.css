@@ -1,0 +1,5 @@
+@media (max-width: 710px) {
+  .footer__span {
+    display: inline-block;
+  }
+}

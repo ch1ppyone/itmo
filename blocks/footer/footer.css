@@ -1,0 +1,27 @@
+.footer {
+  padding: 80px 0;
+  background-color: #001337;
+  display: flex;
+  justify-content: center;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
+@media (max-width: 1109px) {
+  .footer {
+    padding: 60px 0 45px;
+  }
+}
+
+@media (max-width: 710px) {
+  .footer {
+    padding: 39px 0 30px;
+  }
+}
+
+
+
+
+
+* {
+  outline: 1px solid yellow;
+}

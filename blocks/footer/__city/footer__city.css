@@ -1,0 +1,26 @@
+.footer__city {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+@media (max-width: 1109px) {
+  .footer__city {
+    margin: 0 0 12px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    font-weight: 700;
+  }
+}
+
+@media (max-width: 710px) {
+  .footer__city {
+    margin: 0 0 8px;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 600;
+  }
+}

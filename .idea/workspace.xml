@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="01c06fe8-4215-447f-9456-e764a87fb226" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/blocks/footer/__address/footer__address.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/footer/__city/footer__city.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/footer/__contacts/footer__contacts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/footer/__copyright/footer__copyright.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/footer/__developer/footer__developer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/footer/__info/footer__info.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/footer/__logo/footer__logo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/footer/__mail/footer__mail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/footer/__menu-link/footer__menu-link.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/footer/__menu-list/footer__menu-list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/footer/__menu-title/footer__menu-title.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/footer/__menu/_about/footer__menu_about.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/footer/__menu/_future/footer__menu_future.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/footer/__menu/footer__menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/footer/__phone/footer__phone.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/footer/__social/footer__social.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/footer/__wrapper/footer__wrapper.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/footer/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/social/__item/social__item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/social/__link/_name/social__link_name_fb.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/social/__link/_name/social__link_name_inst.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/social/__link/_name/social__link_name_tg.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/social/__link/_name/social__link_name_vk.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/social/__link/_name/social__link_name_youtube.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/social/__link/social__link.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/social/social.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.css" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1vwOIw3ilwtBsDN5KRsaWTOfPcv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="01c06fe8-4215-447f-9456-e764a87fb226" name="Default Changelist" comment="" />
+      <created>1627469608726</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1627469608726</updated>
+      <workItem from="1627469610323" duration="16447000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

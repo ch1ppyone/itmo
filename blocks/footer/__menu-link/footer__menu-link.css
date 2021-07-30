@@ -1,0 +1,23 @@
+.footer__menu-link {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+@media (max-width: 1109px) {
+  .footer__menu-link {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+@media (max-width: 710px) {
+  .footer__menu-link {
+    font-size: 12px;
+    line-height: 19px;
+  }
+}

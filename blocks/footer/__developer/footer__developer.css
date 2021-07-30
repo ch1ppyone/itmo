@@ -1,0 +1,27 @@
+.footer__developer {
+  margin: 40px 0 0;
+  padding: 0;
+  grid-area: dev;
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 400;
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+@media (max-width: 1109px) {
+  .footer__developer {
+    margin: 32px 0 0;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+  }
+}
+
+@media (max-width: 710px) {
+  .footer__developer {
+    margin: 41px 0 0;
+    text-align: center;
+    line-height: 16px;
+  }
+}

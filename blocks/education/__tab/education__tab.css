@@ -1,0 +1,27 @@
+.education__tab {
+  margin: 0;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1168px) {
+  .education__tab {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+@media screen and (max-width: 733px) {
+  .education__tab  {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}

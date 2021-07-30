@@ -1,0 +1,21 @@
+.contact__contact-form {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px 29px;
+  padding: 0;
+  max-width: 1113px;
+  padding: 0 0 35px;
+}
+
+@media screen and (max-width: 900px) {
+  .contact__contact-form {
+    gap: 20px 29px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .contact__contact-form  {
+    grid-template-columns: 1fr;
+    padding: 0 0 40px;
+  }
+}

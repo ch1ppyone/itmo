@@ -1,0 +1,15 @@
+.footer__contacts {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  max-width: 206px;
+}
+
+@media (max-width: 710px) {
+  .footer__contacts {
+    margin: 40px 0 0;
+    grid-column: 1/-1;
+    max-width: 231px;
+  }
+}

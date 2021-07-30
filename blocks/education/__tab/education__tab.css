@@ -9,11 +9,7 @@
   font-size: 18px;
   line-height: 30px;
   letter-spacing: 0.1px;
-  background: #e0f0ff;
-  border: 1px solid #e0f0ff;
-  box-sizing: border-box;
-  border-radius: 10px;
-  color: #000d26;
+  color: #ffffff;
 }
 
 @media screen and (max-width: 1168px) {
@@ -24,7 +20,7 @@
 }
 
 @media screen and (max-width: 733px) {
-  .education__tab {
+  .education__tab  {
     font-size: 14px;
     line-height: 19px;
   }

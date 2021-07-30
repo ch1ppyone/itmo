@@ -409,9 +409,51 @@
         </p>
 
         <article class="education__content">
+          <template class="content-template content-template_type-magistr">
+            <img
+            class="education__content-image"
+            src="./images/study/magistr.jpg"
+            alt="Магистратура"
+          />
+            <div class="education__content-info">
+              <h3 class="education__content-title">
+                Образовательные программы аспирантуры в области МО и КТ
+              </h3>
+              <ul class="education__content-list">
+                <li class="education__content-list-item">
+                  Прикладные технологии искусственного интеллекта;
+                </li>
+                <li class="education__content-list-item">
+                  Машинное обучение и искусственный интеллект;
+                </li>
+                <li class="education__content-list-item">
+                  Биометрические информационные системы;
+                </li>
+                <li class="education__content-list-item">
+                  Речевые информационные системы;
+                </li>
+                <li class="education__content-list-item">
+                  Когнитивные вычисления и квантовый интеллект;
+                </li>
+                <li class="education__content-list-item">
+                  Большие данные и экстренные вычисления;
+                </li>
+                <li class="education__content-list-item">
+                  Семантические системы и инженерия знаний;
+                </li>
+                <li class="education__content-list-item">
+                Технологии разработки компьютерных игр
+                </li>
+              </ul>
+              <a href="#" class="education__content-link"> Подробнее    <img class="education__link-arrow" src="./icons/nav_icons/arrow-right.svg" alt="Стрелка"> </a>
+            </div>
+          </template>
+
+
+          <template class="content-template content-template_type-aspirant">
           <img
           class="education__content-image"
-          src="./images/study/aspirant_photo.jpg"
+          src="./images/study/aspirant.jpg"
           alt="Магистратура"
         />
           <div class="education__content-info">
@@ -446,11 +488,12 @@
             </ul>
             <a href="#" class="education__content-link"> Подробнее    <img class="education__link-arrow" src="./icons/nav_icons/arrow-right.svg" alt="Стрелка"> </a>
           </div>
+        </template>
 
         </article>
         <ul class="education__tabs">
-          <li class="education__tab education__tab_active">АСПИРАНТУРА</li>
-          <li class="education__tab">МАГИСТРАТУРА</li>
+          <li class="education__tab education__tab_type-aspirant">АСПИРАНТУРА</li>
+          <li class="education__tab education__tab_type-magistr education__tab_active">МАГИСТРАТУРА</li>
         </ul>
       </section>
 
@@ -648,6 +691,6 @@
             </nav>
           </div>
         </div>
-
+   <script src="scripts/script.js"></script>
   </body>
 </html>

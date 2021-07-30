@@ -1,20 +1,22 @@
-.about__cards-wrapper {
+.dots {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0;
-  margin: 0 0 26px 0;
+  max-width: 68px;
   list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  padding-top: 26px;
 }
 
 @media (max-width: 1023px) {
-  .about__cards-wrapper {
-    margin: 0 0 21px 0;
+  .dots {
+    padding-top: 21px;
   }
 }
 
 @media (max-width: 767px) {
-  .about__cards-wrapper {
-    justify-content: center;
+  .dots {
+    padding-top: 15px;
   }
 }

@@ -1,0 +1,10 @@
+.publications__menu {
+  position: relative;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #009FAC;
+  border-radius: 0px 0px 10px 10px;
+}

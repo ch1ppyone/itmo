@@ -1,5 +1,5 @@
 .education__content {
-  max-width: 1169px;
+  width: 1169px;
   height: 429px;
   background: #ffffff;
   border-radius: 10px;
@@ -15,7 +15,14 @@
 @media screen and (max-width: 1168px) {
   .education__content  {
     height: 332px;
-    width: 690px;
+    width: 990px;
+  }
+}
+
+@media screen and (max-width: 1003px) {
+  .education__content  {
+    height: 332px;
+    width: 700px;
   }
 }
 

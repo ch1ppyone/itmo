@@ -1,7 +1,6 @@
 .education__tab_active {
-  background: #e0f0ff;
-  border: 1px solid #e0f0ff;
+  background: #009fac;
   box-sizing: border-box;
-  border-radius: 10px;
-  color: #000d26;
+  color: #ffffff;
+  border: none;
 }

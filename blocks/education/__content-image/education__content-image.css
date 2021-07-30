@@ -1,6 +1,5 @@
 .education__content-image {
   width: 445px;
-  height: 364px;
   border-radius: 10px;
   margin: 0;
   order:2;
@@ -8,8 +7,13 @@
 
 @media screen and (max-width: 1168px) {
   .education__content-image {
-    width: 280px;
     height: 282px;
+  }
+}
+
+@media screen and (max-width: 1003px) {
+  .education__content-image {
+    width: 280px;
   }
 }
 

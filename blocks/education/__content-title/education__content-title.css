@@ -5,7 +5,9 @@
   line-height: 30px;
 }
 
-@media screen and (max-width: 1168px) {
+
+
+@media screen and (max-width: 1003px) {
   .education__content-title{
     font-size: 12px;
     line-height: 16px;

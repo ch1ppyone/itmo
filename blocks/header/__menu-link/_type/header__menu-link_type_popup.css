@@ -1,0 +1,17 @@
+.header__menu-link_type_popup {
+  padding-left: 40px;
+  text-align: start;
+  line-height: 34px;
+}
+
+.header__menu-link_type_popup:hover {
+  font-weight: normal;
+  box-shadow: unset;
+  background: var(--color-blue);
+}
+
+@media screen and (max-width: 320px) {
+  .header__menu-link_type_popup {
+    padding-left: 16px;
+  }
+}

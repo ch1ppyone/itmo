@@ -1,4 +1,10 @@
 .header__menu-item_type_popup {
   margin-left: 0;
-  width: 290px;
+  width: 330px;
+}
+
+@media screen and (max-width: 320px) {
+  .header__menu-link_type_popup {
+    width: 320px;
+  }
 }

@@ -2,6 +2,7 @@
   padding-left: 40px;
   text-align: start;
   line-height: 34px;
+  box-sizing: border-box;
 }
 
 .header__menu-link_type_popup:hover {

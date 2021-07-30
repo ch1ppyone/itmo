@@ -1,9 +1,8 @@
 .card__line {
   height: 1px;
-  width: 308px;
+  width: 100%;
   background-color: #009FAC;
   margin: 0 0 20px 0;
-  padding: 0 20px;
 }
 
 @media (max-width: 425px) {

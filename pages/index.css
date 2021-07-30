@@ -28,7 +28,6 @@
 @import url(../blocks/about/__descr/about__descr.css);
 @import url(../blocks/about/__cards/about__cards.css);
 @import url(../blocks/card/card.css);
-@import url(../blocks/card/_background/card_background_white.css);
 @import url(../blocks/card/_acitve/card_active.css);
 @import url(../blocks/card/__date/card__date.css);
 @import url(../blocks/card/__title/card__title.css);
@@ -49,6 +48,7 @@
 @import url(../blocks/cards/cards.css);
 
 @import url(../blocks/publications/publications.css);
+@import url(../blocks/publications/__card/publications__card.css);
 @import url(../blocks/publications/__card-img/publications__card-img.css);
 @import url(../blocks/publications/__card-title/publications__card-title.css);
 @import url(../blocks/publications/__card-italic-text/publications__card-italic-text.css);
@@ -56,11 +56,15 @@
 @import url(../blocks/publications/__arrow-left/publications__arrow-left.css);
 @import url(../blocks/publications/__arrow-right/publications__arrow-right.css);
 @import url(../blocks/publications/__menu/publications__menu.css);
+@import url(../blocks/publications/__menu/_active/publications__menu_active.css);
 @import url(../blocks/publications/__link/publications__link.css);
 @import url(../blocks/publications/__link-text/publications__link-text.css);
 @import url(../blocks/publications/__link-arrow/publications__link-arrow.css);
 @import url(../blocks/publications/__button/publications__button.css);
 @import url(../blocks/publications/__socials/publications__socials.css);
+@import url(../blocks/publications/__socials/_active/publications__socials_active.css);
 @import url(../blocks/publications/__social-link/publications__social-link.css);
 @import url(../blocks/publications/__social-vk/publications__social-vk.css);
 @import url(../blocks/publications/__triagle/publications__triagle.css);
+
+@import url(../blocks/publications/__card-wrapper/publications__card-wrapper.css);

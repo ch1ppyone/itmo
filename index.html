@@ -1,15 +1,24 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="description" content="Сайт национального центра когнитивных разработок">
-      <meta name="keywords" content="когнитивные технологии, машинное обучение, аспирантура, магистратура,
-       анализ социальных данных, инфраструктура больших данных, облачные вычисления, QA системы">
-      <meta name="author" content="Сергей Соколов, Андрей Гудков, Максим Николюкин, Иван Кудряшов">
-      <title>Национальный центр когнитивных разработок</title>
-      <link rel="stylesheet" href="pages/index.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Сайт национального центра когнитивных разработок"
+    />
+    <meta
+      name="keywords"
+      content="когнитивные технологии, машинное обучение, аспирантура, магистратура,
+       анализ социальных данных, инфраструктура больших данных, облачные вычисления, QA системы"
+    />
+    <meta
+      name="author"
+      content="Сергей Соколов, Андрей Гудков, Максим Николюкин, Иван Кудряшов"
+    />
+    <title>Национальный центр когнитивных разработок</title>
+    <link rel="stylesheet" href="pages/index.css" />
   </head>
   <body class="page">
     <header class="header">
@@ -386,22 +395,101 @@
           </button>
         </div>
       </section>
+
+      <section class="education">
+        <h2 class="education__title">ОБРАЗОВАНИЕ</h2>
+        <p class="educatiion__subtitle">
+          В образовательной деятельности НЦКР активно использует существующую в
+          Университете ИТМО инфраструктуру и опыт реализации сетевых форм
+          обучения, опираясь на вузы-диссеминаторы (ННГУ, ДВФУ, ФГБОУ ВО «МГТУ
+          «СТАНКИН», НовГУ), а также профильную компанию ООО «НЦЭО» в области
+          электронного и дистанционного образования. Реализуются образовательные
+          программы различных форматов.
+        </p>
+
+        <article class="education__content">
+          <img
+          class="education__content-image"
+          src="./images/study/magistr.jpg"
+          alt="Магистратура"
+        />
+          <div class="education__content-info">
+            <h3 class="education__content-title">
+              Образовательные программы аспирантуры в области МО и КТ
+            </h3>
+            <ul class="education__content-list">
+              <li class="education__content-list-item">
+                Прикладные технологии искусственного интеллекта;
+              </li>
+              <li class="education__content-list-item">
+                Машинное обучение и искусственный интеллект;
+              </li>
+              <li class="education__content-list-item">
+                Биометрические информационные системы;
+              </li>
+              <li class="education__content-list-item">
+                Речевые информационные системы;
+              </li>
+              <li class="education__content-list-item">
+                Когнитивные вычисления и квантовый интеллект;
+              </li>
+              <li class="education__content-list-item">
+                Большие данные и экстренные вычисления;
+              </li>
+              <li class="education__content-list-item">
+                Семантические системы и инженерия знаний;
+              </li>
+              <li class="education__content-list-item">
+              Технологии разработки компьютерных игр
+              </li>
+            </ul>
+            <a href="#" class="education__content-link"> Подробнее    <img class="education__link-arrow" src="./icons/nav_icons/arrow-right.svg" alt="Стрелка"> </a>
+          </div>
+
+        </article>
+        <ul class="education__tabs">
+          <li class="education__tab">АСПИРАНТУРА</li>
+          <li class="education__tab education__tab_active">МАГИСТРАТУРА</li>
+        </ul>
+      </section>
+
       <section class="contact">
         <div class="contact__container">
-        <h2 class="contact__title">ВСЕГДА НА СВЯЗИ</h2>
-        <p class="contact__subtitle">
-          По всем интересующим вас вопросам вы всегда можете обратиться по
-          указанным телефонам, написать на почту или оставтиь свое сообщение
-          через форму обратной связи.
+          <h2 class="contact__title">ВСЕГДА НА СВЯЗИ</h2>
+          <p class="contact__subtitle">
+            По всем интересующим вас вопросам вы всегда можете обратиться по
+            указанным телефонам, написать на почту или оставтиь свое сообщение
+            через форму обратной связи.
+          </p>
+
           <form action="#" method="post" class="contact__contact-form">
-            <input class="contact__input contact__input_type-name" type="text" placeholder="Имя">
-            <input class="contact__input contact__input_type-surname" type="text" placeholder="Фамилия">
-            <input class="contact__input contact__input_type-phone" type="tel" placeholder="Телефон">
-            <input class="contact__input contact__input_type-mail" type="email" placeholder="E-mail">
-            <textarea class="contact__textarea" placeholder="Сообщение"></textarea>
+            <input
+              class="contact__input contact__input_type-name"
+              type="text"
+              placeholder="Имя"
+            />
+            <input
+              class="contact__input contact__input_type-surname"
+              type="text"
+              placeholder="Фамилия"
+            />
+            <input
+              class="contact__input contact__input_type-phone"
+              type="tel"
+              placeholder="Телефон"
+            />
+            <input
+              class="contact__input contact__input_type-mail"
+              type="email"
+              placeholder="E-mail"
+            />
+            <textarea
+              class="contact__textarea"
+              placeholder="Сообщение"
+            ></textarea>
             <button class="contact__submit" type="submit">Отправить</button>
           </form>
-      </div>
+        </div>
       </section>
     </main>
 

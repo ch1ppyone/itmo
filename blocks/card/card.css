@@ -12,6 +12,7 @@
   .card {
     max-width: 330px;
     padding: 20px;
+    border-radius: 10px 10px 0 0;
   }
 }
 

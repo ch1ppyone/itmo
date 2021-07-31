@@ -5,8 +5,6 @@
   position: absolute;
   top: 14px;
   right: 30px;
-  background-color: transparent;
-  background-size: cover;
 }
 
 @media screen and (max-width: 320px) {

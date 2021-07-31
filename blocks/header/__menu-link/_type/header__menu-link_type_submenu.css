@@ -6,9 +6,9 @@
   height: 28px;
   line-height: 28px;
 }
-  
+
 .header__menu-link_type_submenu:hover {
-  background: #009FAC;
+  background: var(--color-emerald);
 }
 
 @media screen and (max-width: 1053px) {

@@ -1,0 +1,20 @@
+.button {
+  box-sizing: border-box;
+  border: none;
+  font-family: inherit;
+  padding: 0;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  color: var(--color-white);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.button:hover {
+  opacity: 0.6;
+  transition: 0.3s;
+}

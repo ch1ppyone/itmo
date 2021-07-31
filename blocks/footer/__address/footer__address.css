@@ -1,0 +1,26 @@
+.footer__address {
+  margin: 4px 0 15px;
+  padding: 0;
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+@media (max-width: 1109px) {
+  .footer__address {
+    margin: 4px 0 12px;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    box-sizing: border-box;
+    padding: 0 20px 0 0;
+  }
+}
+
+@media (max-width: 710px) {
+  .footer__address {
+    margin: 4px 0 8px;
+    padding: 0;
+  }
+}

@@ -1,0 +1,9 @@
+.header__logo_type_popup {
+  margin-left: 40px;
+}
+
+@media screen and (max-width: 320px) {
+  .header__logo_type_popup {
+    margin-left: 16px;
+  }
+}

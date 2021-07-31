@@ -1,0 +1,12 @@
+.lab__card-text {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: var(--color-blue);
+  margin-top: 0;
+  margin-bottom: 50px;
+}

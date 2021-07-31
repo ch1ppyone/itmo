@@ -1,0 +1,14 @@
+.lab__title {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 74px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  text-transform: uppercase;
+  color: var(--color-dark-blue);
+  margin-bottom: 55px;
+  margin-top: 0;
+  padding-right: 32px;
+  }

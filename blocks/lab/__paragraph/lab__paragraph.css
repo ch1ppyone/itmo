@@ -1,0 +1,24 @@
+.lab__paragraph {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.1px;
+  color: var(--color-dark-blue);
+  margin-top: 0;
+  margin-bottom: 0;
+  vertical-align: bottom;
+  position: relative;
+}
+
+.lab__paragraph::before {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  content: "";
+  top: 0;
+  left: -35px;
+  background-image: url(../../../icons/icons/moleculer.svg);
+  background-color: transparent;
+}

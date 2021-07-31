@@ -1,0 +1,12 @@
+.lab__subtitle {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+  color: var(--color-dark-blue);
+  margin-top: 0;
+  margin-bottom: 25px;
+  vertical-align: top;
+  }

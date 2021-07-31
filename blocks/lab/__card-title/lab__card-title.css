@@ -1,0 +1,11 @@
+.lab__card-title {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: var(--color-blue);
+  margin-top: 0;
+  margin-bottom: 49px;
+}

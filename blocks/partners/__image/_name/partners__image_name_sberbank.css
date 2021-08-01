@@ -1,0 +1,21 @@
+.partners__image_name_sberbank {
+  width: 194px;
+  height: 48px;
+}
+
+
+@media (max-width: 1109px) {
+  .partners__image_name_sberbank {
+    margin: -10px 0 0;
+    width: 194px;
+    height: 48px;
+  }
+}
+
+@media (max-width: 689px) {
+  .partners__image_name_sberbank {
+    margin: -10px 0 0;
+    width: 148px;
+    height: 36px;
+  }
+}

@@ -1,4 +1,17 @@
 .lab__container {
   max-width: 1110px;
   margin: auto;
+  padding: 80px 39px;
+}
+
+@media screen and (max-width: 975px) {
+  .lab__container {
+    padding: 60px 39px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .lab__container {
+    padding: 40px 16px;
+  }
 }

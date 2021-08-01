@@ -1,0 +1,18 @@
+.partners__image_name_mail {
+  width: 150px;
+  height: 48px;
+}
+
+@media (max-width: 1109px) {
+  .partners__image_name_mail {
+    width: 100px;
+    height: 32px;
+  }
+}
+
+@media (max-width: 689px) {
+  .partners__image_name_mail {
+    width: 62px;
+    height: 20px;
+  }
+}

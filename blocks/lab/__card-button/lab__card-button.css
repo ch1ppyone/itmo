@@ -8,6 +8,28 @@
   color: var(--color-blue);
   border-radius: 10px;
   border: 1px solid var(--color-blue);
-  min-width: 215px;
+  width: 100%;
   min-height: 40px;
+}
+
+.lab__card-button:hover {
+  border: 1px solid var(--color-white);
+  color: var(--color-white);
+}
+
+@media screen and (max-width: 975px) {
+  .lab__card-button {
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 0.0588372px;
+    min-height: 32px;
+    border-radius: 5px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .lab__card-button {
+    width: 120px;
+  }
 }

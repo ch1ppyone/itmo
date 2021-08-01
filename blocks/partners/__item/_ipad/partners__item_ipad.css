@@ -1,0 +1,5 @@
+@media (max-width: 1109px) {
+  .partners__item_ipad {
+    display: none;
+  }
+}

@@ -1,0 +1,36 @@
+.popup-lab__container {
+  max-width: 1110px;
+  max-height: 718px;
+  background: var(--color-white);
+  position: relative;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin: 0 39px;
+  display: grid;
+  grid-template-areas: "image title"
+                       "image  text"
+                       "image  text"
+                       "image  text";
+  grid-template-rows: 33px minmax(135px, 245px) minmax(135px, 245px) minmax(135px, 245px);
+  grid-template-columns: minmax(199px, 400px) 1fr;
+  gap: 20px;
+}
+
+@media screen and (max-width: 938px) {
+  .popup-lab__container {
+    height: 454px;
+    grid-template-columns: minmax(199px, 300px) 1fr;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .popup-lab__container {
+    grid-template-areas: "title"
+                        "image"
+                        "text";
+    grid-template-rows: 33px 160px 1fr;
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+}

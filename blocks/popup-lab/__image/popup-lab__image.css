@@ -1,0 +1,27 @@
+.popup-lab__image {
+  grid-area: image;
+  content: "";
+  min-width: 400px;
+  height: 678px;
+  background-color: var(--color-emerald);
+  background: url(../../../images/lab/image_43.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 938px) {
+  .popup-lab__image{
+    min-width: 199px;
+    height: 414px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .popup-lab__image{
+    height: 160px;
+    background-position: center;
+  }
+}

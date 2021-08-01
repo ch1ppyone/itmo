@@ -1,0 +1,24 @@
+.team {
+  margin: 0;
+  padding: 0 0 103px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #001337;
+  background-image: linear-gradient(#E0F0FF 43%, #001337 43%);
+  position: relative;
+}
+
+@media (max-width: 1109px) {
+  .team {
+    padding: 0 0 83px;
+    background-image: linear-gradient(#E0F0FF 45%, #001337 45%);
+  }
+}
+
+@media (max-width: 689px) {
+  .team {
+    padding: 0 0 53px;
+    background-image: linear-gradient(#E0F0FF 47%, #001337 47%);
+  }
+}

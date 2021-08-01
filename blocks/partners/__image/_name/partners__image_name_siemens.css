@@ -1,0 +1,18 @@
+.partners__image_name_siemens {
+  width: 202px;
+  height: 48px;
+}
+
+@media (max-width: 1109px) {
+  .partners__image_name_siemens {
+    width: 134px;
+    height: 32px;
+  }
+}
+
+@media (max-width: 689px) {
+  .partners__image_name_siemens {
+    width: 84px;
+    height: 20px;
+  }
+}

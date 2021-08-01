@@ -1,0 +1,19 @@
+.partners__wrapper {
+  width: 100%;
+  max-width: 1110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 1109px) {
+  .partners__wrapper {
+    max-width: 690px;
+  }
+}
+
+@media (max-width: 689px) {
+  .partners__wrapper {
+    max-width: 288px;
+  }
+}

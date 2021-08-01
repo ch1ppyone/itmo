@@ -716,6 +716,41 @@
         </article>
       </section>
 
+       <section class="team">
+        <div class="team__wrapper">
+          <h2 class="team__title">Наша команда</h2>
+          <button type="button" aria-label="Кнопка назад" class="team__button team__button_left"></button>
+          <ul class="team__list">
+          </ul>
+          <button type="button" aria-label="Кнопка вперед" class="team__button team__button_right"></button>
+          <ul class="team__pagination-list">
+            <li class="team__pagination-item team__pagination-item_active"></li>
+            <li class="team__pagination-item"></li>
+            <li class="team__pagination-item"></li>
+            <li class="team__pagination-item"></li>
+          </ul>
+        </div>
+      </section>
+      <section class="partners">
+        <div class="partners__wrapper">
+          <h2 class="partners__title">с кем мы работаем</h2>
+          <p class="partners__text">За время сотрудничества компания показала себя как надежный партнер, способный оперативно решать вопросы по внесению необходимых изменений.</p>
+          <p class="partners__text">Отдельно хочется отметить квалифицированный персонал компании, который всегда готов прийти на помощь в решении поставленных задач, дать объективную оценку и свои рекомендации по улучшению деятельности. Надеемся на дальнейшее и плодотворное сотрудничество.</p>
+          <ul class="partners__list">
+            <li class="partners__item"><a href="" class="partners__link"><img src="./icons/logos/gazprom_logo.svg" class="partners__image partners__image_name_gazprom" alt="Логотип Газпром Нефть"></a></li>
+            <li class="partners__item partners__item_ipad"><a href="" class="partners__link"><img src="./icons/logos/sberbank_logo.svg" class="partners__image partners__image_name_sberbank" alt="Логотип Сбербанка"></a></li>
+            <li class="partners__item"><a href="" class="partners__link"><img src="./icons/logos/mail_logo.svg" class="partners__image partners__image_name_mail" alt="Логотип Mail.ru"></a></li>
+            <li class="partners__item"><a href="" class="partners__link"><img src="./icons/logos/siemens_logo.svg" class="partners__image partners__image_name_siemens" alt="Логотип Siemens"></a></li>
+            <li class="partners__item"><a href="" class="partners__link"><img src="./icons/logos/huawei_logo.svg" class="partners__image partners__image_name_huawei" alt="Логотип Huawei"></a></li>
+            <li class="partners__item"><a href="" class="partners__link"><img src="./icons/logos/sberbank_logo.svg" class="partners__image partners__image_name_sberbank" alt="Логотип Сбербанка"></a></li>
+            <li class="partners__item"><a href="" class="partners__link"><img src="./icons/logos/rosveft_logo.svg" class="partners__image partners__image_name_rosneft" alt="Логотип Роснефти"></a></li>
+            <li class="partners__item"><a href="" class="partners__link"><img src="./icons/logos/gazprom_logo.svg" class="partners__image partners__image_name_gazprom" alt="Логотип Газпром Нефть"></a></li>
+            <li class="partners__item partners__item_ipad"><a href="" class="partners__link"><img src="./icons/logos/huawei_logo.svg" class="partners__image partners__image_name_huawei" alt="Логотип Huawei"></a></li>
+            <li class="partners__item"><a href="" class="partners__link"><img src="./icons/logos/mail_logo.svg" class="partners__image partners__image_name_mail" alt="Логотип Mail.ru"></a></li>
+          </ul>
+        </div>
+      </section>
+      
       <!-- section contact --->
       <section class="contact" id="contact">
         <div class="contact__container">
@@ -755,10 +790,12 @@
         </div>
       </section>
 
+
+
     </main>
 
-    <!-- footer --->
     <footer class="footer" id="footer">
+
       <div class="footer__wrapper">
         <img
           src="./icons/logos/main_logo.svg"
@@ -872,6 +909,17 @@
       </div>
     </footer>
 
+    <template id="card">
+      <li class="team__card">
+        <img src="./images/team/man_photo.jpg" alt="Бобцов Алексей Алексеевич" class="team__photo">
+        <h3 class="team__surname">Бобцов</h3>
+        <h3 class="team__name">Алексей Алексеевич</h3>
+        <p class="team__job">Директор, <span class="team__job-span">профессор,</span> ДТН</p>
+      </li>
+    </template>
+    <script src="./js/team.js"></script>
+
+
         <!-- popup-header-menu --->
         <div class="popup" id="popup-header-menu">
           <div class="popup__container">
@@ -914,6 +962,5 @@
         </div>
 
    <script src="scripts/script.js"></script>
-
   </body>
 </html>

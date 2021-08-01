@@ -1,0 +1,17 @@
+.button_type_close-lab {
+  background-image: url(../icons/nav_icons/close-lab.svg);
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 15px;
+  right: 21px;
+}
+
+@media screen and (max-width: 768px) {
+  .button_type_close-lab {
+    width: 32px;
+    height: 32px;
+    top: 21px;
+    right: 21px;
+  }
+}

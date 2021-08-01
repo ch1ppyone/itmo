@@ -1,0 +1,30 @@
+.popup-lab__title {
+  grid-area: title;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  color: var(--color-dark-blue);
+  margin-top: 0;
+  margin-bottom: 21.5px;
+}
+
+@media screen and (max-width: 938px) {
+  .popup-lab__title {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
+@media screen and (max-width: 840px) {
+  .popup-lab__title {
+    min-width: 268px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .popup-lab__title {
+    line-height: 35px;
+    margin-bottom: 20.5px;
+  }
+}

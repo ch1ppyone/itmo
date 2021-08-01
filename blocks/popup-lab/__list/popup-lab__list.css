@@ -1,0 +1,16 @@
+.popup-lab__list {
+  margin: 0;
+  padding-left: 28px;
+}
+
+@media screen and (max-width: 840px) {
+  .popup-lab__list {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .popup-lab__list {
+    padding-left: 25px;
+  }
+}

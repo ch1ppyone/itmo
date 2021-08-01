@@ -1,0 +1,24 @@
+.lab__description {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 80px;
+}
+
+@media screen and (max-width: 975px) {
+  .lab__description {
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lab__description {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .lab__description {
+    margin-bottom: 20px;
+  }
+}

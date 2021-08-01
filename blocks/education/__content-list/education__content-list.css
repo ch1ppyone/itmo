@@ -1,0 +1,19 @@
+.education__content-list {
+  margin: 0 0 0 30px;
+  padding: 0 0 0 30px;
+}
+
+@media screen and (max-width: 1168px) {
+  .education__content-list  {
+    margin: 20px 0  20px 0;
+    padding: 0  20px 0 20px;
+  }
+}
+
+@media screen and (max-width: 733px) {
+  .education__content-list{
+    margin: 16px 0  16px 0;
+    padding: 0  16px 0 16px;
+    max-width: 256px;
+  }
+}

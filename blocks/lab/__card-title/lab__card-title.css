@@ -1,0 +1,30 @@
+.lab__card-title {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 49px;
+  box-sizing: border-box;
+  max-height: 110px;
+}
+
+@media screen and (max-width: 975px) {
+  .lab__card-title {
+    font-size: 12px;
+    line-height: 16px;
+    max-height: 49.42px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .lab__card-title {
+    font-size: 10px;
+    line-height: 14px;
+    max-height: 44px;
+    padding-bottom: 44px;
+  }
+}

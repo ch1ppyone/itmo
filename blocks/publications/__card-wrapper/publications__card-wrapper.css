@@ -1,0 +1,36 @@
+.publications__card-wrapper {
+  display: none;
+}
+
+.publications__card-wrapper:hover .publications__menu {
+  display: flex;
+}
+
+.publications__card-wrapper:hover .card {
+  border-radius: 10px 10px 0 0;
+  padding-bottom: 25px;
+}
+
+.publications__card-wrapper:hover .publications__card-img {
+  height: 158px;
+}
+
+@media (max-width: 1023px) {
+  .publications__card-wrapper:hover .card {
+    padding-bottom: 10px;
+  }
+
+  .publications__card-wrapper:hover .publications__card-img {
+    height: 158px;
+  }
+}
+
+@media (max-width: 425px) {
+  .publications__card-wrapper:hover .card {
+    padding-bottom: 16px;
+  }
+
+  .publications__card-wrapper:hover .publications__card-img {
+    height: 160px;
+  }
+}

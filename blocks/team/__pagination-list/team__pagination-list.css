@@ -1,0 +1,19 @@
+.team__pagination-list {
+  margin: 30px 0 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-self: center;
+}
+
+@media (max-width: 1109px) {
+  .team__pagination-list {
+    margin: 26px 0 0;
+  }
+}
+
+@media (max-width: 689px) {
+  .team__pagination-list {
+    margin: 14px 0 0;
+  }
+}

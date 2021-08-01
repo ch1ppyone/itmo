@@ -1,0 +1,23 @@
+.education__content-title {
+  margin: 0;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+
+
+@media screen and (max-width: 1003px) {
+  .education__content-title{
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+@media screen and (max-width: 733px) {
+  .education__content-title {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+  }
+}

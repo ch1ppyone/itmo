@@ -1,0 +1,21 @@
+.education__content-list-item {
+  margin: 0;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+  color: #000d26;
+}
+
+@media screen and (max-width: 1168px) {
+  .education__content-list-item {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+@media screen and (max-width: 733px) {
+  .education__content-list-item {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}

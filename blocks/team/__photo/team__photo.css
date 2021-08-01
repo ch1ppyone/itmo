@@ -1,0 +1,22 @@
+.team__photo {
+  margin: 0;
+  padding: 0;
+  width: 215px;
+  height: 286px;
+  border-radius: 10px;
+}
+
+
+@media (max-width: 1109px) {
+  .team__photo {
+    width: 170px;
+    height: 226px;
+  }
+}
+
+@media (max-width: 689px) {
+  .team__photo {
+    width: 120px;
+    height: 160px;
+  }
+}

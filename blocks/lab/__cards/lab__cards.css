@@ -1,0 +1,14 @@
+.lab__cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 587px) {
+  .lab__cards {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 8px;
+  }
+}

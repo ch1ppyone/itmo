@@ -1,0 +1,17 @@
+.publications__cards {
+  position: relative;
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1300px) {
+  .publications__cards {
+    max-width: 726px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .publications__cards {
+    max-width: 690px;
+  }
+}

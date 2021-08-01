@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="01c06fe8-4215-447f-9456-e764a87fb226" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/blocks/partners/__image/_name/partners__image_name_gazprom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/partners/__image/_name/partners__image_name_huawei.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/partners/__image/_name/partners__image_name_mail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/partners/__image/_name/partners__image_name_rosneft.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/partners/__image/_name/partners__image_name_sberbank.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/partners/__image/_name/partners__image_name_siemens.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/partners/__image/partners__image.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/partners/__item/_ipad/partners__item_ipad.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/partners/__item/partners__item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/partners/__list/partners__list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/partners/__text/partners__text.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/partners/__title/partners__title.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/partners/__wrapper/partners__wrapper.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/partners/partners.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/team/__button/_left/team__button_left.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/team/__button/_right/team__button_right.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/team/__button/team__button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/team/__card/team__card.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/team/__job-span/team__job-span.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/team/__job/team__job.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/team/__list/team__list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/team/__name/team__name.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/team/__pagination-item/_active/team__pagination-item_active.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/team/__pagination-item/team__pagination-item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/team/__pagination-list/team__pagination-list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/team/__photo/team__photo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/team/__surname/team__surname.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/team/__title/team__title.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/team/__wrapper/team__wrapper.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/team/team.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/nav_icons/arrow-left-wh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/nav_icons/arrow-right-wh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/team.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/footer/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/footer/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.css" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1vwOIw3ilwtBsDN5KRsaWTOfPcv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/icons/nav_icons" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/icons/nav_icons" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="01c06fe8-4215-447f-9456-e764a87fb226" name="Default Changelist" comment="" />
+      <created>1627469608726</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1627469608726</updated>
+      <workItem from="1627469610323" duration="43582000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

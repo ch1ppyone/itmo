@@ -1,0 +1,28 @@
+.educatiion__subtitle {
+  max-width: 919px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+  color: #ffffff;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+@media screen and (max-width: 768px) {
+  .educatiion__subtitle {
+    margin-bottom: 37px;
+    font-size: 14px;
+    line-height: 20px;
+    max-width: 690px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .educatiion__subtitle {
+    margin-bottom: 23px;
+    font-size: 12px;
+    line-height: 16px;
+    max-width:  288px;
+  }
+}

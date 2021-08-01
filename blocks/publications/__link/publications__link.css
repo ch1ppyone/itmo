@@ -1,0 +1,13 @@
+.publications__link {
+  text-decoration-line: none;
+  max-width: 206px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  cursor: pointer;
+}
+
+.publications__link:hover .publications__link-arrow {
+  transform: translateX(25%);
+}

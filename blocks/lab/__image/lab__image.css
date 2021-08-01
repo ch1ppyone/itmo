@@ -1,0 +1,44 @@
+.lab__image {
+  width: 264px;
+  height: 276px;
+  margin-right: 12px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../../../images/lab/image_35.jpg);
+}
+
+.lab__image:last-child {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 1180px) {
+  .lab__image {
+    width: 100%;
+    min-height: 100%;
+    background-image: url(../../../images/lab/image\ 35-sm.jpg);
+  }
+}
+
+@media screen and (max-width: 975px) {
+  .lab__image {
+    min-width: 330px;
+    max-height: 240px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lab__image {
+    order: -1;
+    margin-bottom: 20px;
+    min-width: 288px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .lab__image {
+    height: 180px;
+    border-radius: 5px;
+  }
+}

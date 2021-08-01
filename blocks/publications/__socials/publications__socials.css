@@ -1,0 +1,23 @@
+.publications__socials {
+  position: absolute;
+  top: -63px;
+  right: -60px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  width: 184px;
+  height: 56px;
+  padding: 16px;
+  filter: drop-shadow(0px 4px 20px rgba(73, 111, 168, 0.15));
+  z-index: 2;
+  list-style-type: none;
+  display: none;
+  justify-content: space-between;
+  align-items:center;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1023px) {
+  .publications__socials {
+    right: 0;
+  }
+}

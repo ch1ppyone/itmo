@@ -1,0 +1,21 @@
+.team__pagination-item {
+  margin: 0 12px 0 0;
+  padding: 0;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  opacity: 0.5;
+}
+
+.team__pagination-item:last-child {
+  margin: 0;
+}
+
+@media (max-width: 689px) {
+  .team__pagination-item {
+    margin: 0 8px 0 0;
+    width: 4px;
+    height: 4px;
+  }
+}

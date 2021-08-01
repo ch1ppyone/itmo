@@ -15,10 +15,11 @@
   }
 }
 
-@media screen and (max-width: 418px) {
+@media screen and (max-width:423px) {
   .header__title-container {
-    max-width: 288px;
+    width: 288px;
     height: 324px;
-    margin: 30px 0 0 16px;
+    margin: 30px 0 0 0;
+    padding: 0 0 0 16px;
   }
 }

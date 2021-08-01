@@ -1,0 +1,9 @@
+.lab__card {
+  width: 255px;
+  height: 430px;
+  box-shadow: 0px 2.35349px 11.7674px rgba(1, 54, 157, 0.15);
+  border-radius: 5.88372px;
+  padding: 30px 20px 20px;
+  text-align: center;
+  box-sizing: border-box;
+}

@@ -1,0 +1,7 @@
+.about__arrow-right {
+  position: absolute;
+  top: 115px;
+  right: -81px;
+  box-shadow: 0px 4px 30px rgba(224, 240, 255, 0.1);
+  background-color: #001337;
+}

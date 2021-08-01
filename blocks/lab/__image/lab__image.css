@@ -1,0 +1,12 @@
+.lab__image {
+  max-width: 264px;
+  max-height: 276px;
+  object-fit: cover;
+  margin-right: 12px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.lab__image:last-child {
+  margin-right: 0;
+}

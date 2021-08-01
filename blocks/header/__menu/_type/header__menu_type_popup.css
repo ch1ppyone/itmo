@@ -1,0 +1,14 @@
+.header__menu_type_popup {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 30px;
+  padding: 0;
+}
+
+@media screen and (max-width: 320px) {
+  .header__menu_type_popup {
+    margin-top: 26px;
+  }
+}

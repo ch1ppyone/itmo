@@ -1,0 +1,38 @@
+.contact__textarea {
+  color: #009fac;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20px;
+  border-radius: 10px;
+  border: none;
+  padding: 20px;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 3;
+  outline: 0;
+  resize: none;
+}
+
+.contact__textarea::placeholder {
+  color: #009fac;
+}
+
+
+@media screen and (max-width: 900px) {
+  .contact__textarea {
+    padding: 12px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .contact__textarea {
+    grid-row-start: 5;
+    grid-row-end: auto;
+    grid-column-start: auto;
+    height: 140px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+}

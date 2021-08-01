@@ -1,0 +1,31 @@
+.contact__submit {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 10px;
+  color: #ffffff;
+  height: 60px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  margin-top: 8px;
+}
+
+@media screen and (max-width: 900px) {
+  .contact__submit {
+    height: 44px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .contact__submit {
+    grid-column-start: auto;
+    grid-column-end: auto;
+    min-width: 100%;
+    font-size: 14px;
+    line-height: 19px;
+  }
+}

@@ -1,0 +1,9 @@
+.publications__triagle {
+  position: absolute;
+  right: 24px;
+  top: -8px;
+  background: url('../../../icons/icons/triagle.png') center center / cover no-repeat;
+  width: 16px;
+  height: 8px;
+  z-index: 3;
+}

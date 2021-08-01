@@ -1,0 +1,22 @@
+.dots {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 68px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  padding-top: 26px;
+}
+
+@media (max-width: 1023px) {
+  .dots {
+    padding-top: 21px;
+  }
+}
+
+@media (max-width: 767px) {
+  .dots {
+    padding-top: 15px;
+  }
+}

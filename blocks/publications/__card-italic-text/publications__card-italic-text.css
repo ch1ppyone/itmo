@@ -1,0 +1,15 @@
+.publications__card-italic-text {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1023px) {
+  .publications__card-italic-text {
+    margin-bottom: 12px;
+  }
+}
+
+@media (max-width: 425px) {
+  .publications__card-italic-text {
+    margin-bottom: 10px;
+  }
+}

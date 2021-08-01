@@ -1,0 +1,19 @@
+.btn-arrow {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  border: none;
+}
+
+.btn-arrow:hover, .btn-arrow:active {
+  background-color: #009FAC;
+  cursor: pointer;
+}
+
+
+@media (max-width: 1023px) {
+  .btn-arrow {
+    display: none;
+  }
+}
+

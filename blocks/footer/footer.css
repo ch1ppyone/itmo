@@ -3,7 +3,7 @@
   background-color: #001337;
   display: flex;
   justify-content: center;
-  font-family: 'Open Sans', Arial, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
 }
 
 @media (max-width: 1109px) {
@@ -17,4 +17,3 @@
     padding: 39px 0 30px;
   }
 }
-

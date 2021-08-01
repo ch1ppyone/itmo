@@ -1,0 +1,16 @@
+.publications__menu {
+  display: none;
+  position: relative;
+  margin: 0;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  background: #009FAC;
+  border-radius: 0px 0px 10px 10px;
+}
+
+@media (max-width: 1023px) {
+  .publications__menu {
+    display: flex;
+  }
+}

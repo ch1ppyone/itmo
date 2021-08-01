@@ -1,0 +1,20 @@
+.education__content-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 635px;
+  order:1;
+}
+
+@media screen and (max-width: 1168px) {
+  .education__content-info {
+    width: 340px;
+  }
+}
+
+@media screen and (max-width: 733px) {
+  .education__content-info  {
+    width: 100%;
+    order:2;
+  }
+}

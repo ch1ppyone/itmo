@@ -5,11 +5,6 @@
 }
 
 
-.swiper-container {
-  width: 1122px;
-}
-
-
 @media (max-width: 1300px) {
   .about__cards {
     max-width: 726px;

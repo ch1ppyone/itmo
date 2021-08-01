@@ -87,6 +87,10 @@
 @import url(../blocks/lab/lab.css);
 @import url(../blocks/lab/__card-button/lab__card-button.css);
 @import url(../blocks/lab/__card-icon/lab__card-icon.css);
+@import url(../blocks/lab/__card-icon/_type/lab__card-icon_type_data.css);
+@import url(../blocks/lab/__card-icon/_type/lab__card-icon_type_ml.css);
+@import url(../blocks/lab/__card-icon/_type/lab__card-icon_type_project.css);
+@import url(../blocks/lab/__card-icon/_type/lab__card-icon_type_qa.css);
 @import url(../blocks/lab/__card-text/lab__card-text.css);
 @import url(../blocks/lab/__card-title/lab__card-title.css);
 @import url(../blocks/lab/__card/lab__card.css);
@@ -98,6 +102,7 @@
 @import url(../blocks/lab/__container/lab__container.css);
 @import url(../blocks/lab/__description/lab__description.css);
 @import url(../blocks/lab/__image/lab__image.css);
+@import url(../blocks/lab/__image/_order/lab__image_order_first.css);
 @import url(../blocks/lab/__paragraph/lab__paragraph.css);
 @import url(../blocks/lab/__subtitle/lab__subtitle.css);
 @import url(../blocks/lab/__texts/lab__texts.css);
@@ -163,3 +168,11 @@
 @import url(../blocks/popup/__container/popup__container.css);
 
 @import url(../blocks/button/_type/button_type_close.css);
+
+
+
+
+
+
+
+

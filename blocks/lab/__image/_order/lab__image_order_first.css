@@ -1,0 +1,9 @@
+.lab__image_order_first {
+  background-image: url(../../../../images/lab/image_38.jpg);
+}
+
+@media screen and (max-width: 1180px) {
+  .lab__image_order_first {
+    display: none;
+  }
+}

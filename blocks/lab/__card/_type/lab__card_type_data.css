@@ -1,3 +1,4 @@
 .lab__card_type_data {
-  background-image: url(../../../../images/lab/data.jpg);
+  background-image: url(../../../../images/lab/data.jpg), linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+  background-blend-mode: overlay;
 }

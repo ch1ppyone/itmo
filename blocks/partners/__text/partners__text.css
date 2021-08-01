@@ -1,0 +1,28 @@
+.partners__text {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #FFFFFF;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+  font-weight: 400;
+  width: 100%;
+  max-width: 920px;
+}
+
+@media (max-width: 1109px) {
+  .partners__text {
+    margin: 0 0 20px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 689px) {
+  .partners__text {
+    margin: 0 0 15px;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0;
+  }
+}

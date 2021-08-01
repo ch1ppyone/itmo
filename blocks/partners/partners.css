@@ -1,0 +1,14 @@
+.partners {
+  margin: 0;
+  padding: 0 0 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #001337;
+}
+
+@media (max-width: 689px) {
+  .partners {
+    padding: 0 0 17px;
+  }
+}

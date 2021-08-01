@@ -1,0 +1,27 @@
+.team__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 1110px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  align-self: center;
+}
+
+
+@media (max-width: 1109px) {
+  .team__list {
+    width: 100%;
+    padding: 0 0 0 39px;
+  }
+}
+
+@media (max-width: 689px) {
+  .team__list {
+    width: 100%;
+    padding: 0;
+    justify-content: center;
+  }
+}

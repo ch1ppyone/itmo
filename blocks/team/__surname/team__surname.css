@@ -1,0 +1,25 @@
+.team__surname {
+  margin: 20px 0 0;
+  padding: 0;
+  color: #000D26;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+
+
+@media (max-width: 1109px) {
+  .team__surname {
+    margin: 16px 0 0;
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
+
+@media (max-width: 689px) {
+  .team__surname {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}

@@ -2,32 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01c06fe8-4215-447f-9456-e764a87fb226" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blocks/footer/__address/footer__address.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/footer/__city/footer__city.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/footer/__contacts/footer__contacts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/footer/__copyright/footer__copyright.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/footer/__developer/footer__developer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/footer/__info/footer__info.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/footer/__logo/footer__logo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/footer/__mail/footer__mail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/footer/__menu-link/footer__menu-link.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/footer/__menu-list/footer__menu-list.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/footer/__menu-title/footer__menu-title.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/footer/__menu/_about/footer__menu_about.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/footer/__menu/_future/footer__menu_future.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/footer/__menu/footer__menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/footer/__phone/footer__phone.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/footer/__social/footer__social.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/footer/__wrapper/footer__wrapper.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/footer/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/social/__item/social__item.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/social/__link/_name/social__link_name_fb.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/social/__link/_name/social__link_name_inst.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/social/__link/_name/social__link_name_tg.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/social/__link/_name/social__link_name_vk.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/social/__link/_name/social__link_name_youtube.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/social/__link/social__link.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/social/social.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/partners/__image/_name/partners__image_name_gazprom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/partners/__image/_name/partners__image_name_huawei.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/partners/__image/_name/partners__image_name_mail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/partners/__image/_name/partners__image_name_rosneft.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/partners/__image/_name/partners__image_name_sberbank.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/partners/__image/_name/partners__image_name_siemens.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/partners/__image/partners__image.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/partners/__item/_ipad/partners__item_ipad.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/partners/__item/partners__item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/partners/__list/partners__list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/partners/__text/partners__text.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/partners/__title/partners__title.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/partners/__wrapper/partners__wrapper.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/partners/partners.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/team/__button/_left/team__button_left.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/team/__button/_right/team__button_right.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/team/__button/team__button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/team/__card/team__card.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/team/__job-span/team__job-span.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/team/__job/team__job.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/team/__list/team__list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/team/__name/team__name.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/team/__pagination-item/_active/team__pagination-item_active.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/team/__pagination-item/team__pagination-item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/team/__pagination-list/team__pagination-list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/team/__photo/team__photo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/team/__surname/team__surname.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/team/__title/team__title.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/team/__wrapper/team__wrapper.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/team/team.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/nav_icons/arrow-left-wh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/nav_icons/arrow-right-wh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/team.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/footer/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/footer/footer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.css" afterDir="false" />
     </list>
@@ -41,6 +50,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -51,9 +61,14 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/icons/nav_icons" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/icons/nav_icons" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -77,7 +92,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1627469608726</updated>
-      <workItem from="1627469610323" duration="16447000" />
+      <workItem from="1627469610323" duration="43582000" />
     </task>
     <servers />
   </component>

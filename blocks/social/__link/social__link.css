@@ -8,3 +8,8 @@
   background-position: center;
   background-size: 24px 24px;
 }
+
+.social__link:hover {
+  opacity: 0.5;
+  transition: 0.3;
+}

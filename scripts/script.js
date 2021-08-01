@@ -83,4 +83,42 @@ function paginate(array, count) {
   return pages;
 }
 
+});
+
+
+
+
+const publicationsButton = document.querySelectorAll('.publications__button');
+const publicationsSocials = document.querySelectorAll('.publications__socials');
+const publicationsSocialLink = document.querySelectorAll('.publications__social-link');
+
+publicationsButton.forEach((item, i) => {
+  item.addEventListener('mouseenter', () => {
+    publicationsSocials.forEach(() => {
+      publicationsSocials[i].classList.add('publications__socials_active');
+    })
+  })
+})
+
+publicationsButton.forEach((item, i) => {
+  item.addEventListener('mouseleave', (e) => {
+    setTimeout(() => publicationsSocials.forEach(() => {
+      publicationsSocials[i].classList.remove('publications__socials_active')
+    }), 500)
+  });
+})
+
+/* publicationsSocials.forEach((item,i) => {
+  item.addEventListener('mouseenter', () => {
+    publicationsSocials[i].classList.add('publications__socials_active');
+  })
+}) */
+
+publicationsSocialLink.forEach(item => {
+  item.addEventListener('click', () => {
+    publicationsSocials.forEach((item) => {
+      item.classList.remove('publications__socials_active')
+    })
+  })
+});
 

@@ -76,6 +76,7 @@
 @import url(../blocks/publications/__social-vk/publications__social-vk.css);
 @import url(../blocks/publications/__triagle/publications__triagle.css);
 @import url(../blocks/publications/__card-wrapper/publications__card-wrapper.css);
+@import url(../blocks/publications/__card-wrapper/_active/publications__card-wrapper_active.css);
 
 
 @import url(../blocks/about/__btn/about__btn.css);

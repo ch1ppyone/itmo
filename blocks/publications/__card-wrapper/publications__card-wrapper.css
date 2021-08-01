@@ -1,3 +1,7 @@
+.publications__card-wrapper {
+  display: none;
+}
+
 .publications__card-wrapper:hover .publications__menu {
   display: flex;
 }

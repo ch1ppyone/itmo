@@ -7,3 +7,7 @@
   align-items:center;
   cursor: pointer;
 }
+
+.publications__link:hover .publications__link-arrow {
+  transform: translateX(25%);
+}

@@ -1,0 +1,11 @@
+.footer__developer-link {
+  text-decoration: none;
+  opacity: 0.5;
+  color: #ffffff;
+}
+
+.footer__developer-link:hover {
+  cursor: pointer;
+  opacity: 1;
+  transition: 0.3;
+}

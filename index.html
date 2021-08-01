@@ -26,6 +26,7 @@
 
     <!-- header --->
     <header class="header" id="header">
+
       <div class="header__menu-container">
         <button
           type="button"
@@ -90,6 +91,7 @@
         </h2>
         <button class="header__button">НАШИ ПРОЕКТЫ</button>
       </div>
+
     </header>
 
     <main>
@@ -284,6 +286,7 @@
         </p>
 
         <article class="education__content">
+
           <template class="content-template content-template_type-magistr">
             <img
             class="education__content-image"
@@ -323,7 +326,6 @@
               <a href="#" class="education__content-link"> Подробнее    <img class="education__link-arrow" src="./icons/nav_icons/arrow-right.svg" alt="Стрелка"> </a>
             </div>
           </template>
-
 
           <template class="content-template content-template_type-aspirant">
           <img
@@ -716,7 +718,8 @@
         </article>
       </section>
 
-       <section class="team">
+      <!-- section team --->
+       <section class="team" id="team">
         <div class="team__wrapper">
           <h2 class="team__title">Наша команда</h2>
           <button type="button" aria-label="Кнопка назад" class="team__button team__button_left"></button>
@@ -731,7 +734,9 @@
           </ul>
         </div>
       </section>
-      <section class="partners">
+
+      <!-- section partners --->
+      <section class="partners" id="partners">
         <div class="partners__wrapper">
           <h2 class="partners__title">с кем мы работаем</h2>
           <p class="partners__text">За время сотрудничества компания показала себя как надежный партнер, способный оперативно решать вопросы по внесению необходимых изменений.</p>
@@ -750,7 +755,7 @@
           </ul>
         </div>
       </section>
-      
+
       <!-- section contact --->
       <section class="contact" id="contact">
         <div class="contact__container">
@@ -790,18 +795,18 @@
         </div>
       </section>
 
-
-
     </main>
 
+      <!-- footer --->
     <footer class="footer" id="footer">
-
       <div class="footer__wrapper">
-        <img
+        <a href="#header" class="footer__logo-link link">
+          <img
           src="./icons/logos/main_logo.svg"
           alt="Логотип национального центра когнитивных разработок"
           class="footer__logo"
-        />
+          />
+        </a>
         <p class="footer__copyright">Информация © 2020 Университет ИТМО</p>
         <p class="footer__info">
           Национальный центр когнитивных разработок – центр национальной
@@ -814,19 +819,19 @@
           <h3 class="footer__menu-title">О центре</h3>
           <ul class="footer__menu-list">
             <li class="footer__menu-item">
-              <a href="" class="footer__menu-link">О нас</a>
+              <a href="#about" class="footer__menu-link link">О нас</a>
             </li>
             <li class="footer__menu-item">
-              <a href="" class="footer__menu-link">Главная</a>
+              <a href="#header" class="footer__menu-link link">Главная</a>
             </li>
             <li class="footer__menu-item">
-              <a href="" class="footer__menu-link">Команда</a>
+              <a href="#team" class="footer__menu-link link">Команда</a>
             </li>
             <li class="footer__menu-item">
-              <a href="" class="footer__menu-link">Лаборатория</a>
+              <a href="#lab" class="footer__menu-link link">Лаборатория</a>
             </li>
             <li class="footer__menu-item">
-              <a href="" class="footer__menu-link">Контакты</a>
+              <a href="#footer" class="footer__menu-link link">Контакты</a>
             </li>
           </ul>
         </div>
@@ -834,73 +839,85 @@
           <h3 class="footer__menu-title">Развитие</h3>
           <ul class="footer__menu-list">
             <li class="footer__menu-item">
-              <a href="" class="footer__menu-link">Образование</a>
+              <a href="#education" class="footer__menu-link link">Образование</a>
             </li>
             <li class="footer__menu-item">
-              <a href="" class="footer__menu-link">Аспирантура</a>
+              <a href="#education" class="footer__menu-link link">Аспирантура</a>
             </li>
             <li class="footer__menu-item">
-              <a href="" class="footer__menu-link">Магистратура</a>
+              <a href="#education" class="footer__menu-link link">Магистратура</a>
             </li>
             <li class="footer__menu-item">
-              <a href="" class="footer__menu-link">Публикации</a>
+              <a href="#articles" class="footer__menu-link link">Публикации</a>
             </li>
             <li class="footer__menu-item">
-              <a href="" class="footer__menu-link">Проекты</a>
+              <a href="#projects" class="footer__menu-link link">Проекты</a>
             </li>
           </ul>
         </div>
         <div class="footer__contacts">
           <p class="footer__city">г.Санкт-Петербург</p>
-          <p class="footer__address">
-            199034, Санкт-Петербург,
-            <span class="footer__span"
-              >Биржевая линия, д. 4, лит. М, ауд. 302С</span
-            >
-          </p>
-          <a href="tel:+78123376490" class="footer__phone"
+          <a href="https://yandex.ru/maps/2/saint-petersburg/?ll=30.295508%2C59.944544&mode=poi&poi%5Bpoint%5D=30.295496%2C59.944170&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D1536272932&rtext=48.707073%2C44.516930~48.536064%2C42.501488&rtt=auto&ruri=~&z=18"
+            target="_blank" class="link">
+            <p class="footer__address">
+              199034, Санкт-Петербург,
+              <span class="footer__span"
+                >Биржевая линия, д. 4, лит. М, ауд. 302С</span
+              >
+            </p>
+          </a>
+          <a href="tel:+78123376490" target="_blank" class="footer__phone link"
             >+7 (812) 337-64-90</a
           >
-          <a href="tel:+78123376494" class="footer__phone"
+          <a href="tel:+78123376494" target="_blank" class="footer__phone link"
             >+7 (812) 337-64-94</a
           >
-          <a href="mailto:anna.lutsenko@itmo.ru" class="footer__mail"
+          <a href="mailto:anna.lutsenko@itmo.ru" target="_blank" class="footer__mail link"
             >anna.lutsenko@itmo.ru</a
           >
         </div>
-        <p class="footer__developer">Сделано студентами Яндекс. Практикума</p>
+        <p class="footer__developer">
+          <span class="footer__developer-text">Сделано студентами</span>
+          <a href="https://praktikum.yandex.ru/" target="_blank" class="footer__developer-link"
+            >Яндекс. Практикума</a>
+          </p>
         <ul class="social footer__social">
           <li class="social__item">
             <a
-              href=""
+              href="#"
+              target="_blank"
               aria-label="Ссылка на нас Вконтакте"
               class="social__link social__link_name_vk"
             ></a>
           </li>
           <li class="social__item">
             <a
-              href=""
+              href="#"
+              target="_blank"
               aria-label="Ссылка на нас Facebook"
               class="social__link social__link_name_fb"
             ></a>
           </li>
           <li class="social__item">
             <a
-              href=""
+              href="#"
+              target="_blank"
               aria-label="Ссылка на нас Telegram"
               class="social__link social__link_name_tg"
             ></a>
           </li>
           <li class="social__item">
             <a
-              href=""
+              href="#"
+              target="_blank"
               aria-label="Ссылка на нас Instagram"
               class="social__link social__link_name_inst"
             ></a>
           </li>
           <li class="social__item">
             <a
-              href=""
+              href="#"
+              target="_blank"
               aria-label="Ссылка на нас Youtube"
               class="social__link social__link_name_youtube"
             ></a>
@@ -909,6 +926,7 @@
       </div>
     </footer>
 
+    <!-- template-card --->
     <template id="card">
       <li class="team__card">
         <img src="./images/team/man_photo.jpg" alt="Бобцов Алексей Алексеевич" class="team__photo">
@@ -918,7 +936,6 @@
       </li>
     </template>
     <script src="./js/team.js"></script>
-
 
         <!-- popup-header-menu --->
         <div class="popup" id="popup-header-menu">
@@ -962,5 +979,6 @@
         </div>
 
    <script src="scripts/script.js"></script>
+
   </body>
 </html>

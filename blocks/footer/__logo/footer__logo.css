@@ -3,7 +3,6 @@
   padding: 0;
   width: 150px;
   height: 54px;
-  grid-area: logo;
 }
 
 @media (max-width: 1109px) {

@@ -5,8 +5,9 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, 348px);
   gap: 30px;
-  justify-content: center;
+
 }
+
 
 @media (max-width: 1023px) {
   .cards {
@@ -25,4 +26,3 @@
     grid-template-columns: repeat(auto-fit, 288px);
   }
 }
-

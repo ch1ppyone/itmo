@@ -1,0 +1,12 @@
+.popup-lab__text_order_3 {
+  grid-area: text3;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .popup-lab__text_order_3 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}

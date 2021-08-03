@@ -19,9 +19,19 @@
   }
 }
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 852px) {
   .popup-lab__image{
-    height: 160px;
+    width: 100%;
+    background-position: bottom;
+  }
+}
+
+@media screen and (max-width: 752px) {
+  .popup-lab__image{
+    min-height: 160px;
+    order: 2;
+    margin-right: 0;
+    margin-bottom: 10px;
     background-position: center;
   }
 }

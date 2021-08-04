@@ -11,6 +11,7 @@
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_type/button_type_close.css);
 @import url(../blocks/button/_type/button_type_close-lab.css);
+@import url(../blocks/button/_type/button_type_header.css);
 @import url(../blocks/link/link.css);
 
 @import url(../blocks/header/header.css);
@@ -33,7 +34,6 @@
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__subtitle/header__subtitle.css);
 @import url(../blocks/header/__span-accent/header__span-accent.css);
-@import url(../blocks/header/__button/header__button.css);
 
 @import url(../blocks/about/about.css);
 @import url(../blocks/about/__descr/about__descr.css);

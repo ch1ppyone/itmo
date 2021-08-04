@@ -3,5 +3,5 @@
   top: 115px;
   left: -81px;
   box-shadow: 0px 4px 30px rgba(224, 240, 255, 0.1);
-  background-color: #001337;
+  background-color: var(--color-blue);
 }

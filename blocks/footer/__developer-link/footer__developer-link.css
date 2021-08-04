@@ -1,7 +1,7 @@
 .footer__developer-link {
   text-decoration: none;
   opacity: 0.5;
-  color: #ffffff;
+  color: var(--color-white);
 }
 
 .footer__developer-link:hover {

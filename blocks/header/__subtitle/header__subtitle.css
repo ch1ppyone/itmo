@@ -1,7 +1,7 @@
 .header__subtitle {
   padding: 0;
   margin: 12px 0 54px 0;
-  color: #ffffff;
+  color: var(--color-white);
   font-style: normal;
   font-weight: normal;
   font-size: 20px;

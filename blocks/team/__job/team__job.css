@@ -1,7 +1,7 @@
 .team__job {
   margin: 3px 0 0;
   padding: 0;
-  color: #009FAC;
+  color: var(--color-emerald);
   font-size: 14px;
   line-height: 19px;
   font-weight: 400;

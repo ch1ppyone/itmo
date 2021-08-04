@@ -6,7 +6,7 @@
 }
 
 .btn-arrow:hover, .btn-arrow:active {
-  background-color: #009FAC;
+  background-color: var(--color-emerald);
   cursor: pointer;
 }
 

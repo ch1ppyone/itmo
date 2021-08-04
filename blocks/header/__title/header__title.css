@@ -1,5 +1,5 @@
 .header__title {
-  color: #ffffff;
+  color: var(--color-white);
   padding: 0;
   margin-top: 0;
   margin-bottom: 35px;

@@ -3,7 +3,7 @@
   box-sizing: border-box;
   max-width: 348px;
   border-radius: 10px;
-  background-color: #E0F0FF;
+  background-color: var(--color-light-blue);
   padding: 20px 20px 30px;
   grid-row: 1;
   margin-top: 15px;

@@ -331,3 +331,16 @@ function showPopup(popup) {
 function closePopup(popup) {
   popup.classList.remove("popup_opened");
 }
+
+
+//popup-lab
+const popupLab = document.querySelector("#popup-lab");
+
+document.querySelectorAll(".lab__card-button").forEach(button =>
+  button.addEventListener("click", () => {
+    showPopup(popupLab);
+  }));
+
+popupLab.querySelector(".button_type_close-lab").addEventListener("click", () => {
+  closePopup(popupLab);
+});

@@ -1,9 +1,9 @@
 .contact__submit {
   background-color: transparent;
-  border: 1px solid #ffffff;
+  border: 1px solid var(--color-white);
   box-sizing: border-box;
   border-radius: 10px;
-  color: #ffffff;
+  color: var(--color-white);
   height: 60px;
   font-weight: 600;
   font-size: 18px;

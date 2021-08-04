@@ -1,6 +1,6 @@
 .footer {
   padding: 80px 0;
-  background-color: #001337;
+  background-color: var(--color-blue);
   display: flex;
   justify-content: center;
   font-family: "Open Sans", Arial, sans-serif;

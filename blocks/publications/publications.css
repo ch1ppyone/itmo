@@ -1,5 +1,5 @@
 .publications {
   padding: 80px 0;
-  background-color: #E0F0FF;
+  background-color: var(--color-light-blue);
   box-sizing: border-box;
 }

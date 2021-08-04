@@ -4,7 +4,7 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 30px;
-  color: #000d26;
+  color: var(--color-dark-blue);
   display: flex;
   align-items: center;
 }

@@ -1,7 +1,7 @@
 .partners__text {
   margin: 0 0 30px;
   padding: 0;
-  color: #FFFFFF;
+  color: var(--color-white);
   font-size: 18px;
   line-height: 30px;
   letter-spacing: 0.1px;

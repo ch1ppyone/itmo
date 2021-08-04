@@ -3,7 +3,7 @@
   padding: 0;
   position: absolute;
   border: none;
-  background-color: #001337;
+  background-color: var(--color-blue);
   width: 60px;
   height: 60px;
   top: 50%;

@@ -1,6 +1,6 @@
 .header__menu-container{
   padding: 13px 165px;
-    background: #000D26;
+    background: var(--color-dark-blue);
     margin: 0 auto;
     display: flex;
     justify-content: space-between;

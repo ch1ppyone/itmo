@@ -1,0 +1,9 @@
+.popup-lab__text_order_1 {
+  grid-area: text1;
+}
+
+@media screen and (max-width: 1170px) {
+  .popup-lab__text_order_1 {
+    display: none;
+  }
+}

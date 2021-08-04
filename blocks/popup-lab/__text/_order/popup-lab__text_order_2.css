@@ -1,0 +1,17 @@
+.popup-lab__text_order_2 {
+  grid-area: text2;
+  margin-top: 4px;
+}
+
+@media screen and (max-width: 768px) {
+  .popup-lab__text_order_2 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 752px) {
+  .popup-lab__text_order_2 {
+    display: none;
+  }
+}

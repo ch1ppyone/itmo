@@ -213,7 +213,10 @@
 @import url(../blocks/popup-lab/popup-lab.css);
 @import url(../blocks/popup-lab/__container/popup-lab__container.css);
 @import url(../blocks/popup-lab/__image/popup-lab__image.css);
-@import url(../blocks/popup-lab/__image/popup-lab__image.css);
+@import url(../blocks/popup-lab/__title/popup-lab__title.css);
 @import url(../blocks/popup-lab/__text/popup-lab__text.css);
+@import url(../blocks/popup-lab/__text/_order/popup-lab__text_order_1.css);
+@import url(../blocks/popup-lab/__text/_order/popup-lab__text_order_2.css);
+@import url(../blocks/popup-lab/__text/_order/popup-lab__text_order_3.css);
 @import url(../blocks/popup-lab/__list/popup-lab__list.css);
 @import url(../blocks/popup-lab/__list-item/popup-lab__list-item.css);

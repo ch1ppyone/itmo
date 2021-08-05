@@ -3,6 +3,10 @@
   width: 330px;
 }
 
+.header__menu-item_type_popup:hover .header__submenu-popup {
+  display: block;
+}
+
 @media screen and (max-width: 320px) {
   .header__menu-link_type_popup {
     width: 320px;

@@ -1,3 +1,99 @@
+//education
+const aboutCards = document.querySelectorAll(".about__cards > .cards > .card");
+const aboutDots = document.querySelectorAll(".about__cards > .dots > .dot");
+const aboutRight = document.querySelector(".about__arrow-right");
+const aboutLeft = document.querySelector(".about__arrow-left");
+const educationContent = document.querySelector('.education__content');
+const educationTabs = document.querySelectorAll('.education__tab');
+const aspirantTemplate = document.querySelector('.content-template_type-aspirant').content;
+const magistrTemplate = document.querySelector('.content-template_type-magistr').content;
+
+
+document.addEventListener("DOMContentLoaded", function (event) {
+  dispalyTemplate(educationContent, magistrTemplate);
+});
+
+
+
+educationTabs.forEach(tab =>
+  tab.addEventListener("click", () => {
+    if (tab.classList.contains('education__tab_active'))
+      return;
+    else {
+      if (tab.classList.contains('education__tab_type-aspirant'))
+        dispalyTemplate(educationContent, aspirantTemplate);
+      else
+        dispalyTemplate(educationContent, magistrTemplate);
+      educationTabs.forEach(t => {
+        t.classList.toggle('education__tab_active');
+      });
+    }
+  }));
+
+
+function dispalyTemplate(block, template) {
+  block.innerHTML = "";
+  block.append(template.cloneNode(true));
+}
+
+
+
+
+//team
+const teamList = document.querySelector('.team__list');
+const leftBtn = document.querySelector('.team__button_left');
+const rightBtn = document.querySelector('.team__button_right');
+
+
+
+
+
+
+
+
+
+//menu
+const burger = document.querySelector('.header__burger');
+const menu = document.querySelector('#popup-header-menu');
+const linkGraduate = document.querySelector('#link-graduate');
+const linkMaster = document.querySelector('#link-master');
+const linkGraduatePopup = document.querySelector('#link-graduate_popup');
+const linkMasterPopup = document.querySelector('#link-master_popup');
+const aspirant = document.querySelector('.education__tab_type-aspirant');
+const magistr = document.querySelector('.education__tab_type-magistr');
+
+function gotoAspirant() {
+  dispalyTemplate(educationContent, aspirantTemplate);
+  aspirant.classList.add('education__tab_active');
+  magistr.classList.remove('education__tab_active');
+}
+
+function gotoMaster() {
+  dispalyTemplate(educationContent, magistrTemplate);
+  aspirant.classList.remove('education__tab_active');
+  magistr.classList.add('education__tab_active');
+}
+
+
+linkGraduate.addEventListener("click", () => {
+  gotoAspirant();
+});
+
+linkMaster.addEventListener("click", () => {
+  gotoMaster();
+});
+
+linkGraduatePopup.addEventListener("click", () => {
+  gotoAspirant();
+});
+
+linkMasterPopup.addEventListener("click", () => {
+  gotoMaster();
+});
+
+burger.addEventListener("click", () => {
+  showPopup(menu);
+});
 
 //popup
 document.querySelectorAll(".button_type_close").forEach(button =>

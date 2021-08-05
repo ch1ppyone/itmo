@@ -1,7 +1,7 @@
 .card__line {
   height: 1px;
   width: 100%;
-  background-color: #009FAC;
+  background-color: var(--color-emerald);
   margin: 0 0 20px 0;
 }
 

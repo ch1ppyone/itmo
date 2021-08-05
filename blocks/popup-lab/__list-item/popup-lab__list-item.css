@@ -16,3 +16,17 @@
     padding-left: 3px;
   }
 }
+
+
+@media screen and (max-width: 480px) {
+  .popup-lab__list-item {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .popup-lab__list-item {
+    padding-left: 0px;
+  }
+}

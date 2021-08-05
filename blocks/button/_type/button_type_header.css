@@ -1,10 +1,7 @@
-.header__button {
+.button_type_header {
   width: 350px;
   height: 60px;
-  color: white;
-  background-color: transparent;
-  border: 1px solid #ffffff;
-  box-sizing: border-box;
+  border: 1px solid var(--color-white);
   border-radius: 10px;
   font-style: normal;
   font-weight: 600;
@@ -14,16 +11,17 @@
 }
 
 @media screen and (max-width: 768px) {
-  .header__button {
+  .button_type_header {
     max-width: 330px;
   }
 }
 
 @media screen and (max-width:423px) {
-  .header__button {
+  .button_type_header {
     max-width: 288px;
     height: 44px;
     font-size: 14px;
     line-height: 19px;
+    border-radius: 5px;
   }
 }

@@ -1,0 +1,7 @@
+.team__arrow-right {
+  position: absolute;
+  top: 52%;
+  right: -89px;
+  box-shadow: 0px 4px 30px rgba(224, 240, 255, 0.1);
+  background-color: var(--color-blue);
+}

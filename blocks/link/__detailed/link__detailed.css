@@ -1,0 +1,11 @@
+.link__detailed {
+
+}
+
+.link__detailed:hover {
+  opacity: 1;
+}
+
+.link:hover::after {
+  transform: translateX(25%);
+}

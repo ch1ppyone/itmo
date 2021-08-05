@@ -1,10 +1,11 @@
 .footer__address {
-  margin: 4px 0 15px;
+  margin: 6px 0 15px;
   padding: 0;
   font-size: 14px;
   line-height: 19px;
   font-weight: 400;
-  color: #ffffff;
+  color: var(--color-white);
+  text-decoration: none;
 }
 
 @media (max-width: 1109px) {

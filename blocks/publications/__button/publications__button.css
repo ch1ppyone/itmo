@@ -3,6 +3,6 @@
   height: 24px;
   border: none;
   padding: 0;
-  background-color: #009FAC;
+  background-color: var(--color-emerald);
   cursor: pointer;
 }

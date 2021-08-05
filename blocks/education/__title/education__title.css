@@ -1,7 +1,7 @@
 .education__title {
   margin: 0 0 30px 0;
   padding-top: 80px;
-  color: #ffffff;
+  color: var(--color-white);
   font-style: normal;
   font-weight: 600;
   font-size: 36px;

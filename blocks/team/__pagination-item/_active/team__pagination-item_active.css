@@ -1,4 +1,4 @@
 .team__pagination-item_active {
-  background-color: #E0F0FF;
+  background-color: var(--color-light-blue);
   opacity: 1;
 }

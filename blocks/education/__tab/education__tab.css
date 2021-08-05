@@ -9,13 +9,21 @@
   font-size: 18px;
   line-height: 30px;
   letter-spacing: 0.1px;
-  color: #ffffff;
+  height: 60px;
+  color: var(--color-white);
+  cursor: pointer;
+}
+
+.education__tab:hover {
+  opacity: 0.6;
+  transition: 0.3s;
 }
 
 @media screen and (max-width: 1168px) {
   .education__tab {
     font-size: 12px;
     line-height: 16px;
+    height: 44px;
   }
 }
 
@@ -23,5 +31,6 @@
   .education__tab  {
     font-size: 14px;
     line-height: 19px;
+    height: 40px;
   }
 }

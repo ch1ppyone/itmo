@@ -4,10 +4,10 @@
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
-  line-height: 30px;
+  line-height: 36px;
   color: var(--color-dark-blue);
   margin-top: 0;
-  margin-bottom: 21.5px;
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 938px) {
@@ -25,6 +25,18 @@
 @media screen and (max-width: 768px) {
   .popup-lab__title {
     line-height: 35px;
-    margin-bottom: 20.5px;
+  }
+}
+
+@media screen and (max-width: 752px) {
+  .popup-lab__title {
+    order: 1;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .popup-lab__title {
+    line-height: 19px;
   }
 }

@@ -1,9 +1,9 @@
 .contact__input {
-  background: #ffffff;
+  background: var(--color-white);
   border-radius: 10px;
   height: 60px;
   border: none;
-  color: #009fac;
+  color: var(--color-emerald);
   font-size: 18px;
   line-height: 20px;
   letter-spacing: 0.1px;
@@ -14,7 +14,7 @@
 }
 
 .contact__input::placeholder {
-  color: #009fac;
+  color: var(--color-emerald);
 }
 
 @media screen and (max-width: 768px) {

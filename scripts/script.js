@@ -67,51 +67,10 @@ publicationsSocialLink.forEach(item => {
 
 
 //about
-const conatainer = document.querySelector(".about__cards >.swiper-container .cards");
-const template = document.querySelector('.about__card-template').content;
-news.forEach((item) => {
-  const clone = template.cloneNode(true);
-  const date = clone.querySelector('.card__date');
-  const title = clone.querySelector('.card__title');
-  const text = clone.querySelector('.card__text');
-  date.innerText = item.date;
-  title.innerText = item.title;
-  text.innerText = item.text;
-  conatainer.append(clone);
-});
 
 
-const swiper_about = new Swiper('.swiper-container', {
-
-  slidesPerView: 3,
-  slidesPerGroup: 3,
-  centeredSlidesBounds: true,
-  pagination: {
-    el: ".dots",
-    clickable: true,
-  },
-  navigation: {
-    nextEl: ".about__arrow-right",
-    prevEl: ".about__arrow-left",
-  },
-
-});
-
-const swiper = new Swiper('.swiper-container', {
-  grabCursor: true,
-  slidesPerView: 3,
-  slidesPerGroup: 3,
-  pagination: {
-    el: ".dots",
-    clickable: true,
-  },
-  navigation: {
-    nextEl: ".about__arrow-right",
-    prevEl: ".about__arrow-left",
-  },
 
 
-});
 
 
 //team

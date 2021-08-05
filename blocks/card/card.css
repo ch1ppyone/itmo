@@ -1,19 +1,18 @@
 .card {
   position: relative;
   box-sizing: border-box;
-  max-width: 348px;
+  max-width: 360px;
   border-radius: 10px;
   background-color: var(--color-light-blue);
   padding: 20px 20px 30px;
-  grid-row: 1;
   margin-top: 15px;
 }
+
 
 @media (max-width: 1023px) {
   .card {
     max-width: 330px;
     padding: 20px;
-    border-radius: 10px 10px 0 0;
   }
 }
 
@@ -21,6 +20,7 @@
   .card {
     padding: 16px;
     max-width: 288px;
+
   }
 }
 

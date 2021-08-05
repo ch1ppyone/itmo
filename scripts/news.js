@@ -51,4 +51,52 @@ const news = [
     title: `СТУДЕНТКА И СОТРУДНИЦА ИТМО АННА ВОЛОШИНА ПОЛУЧИЛА БРОНЗОВОГО СФИН...`,
     text: `В Петропавловской крепости состоялась торжественная церемония  вручения наград лучшим выпускникам Санкт-Петербурга. Среди тех, кто получил памятную статуэтку, была выпускница факультета технологического менеджмента и инноваций Анна Волошина.`,
   },
+
 ];
+
+const conatainer = document.querySelector(".about__cards >.splide__track>.cards");
+const template = document.querySelector('.about__card-template').content;
+news.forEach((item) => {
+  const clone = template.cloneNode(true);
+  const date = clone.querySelector('.card__date');
+  const title = clone.querySelector('.card__title');
+  const text = clone.querySelector('.card__text');
+  date.innerText = item.date;
+  title.innerText = item.title;
+  text.innerText = item.text;
+  conatainer.append(clone);
+});
+
+
+new Splide( '.about__cards', {
+  classes: {
+		arrows: 'splide__arrows-about',
+		arrow : 'splide__arrow',
+		prev  : 'about__arrow-left',
+		next  : 'about__arrow-right',
+	},
+
+  gap: 30,
+  perPage: 3,
+  fixedWidth: '348px',
+
+
+  breakpoints: {
+		706: {
+      fixedWidth: '288px',
+        perPage: 3,
+		},
+    767: {
+      perPage: 3,
+      fixedWidth: '330px',
+
+		},
+    1300: {
+      gap: 30,
+      perPage: 3,
+      fixedWidth: '344px',
+   },
+	}
+
+} ).mount();
+

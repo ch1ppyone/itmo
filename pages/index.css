@@ -1,7 +1,9 @@
 @import url(../vendor/normalize.css);
-@import url(../vendor/swiper.css);
+@import url(../vendor/splide-core.min.css);
+@import url(../vendor/splide-theme.css);
 @import url(../vendor/fonts.css);
 @import url(../vars/vars.css);
+
 
 @import url(../blocks/title/title.css);
 @import url(../blocks/page/__text-color-dark/page__text-color-dark.css);

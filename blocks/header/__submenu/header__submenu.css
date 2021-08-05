@@ -1,17 +1,19 @@
 .header__submenu {
   display: none;
   position: absolute;
-  top: 61px;
+  top: 46px;
   left: 0;
   background: var(--color-dark-blue);
   z-index: 2;
   transition: 0.5s ease-in-out;
-  margin: 0;
+  margin: -2px 0 0 0;
   padding-left: 0;
+  padding-top: 15px;
+
 }
 
 @media screen and (max-width: 1053px) {
   .header__submenu {
-    top: 52px;
+    top: 46px;
   }
 }

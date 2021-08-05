@@ -1,4 +1,4 @@
-.header__menu-container{
+.header__menu-container {
   padding: 13px 165px;
     background: var(--color-dark-blue);
     margin: 0 auto;
@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width: 1305px) {
-  .header__menu-container{
+  .header__menu-container {
     padding-left: 39px;
     padding-right: 39px;
   }

@@ -13,3 +13,9 @@
     margin-left: 10px;
   }
 }
+
+.header__menu-item:hover .header__submenu {
+  display: block;
+  box-shadow: inset 0px 2px 0px var(--color-emerald);
+
+}

@@ -1,7 +1,7 @@
 .team__title {
   margin: 0 0 27px;
   padding: 0;
-  color: #000D26;
+  color: var(--color-dark-blue);
   font-size: 36px;
   line-height: 68px;
   letter-spacing: 0.1px;

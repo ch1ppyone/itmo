@@ -1,12 +1,15 @@
 .publications__card-italic-text {
   margin-bottom: 20px;
   min-height: 38px;
+  min-width: 305px;
   height: 100%;
 }
 
 @media (max-width: 1023px) {
   .publications__card-italic-text {
     margin-bottom: 12px;
+    min-height: 34px;
+    min-width: 290px;
   }
 }
 
@@ -14,5 +17,6 @@
   .publications__card-italic-text {
     margin-bottom: 10px;
     min-height: 34px;
+    min-width: 268px;
   }
 }

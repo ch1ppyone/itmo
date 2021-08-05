@@ -1,0 +1,11 @@
+.header__button_link
+{
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+.header__button_link:visited {
+  color: var(--color-white);
+  text-decoration: none;
+}
+

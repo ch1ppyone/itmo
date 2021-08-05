@@ -5,12 +5,20 @@
   padding: 20px;
   justify-content: space-between;
   align-items: center;
-  background: #009FAC;
+  background: var(--color-emerald);
   border-radius: 0px 0px 10px 10px;
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 1021px) {
   .publications__menu {
     display: flex;
+    max-width: 290px;
+  }
+}
+
+@media (max-width: 409px) {
+  .publications__menu {
+    display: flex;
+    max-width: 248px;
   }
 }

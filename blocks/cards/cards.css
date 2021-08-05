@@ -4,7 +4,6 @@
   list-style-type: none;
   display: grid;
   grid-template-columns: repeat(auto-fit, 348px);
-  gap: 30px;
 
 }
 

@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #001337;
+  background-color: var(--color-blue);
 }
 
 @media (max-width: 689px) {

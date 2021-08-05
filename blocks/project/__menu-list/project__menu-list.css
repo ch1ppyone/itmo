@@ -1,0 +1,22 @@
+.project__menu-list {
+  margin: 30px 0 60px;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+}
+
+@media (max-width: 1109px) {
+  .project__menu-list {
+    margin: 30px 0;
+  }
+}
+
+@media (max-width: 689px) {
+  .project__menu-list {
+    margin: 20px 0;
+    grid-template-columns: 1fr;
+    height: 44px;
+  }
+}

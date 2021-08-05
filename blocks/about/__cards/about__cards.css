@@ -4,15 +4,27 @@
   margin: 0 auto;
 }
 
-
 @media (max-width: 1300px) {
   .about__cards {
-    max-width: 726px;
+    max-width: 740px;
   }
 }
 
 @media (max-width: 1023px) {
   .about__cards {
-    max-width: 690px;
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 730px) {
+  .about__cards {
+    max-width: 344px;
+  }
+}
+
+
+@media (max-width: 707px) {
+  .about__cards {
+    max-width: 288px;
   }
 }

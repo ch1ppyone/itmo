@@ -4,12 +4,12 @@
   font-size: 18px;
   line-height: 30px;
   letter-spacing: 0.1px;
-  color: #ffffff;
+  color: var(--color-white);
   margin: 0 auto;
   margin-bottom: 60px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 975px) {
   .educatiion__subtitle {
     margin-bottom: 37px;
     font-size: 14px;

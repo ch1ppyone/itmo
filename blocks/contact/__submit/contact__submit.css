@@ -1,9 +1,9 @@
 .contact__submit {
   background-color: transparent;
-  border: 1px solid #ffffff;
+  border: 1px solid var(--color-white);
   box-sizing: border-box;
   border-radius: 10px;
-  color: #ffffff;
+  color: var(--color-white);
   height: 60px;
   font-weight: 600;
   font-size: 18px;
@@ -12,7 +12,19 @@
   grid-column-start: 2;
   grid-column-end: 3;
   margin-top: 8px;
+  cursor: pointer;
 }
+
+.contact__submit:hover {
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.contact__submit:hover {
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
 
 @media screen and (max-width: 900px) {
   .contact__submit {

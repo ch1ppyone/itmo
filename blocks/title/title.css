@@ -5,7 +5,7 @@
   text-align: center;
   letter-spacing: 0.1px;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: var(--color-white);
   margin: 0;
   padding: 0;
   padding-bottom: 30px;

@@ -8,17 +8,7 @@
   letter-spacing: 0.1px;
   color: #000000;
   margin-top: 0;
-  margin-bottom: 26px;
-}
-
-.popup-lab__text:nth-of-type(3) {
   margin-bottom: 0;
-}
-
-@media screen and (max-width: 1170px) {
-  .popup-lab__text:nth-of-type(1) {
-    display: none;
-  }
 }
 
 @media screen and (max-width: 938px) {
@@ -28,19 +18,15 @@
   }
 }
 
-@media screen and (max-width: 840px) {
-  .popup-lab__text:nth-of-type(2) {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 752px) {
   .popup-lab__text {
-    margin-bottom: 19px;
+    order: 3;
   }
 }
 
-
-
-
-
+@media screen and (max-width: 480px) {
+  .popup-lab__text {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}

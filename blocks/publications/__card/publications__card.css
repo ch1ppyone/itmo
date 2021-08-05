@@ -1,15 +1,18 @@
 .publications__card {
-  background-color: #FFFFFF;
+  background-color: var(--color-white);
+  max-height: 548px;
 }
 
 @media (max-width: 1023px) {
   .publications__card {
     padding-bottom: 10px;
+    border-radius: 10px 0px 10px 0px;
   }
 }
 
 @media (max-width: 425px) {
   .publications__card {
     padding-bottom: 16px;
+    border-radius: 10px 0px 0px 0px;
   }
 }

@@ -1,0 +1,27 @@
+.button_type_header {
+  width: 350px;
+  height: 60px;
+  border: 1px solid var(--color-white);
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+  .button_type_header {
+    max-width: 330px;
+  }
+}
+
+@media screen and (max-width:423px) {
+  .button_type_header {
+    max-width: 288px;
+    height: 44px;
+    font-size: 14px;
+    line-height: 19px;
+    border-radius: 5px;
+  }
+}

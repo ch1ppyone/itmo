@@ -1,25 +1,28 @@
 .education__tabs {
   padding: 0;
-  background: #009fac;
+  background: var(--color-emerald);
   margin: 35px auto 0;
   list-style-type: none;
   display: flex;
   justify-content: center;
   align-items: center;
   max-width: 540px;
-  border: 1px solid #e0f0ff;
+  border: 1px solid var(--color-light-blue);
   border-radius: 10px;
+
 }
 
 @media screen and (max-width: 1168px) {
   .education__tabs {
     max-width: 450px;
+
   }
 }
 
 @media screen and (max-width: 733px) {
   .education__tabs  {
     max-width: 288px;
+
   }
 }
 

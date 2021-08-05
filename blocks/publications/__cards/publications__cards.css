@@ -10,8 +10,24 @@
   }
 }
 
+
 @media (max-width: 1023px) {
   .publications__cards {
-    max-width: 690px;
+    max-width: 720px;
   }
 }
+
+@media (max-width: 709px) {
+  .publications__cards {
+    max-width: 330px;
+  }
+}
+
+  @media (max-width: 320px) {
+    .publications__cards {
+      padding: 0 16px 0;
+    }
+  }
+
+
+

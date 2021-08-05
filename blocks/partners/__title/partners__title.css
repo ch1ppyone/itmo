@@ -1,7 +1,7 @@
 .partners__title {
   margin: 0 0 27px;
   padding: 0;
-  color: #FFFFFF;
+  color: var(--color-white);
   font-size: 36px;
   line-height: 68px;
   letter-spacing: 0.1px;

@@ -1,4 +1,4 @@
 .education {
-  background: #009fac;
+  background: var(--color-emerald);
   padding: 0 16px 80px;
 }

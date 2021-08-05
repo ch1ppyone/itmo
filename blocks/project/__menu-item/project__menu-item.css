@@ -1,0 +1,39 @@
+.project__menu-item {
+  margin: 0;
+  padding: 7px 0;
+  border-bottom: 5px solid #001337;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+@media (max-width: 1109px) {
+  .project__menu-item {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 689px) {
+  .project__menu-item {
+    margin: 0 0 10px;
+    padding: 12px 8px;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: start;
+    background-image: url("../../../icons/nav_icons/chevron-down-wh.svg");
+    background-position: top 10px right -10px;
+    background-repeat: no-repeat;
+    background-size: 60px 30px;
+    display: none;
+  }
+
+  .project__menu-item:first-child {
+    display: grid;
+  }
+}
+
+

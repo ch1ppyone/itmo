@@ -1,7 +1,7 @@
 .education__content {
   width: 1169px;
   height: 429px;
-  background: #ffffff;
+  background: var(--color-white);
   border-radius: 10px;
   margin: 0 auto;
   display: grid;

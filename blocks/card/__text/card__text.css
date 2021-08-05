@@ -3,7 +3,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 19px;
-  color: #000D26;
+  color: var(--color-dark-blue);
   margin: 0;
   min-height: 133px;
   height: 100%;

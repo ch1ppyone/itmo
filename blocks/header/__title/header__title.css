@@ -1,7 +1,8 @@
 .header__title {
-  color: #ffffff;
+  color: var(--color-white);
   padding: 0;
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 35px;
   letter-spacing: 0.1px;
   font-weight: normal;
   font-size: 54px;
@@ -14,5 +15,6 @@
   .header__title {
     font-size: 32px;
     line-height: 44px;
+    margin-bottom: 18px;
   }
 }

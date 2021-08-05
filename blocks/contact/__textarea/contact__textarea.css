@@ -1,5 +1,5 @@
 .contact__textarea {
-  color: #009fac;
+  color: var(--color-emerald);
   font-weight: normal;
   font-size: 18px;
   line-height: 20px;
@@ -14,7 +14,7 @@
 }
 
 .contact__textarea::placeholder {
-  color: #009fac;
+  color: var(--color-emerald);
 }
 
 

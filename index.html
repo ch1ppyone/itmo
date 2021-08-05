@@ -33,11 +33,13 @@
           class="header__burger"
           aria-label="кнопка главного меню"
         ></button>
-        <img
+        <a href="#header" class="link">
+          <img
           class="header__logo"
           src="icons/logos/Logo_AI_1.png"
           alt="логотип INDUSTRIAL AI RESEARCH LAB"
         />
+        </a>
         <nav>
           <ul class="header__menu">
             <li class="header__menu-item">
@@ -89,7 +91,7 @@
         <h2 class="header__subtitle">
           Системы прикладного искусственного интеллекта
         </h2>
-        <button class="header__button"> НАШИ ПРОЕКТЫ</button>
+        <button class="button button_type_header">НАШИ ПРОЕКТЫ</button>
       </div>
 
     </header>
@@ -1768,16 +1770,16 @@
           <p class="partners__text">За время сотрудничества компания показала себя как надежный партнер, способный оперативно решать вопросы по внесению необходимых изменений.</p>
           <p class="partners__text">Отдельно хочется отметить квалифицированный персонал компании, который всегда готов прийти на помощь в решении поставленных задач, дать объективную оценку и свои рекомендации по улучшению деятельности. Надеемся на дальнейшее и плодотворное сотрудничество.</p>
           <ul class="partners__list">
-            <li class="partners__item"><a href="" class="partners__link"><img src="./icons/logos/gazprom_logo.svg" class="partners__image partners__image_name_gazprom" alt="Логотип Газпром Нефть"></a></li>
-            <li class="partners__item partners__item_ipad"><a href="" class="partners__link"><img src="./icons/logos/sberbank_logo.svg" class="partners__image partners__image_name_sberbank" alt="Логотип Сбербанка"></a></li>
-            <li class="partners__item"><a href="" class="partners__link"><img src="./icons/logos/mail_logo.svg" class="partners__image partners__image_name_mail" alt="Логотип Mail.ru"></a></li>
-            <li class="partners__item"><a href="" class="partners__link"><img src="./icons/logos/siemens_logo.svg" class="partners__image partners__image_name_siemens" alt="Логотип Siemens"></a></li>
-            <li class="partners__item"><a href="" class="partners__link"><img src="./icons/logos/huawei_logo.svg" class="partners__image partners__image_name_huawei" alt="Логотип Huawei"></a></li>
-            <li class="partners__item"><a href="" class="partners__link"><img src="./icons/logos/sberbank_logo.svg" class="partners__image partners__image_name_sberbank" alt="Логотип Сбербанка"></a></li>
-            <li class="partners__item"><a href="" class="partners__link"><img src="./icons/logos/rosveft_logo.svg" class="partners__image partners__image_name_rosneft" alt="Логотип Роснефти"></a></li>
-            <li class="partners__item"><a href="" class="partners__link"><img src="./icons/logos/gazprom_logo.svg" class="partners__image partners__image_name_gazprom" alt="Логотип Газпром Нефть"></a></li>
-            <li class="partners__item partners__item_ipad"><a href="" class="partners__link"><img src="./icons/logos/huawei_logo.svg" class="partners__image partners__image_name_huawei" alt="Логотип Huawei"></a></li>
-            <li class="partners__item"><a href="" class="partners__link"><img src="./icons/logos/mail_logo.svg" class="partners__image partners__image_name_mail" alt="Логотип Mail.ru"></a></li>
+            <li class="partners__item"><a href="#" class="partners__link"><img src="./icons/logos/gazprom_logo.svg" class="partners__image partners__image_name_gazprom" alt="Логотип Газпром Нефть"></a></li>
+            <li class="partners__item partners__item_ipad"><a href="#" class="partners__link"><img src="./icons/logos/sberbank_logo.svg" class="partners__image partners__image_name_sberbank" alt="Логотип Сбербанка"></a></li>
+            <li class="partners__item"><a href="#" class="partners__link"><img src="./icons/logos/mail_logo.svg" class="partners__image partners__image_name_mail" alt="Логотип Mail.ru"></a></li>
+            <li class="partners__item"><a href="#" class="partners__link"><img src="./icons/logos/siemens_logo.svg" class="partners__image partners__image_name_siemens" alt="Логотип Siemens"></a></li>
+            <li class="partners__item"><a href="#" class="partners__link"><img src="./icons/logos/huawei_logo.svg" class="partners__image partners__image_name_huawei" alt="Логотип Huawei"></a></li>
+            <li class="partners__item"><a href="#" class="partners__link"><img src="./icons/logos/sberbank_logo.svg" class="partners__image partners__image_name_sberbank" alt="Логотип Сбербанка"></a></li>
+            <li class="partners__item"><a href="#" class="partners__link"><img src="./icons/logos/rosveft_logo.svg" class="partners__image partners__image_name_rosneft" alt="Логотип Роснефти"></a></li>
+            <li class="partners__item"><a href="#" class="partners__link"><img src="./icons/logos/gazprom_logo.svg" class="partners__image partners__image_name_gazprom" alt="Логотип Газпром Нефть"></a></li>
+            <li class="partners__item partners__item_ipad"><a href="#" class="partners__link"><img src="./icons/logos/huawei_logo.svg" class="partners__image partners__image_name_huawei" alt="Логотип Huawei"></a></li>
+            <li class="partners__item"><a href="#" class="partners__link"><img src="./icons/logos/mail_logo.svg" class="partners__image partners__image_name_mail" alt="Логотип Mail.ru"></a></li>
           </ul>
         </div>
       </section>
@@ -1826,13 +1828,15 @@
     <!-- footer --->
     <footer class="footer" id="footer">
       <div class="footer__wrapper">
-        <a href="#header" class="footer__logo-link link">
-          <img
-          src="./icons/logos/Logo_AI_1.png"
-          alt="Логотип национального центра когнитивных разработок"
-          class="footer__logo"
-          />
-        </a>
+        <div class="footer__logo-zone">
+          <a href="#header" class="link">
+            <img
+            src="./icons/logos/Logo_AI_1.png"
+            alt="Логотип национального центра когнитивных разработок"
+            class="footer__logo"
+            />
+          </a>
+        </div>
         <p class="footer__copyright">Информация © 2020 Университет ИТМО</p>
         <p class="footer__info">
           Национальный центр когнитивных разработок – центр национальной
@@ -1881,7 +1885,7 @@
             </li>
           </ul>
         </div>
-        <div class="footer__contacts">
+        <address class="footer__contacts">
           <p class="footer__city">г.Санкт-Петербург</p>
           <a href="https://yandex.ru/maps/2/saint-petersburg/?ll=30.295508%2C59.944544&mode=poi&poi%5Bpoint%5D=30.295496%2C59.944170&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D1536272932&rtext=48.707073%2C44.516930~48.536064%2C42.501488&rtt=auto&ruri=~&z=18"
             target="_blank" class="link footer__address">
@@ -1899,7 +1903,7 @@
           <a href="mailto:anna.lutsenko@itmo.ru" target="_blank" class="footer__mail link"
             >anna.lutsenko@itmo.ru</a
           >
-        </div>
+        </address>
         <p class="footer__developer">
           <span class="footer__developer-text">Сделано студентами</span>
           <a href="https://praktikum.yandex.ru/" target="_blank" class="footer__developer-link"
@@ -2034,7 +2038,12 @@
         <p class="team__job">Директор, <span class="team__job-span">профессор,</span> ДТН</p>
       </li>
     </template>
+
+    <!-- scripts --->
+    <script src="scripts/news.js"></script>
+    <script src="scripts/team.js"></script>
     <script src="scripts/swiper.js"></script>
     <script src="scripts/script.js"></script>
+
   </body>
 </html>

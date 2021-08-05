@@ -5,7 +5,7 @@
   padding: 20px;
   justify-content: space-between;
   align-items: center;
-  background: #009FAC;
+  background: var(--color-emerald);
   border-radius: 0px 0px 10px 10px;
 }
 

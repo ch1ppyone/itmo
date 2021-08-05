@@ -3,7 +3,7 @@
   font-size: 18px;
   line-height: 30px;
   letter-spacing: 0.1px;
-  color: #000d26;
+  color: var(--color-dark-blue);
 }
 
 @media screen and (max-width: 1168px) {

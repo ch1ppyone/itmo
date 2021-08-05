@@ -4,7 +4,7 @@
   font-size: 18px;
   line-height: 30px;
   letter-spacing: 0.1px;
-  color: #ffffff;
+  color: var(--color-white);
   margin: 0 auto;
   margin-bottom: 60px;
 }

@@ -6,7 +6,7 @@
   font-weight: 600;
   font-size: 15px;
   line-height: 30px;
-  color: #001337;
+  color: var(--color-blue);
 }
 
 @media (max-width: 1023px) {

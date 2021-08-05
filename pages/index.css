@@ -11,6 +11,7 @@
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_type/button_type_close.css);
 @import url(../blocks/button/_type/button_type_close-lab.css);
+@import url(../blocks/button/_type/button_type_header.css);
 @import url(../blocks/link/link.css);
 
 @import url(../blocks/header/header.css);
@@ -33,7 +34,6 @@
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__subtitle/header__subtitle.css);
 @import url(../blocks/header/__span-accent/header__span-accent.css);
-@import url(../blocks/header/__button/header__button.css);
 
 @import url(../blocks/about/about.css);
 @import url(../blocks/about/__descr/about__descr.css);
@@ -175,6 +175,7 @@
 
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__wrapper/footer__wrapper.css');
+@import url('../blocks/footer/__logo-zone/footer__logo-zone.css');
 @import url('../blocks/footer/__logo/footer__logo.css');
 @import url('../blocks/footer/__copyright/footer__copyright.css');
 @import url('../blocks/footer/__info/footer__info.css');
@@ -194,7 +195,6 @@
 @import url('../blocks/footer/__span/footer__span.css');
 @import url('../blocks/footer/__developer-text/footer__developer-text.css');
 @import url('../blocks/footer/__developer-link/footer__developer-link.css');
-@import url('../blocks/footer/__logo-link/footer__logo-link.css');
 
 @import url('../blocks/social/social.css');
 @import url('../blocks/social/__item/social__item.css');

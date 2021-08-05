@@ -82,7 +82,7 @@ new Splide('.team__wrapper', {
   },
 
   fixedWidth: '255px',
-  perPage: 1,
+  perPage: 2,
   rewind: true,
 
 

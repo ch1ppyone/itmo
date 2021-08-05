@@ -272,8 +272,8 @@ new Splide('.publications__cards', {
 				rows: 2,
 				cols: 2,
         gap: {
-          row: '30px',
-          col: '30px',
+          row: '0px',
+          col: '32px',
         }
 			}
 		},
@@ -282,7 +282,6 @@ new Splide('.publications__cards', {
 				rows: 1,
 				cols: 1,
         gap: {
-          row: '32px',
           col: '8px',
         }
 			}

@@ -1,3 +1,4 @@
+
 //education
 const aboutCards = document.querySelectorAll(".about__cards > .cards > .card");
 const aboutDots = document.querySelectorAll(".about__cards > .dots > .dot");
@@ -76,6 +77,7 @@ linkMaster.addEventListener("click", () => {
 burger.addEventListener("click", () => {
   showPopup(menu);
 });
+
 
 //popup
 document.querySelectorAll(".button_type_close").forEach(button =>

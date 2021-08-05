@@ -57,7 +57,7 @@ const teamTemplate = document.querySelector('.team__card-template').content;
 team.forEach((item) => {
   const clone = teamTemplate.cloneNode(true);
   const cardPhoto = clone.querySelector('.team__photo');
-  const cardName =  clone.querySelector('.team__name');
+  const cardName = clone.querySelector('.team__name');
   const cardSurname = clone.querySelector('.team__surname');
   const cardJob = clone.querySelector('.team__job');
   const cardJobSpan = clone.querySelector('.team__job-span');
@@ -72,18 +72,18 @@ team.forEach((item) => {
 });
 
 
-new Splide( '.team__wrapper', {
+new Splide('.team__wrapper', {
 
   classes: {
-		arrows: 'splide__arrows-team',
-		arrow : 'team__button',
-		prev  : 'team__arrow-left',
-		next  : 'team__arrow-right',
-	},
+    arrows: 'splide__arrows-team',
+    arrow: 'team__button',
+    prev: 'team__arrow-left',
+    next: 'team__arrow-right',
+  },
 
   fixedWidth: '255px',
-  perPage: 2,
+  perPage: 1,
   rewind: true,
 
 
-} ).mount();
+}).mount();

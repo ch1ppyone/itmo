@@ -38,6 +38,7 @@
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__subtitle/header__subtitle.css);
 @import url(../blocks/header/__span-accent/header__span-accent.css);
+@import url(../blocks/header/__button_link/header__button_link.css);
 
 @import url(../blocks/about/about.css);
 @import url(../blocks/about/__descr/about__descr.css);

@@ -9,6 +9,7 @@
   font-size: 18px;
   line-height: 30px;
   letter-spacing: 0.1px;
+  height: 60px;
   color: var(--color-white);
   cursor: pointer;
 }
@@ -22,6 +23,7 @@
   .education__tab {
     font-size: 12px;
     line-height: 16px;
+    height: 44px;
   }
 }
 
@@ -29,5 +31,6 @@
   .education__tab  {
     font-size: 14px;
     line-height: 19px;
+    height: 40px;
   }
 }

@@ -250,6 +250,7 @@ publications.forEach((item) => {
 
 new Splide('.publications__cards', {
   type: "loop",
+  perPage: 1,
   rewind: true,
   classes: {
     arrows: 'splide__arrows-publications',
@@ -265,6 +266,28 @@ new Splide('.publications__cards', {
       col: '30px',
     }
   },
+  breakpoints: {
+    1300: {
+			grid: {
+				rows: 2,
+				cols: 2,
+        gap: {
+          row: '30px',
+          col: '30px',
+        }
+			}
+		},
+		709: {
+			grid: {
+				rows: 1,
+				cols: 1,
+        gap: {
+          row: '32px',
+          col: '8px',
+        }
+			}
+		}
+	},
 }).mount(window.splide.Extensions);
 
 

@@ -48,6 +48,7 @@ const publications = [
     text: "It is common practice nowadays to use multiple social networks for different social roles. Although this, these networks assume differences in content type, communications and style of speech. If we intend to understand human behaviour as a key-feature for recommender systems, banking risk assessm…",
   },
   {
+
     title: "Orienteering Problem with Functional Profits for multi-sourc…",
     img: "./images/publication/7.jpg",
     link: "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0213777",
@@ -217,8 +218,12 @@ const publications = [
   }
 ];
 
-const  publicationsconatainer = document.querySelector(".publications__cards >.splide__track>.cards");
+
+const publicationsconatainer = document.querySelector(".publications__cards >.splide__track>.cards");
 const publicationsTemplate = document.querySelector('.publications__card-template').content;
+
+
+
 publications.forEach((item) => {
   const clone = publicationsTemplate.cloneNode(true);
   const title = clone.querySelector('.card__title');
@@ -227,28 +232,41 @@ publications.forEach((item) => {
   const author = clone.querySelector('.card__date');
   const text = clone.querySelector('.card__text');
 
+
   title.innerText = item.title;
   img.src = item.img;
   link.href = item.link;
   author.innerText = item.author;
   text.innerText = item.text;
+
+  const publicationsButton = clone.querySelector('.publications__button');
+  const publicationsSocials = clone.querySelector('.publications__socials');
+  publicationsButton.addEventListener('click', () => {
+    publicationsSocials.classList.toggle('publications__socials_active');
+  });
   publicationsconatainer.append(clone);
 });
 
 
-new Splide( '.publications__cards', {
+new Splide('.publications__cards', {
+  type: "loop",
+  rewind: true,
   classes: {
-		arrows: 'splide__arrows-publications',
-		arrow : 'splide__arrow',
-		prev  : 'publications__arrow-left',
-		next  : 'publications__arrow-right',
-	},
+    arrows: 'splide__arrows-publications',
+    arrow: 'splide__arrow',
+    prev: 'publications__arrow-left',
+    next: 'publications__arrow-right',
+  },
   grid: {
-		rows: 2,
-		cols: 3,
-		gap : {
-			row: '32px',
-			col: '30px',
-		}
-	},
-} ).mount(window.splide.Extensions);
+    rows: 2,
+    cols: 3,
+    gap: {
+      row: '32px',
+      col: '30px',
+    }
+  },
+}).mount(window.splide.Extensions);
+
+
+
+

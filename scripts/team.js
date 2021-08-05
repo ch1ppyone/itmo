@@ -49,3 +49,41 @@ const team = [
     photo: './images/team/man_photo-6.jpg',
   },
 ];
+
+
+const teamConatainer = document.querySelector(".team__list");
+const teamTemplate = document.querySelector('.team__card-template').content;
+
+team.forEach((item) => {
+  const clone = teamTemplate.cloneNode(true);
+  const cardPhoto = clone.querySelector('.team__photo');
+  const cardName =  clone.querySelector('.team__name');
+  const cardSurname = clone.querySelector('.team__surname');
+  const cardJob = clone.querySelector('.team__job');
+  const cardJobSpan = clone.querySelector('.team__job-span');
+
+  cardPhoto.src = item.photo;
+  cardName.textContent = item.name;
+  cardSurname.textContent = item.surname;
+  cardJob.textContent = item.job;
+  cardJobSpan.textContent = item.jobSpan;
+
+  teamConatainer.append(clone);
+});
+
+
+new Splide( '.team__wrapper', {
+
+  classes: {
+		arrows: 'splide__arrows-team',
+		arrow : 'team__button',
+		prev  : 'team__arrow-left',
+		next  : 'team__arrow-right',
+	},
+
+  fixedWidth: '255px',
+  perPage: 2,
+  rewind: true,
+
+
+} ).mount();

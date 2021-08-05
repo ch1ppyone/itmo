@@ -110,12 +110,12 @@
 
 
         <div class="splide__arrows-about">
-          <button class="btn-arrow about__arrow-left splide__arrow splide__arrow--prev"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <button class="btn-arrow about__arrow-left splide__arrow"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M21 12L3 12" stroke="#FFFFFF" stroke-linecap="round"/>
             <path d="M9 6L3 12L9 18" stroke="#FFFFFF" stroke-linecap="round"/>
             </svg>
           </button>
-          <button class="btn-arrow about__arrow-right splide__arrow splide__arrow--next"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <button class="btn-arrow about__arrow-right splide__arrow"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M3 12L21 12" stroke="#FFFFFF" stroke-linecap="round"/>
             <path d="M15 18L21 12L15 6" stroke="#FFFFFF" stroke-linecap="round"/>
             </svg>
@@ -308,25 +308,33 @@
               </svg>
             </button>
           </div>
-
         </article>
       </section>
 
       <!-- section team --->
        <section class="team" id="team">
-        <div class="team__wrapper">
+        <div class="team__wrapper splide">
           <h2 class="team__title">Наша команда</h2>
-          <button type="button" aria-label="Кнопка назад" class="team__button team__button_left"></button>
-          <ul class="team__list">
+
+            <div class="splide__track">
+          <ul class="team__list splide__list">
+          </div>
           </ul>
-          <button type="button" aria-label="Кнопка вперед" class="team__button team__button_right"></button>
-          <ul class="team__pagination-list">
-            <li class="team__pagination-item team__pagination-item_active"></li>
-            <li class="team__pagination-item"></li>
-            <li class="team__pagination-item"></li>
-            <li class="team__pagination-item"></li>
-          </ul>
+          <div class="splide__arrows-team">
+            <button type="button" aria-label="Кнопка назад" class="btn-arrow team__arrow-right"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3 12L21 12" stroke="#001337" stroke-linecap="round"/>
+              <path d="M15 18L21 12L15 6" stroke="#001337" stroke-linecap="round"/>
+              </svg></button>
+            <button type="button" aria-label="Кнопка вперед" class="btn-arrow team__arrow-left"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M21 12L3 12" stroke="#001337" stroke-linecap="round"/>
+              <path d="M9 6L3 12L9 18" stroke="#001337" stroke-linecap="round"/>
+              </svg></button>
+          </div>
+
+
+
         </div>
+
       </section>
 
       <!-- section partners --->
@@ -605,8 +613,8 @@
       </li>
       </template>
 
-    <template id="card">
-      <li class="team__card">
+    <template class="team__card-template">
+      <li class="team__card splide__slide">
         <img src="./images/team/man_photo.jpg" alt="Бобцов Алексей Алексеевич" class="team__photo">
         <h3 class="team__surname">Бобцов</h3>
         <h3 class="team__name">Алексей Алексеевич</h3>
@@ -677,8 +685,6 @@
     <script src="scripts/publications.js"></script>
     <script src="scripts/team.js"></script>
     <script src="scripts/script.js"></script>
-
-
 
 
 

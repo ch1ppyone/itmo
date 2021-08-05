@@ -12,6 +12,12 @@
   grid-column-start: 2;
   grid-column-end: 3;
   margin-top: 8px;
+  cursor: pointer;
+}
+
+.contact__submit:hover {
+  opacity: 0.6;
+  transition: 0.3s;
 }
 
 @media screen and (max-width: 900px) {

@@ -10,7 +10,7 @@
   margin-bottom: 60px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 975px) {
   .contact__subtitle {
     margin-bottom: 37px;
     font-size: 14px;

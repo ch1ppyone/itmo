@@ -10,6 +10,10 @@
   position: relative;
 }
 
+.education__content-link:hover {
+  text-decoration: underline;
+}
+
 .education__content-link::after {
   content: "";
   position: absolute;
@@ -21,7 +25,7 @@
 }
 
 @media screen and (max-width: 1168px) {
-  .education__content-link{
+  .education__content-link {
     font-size: 14px;
     line-height: 19px;
   }
@@ -32,9 +36,9 @@
 }
 
 @media screen and (max-width: 733px) {
-.education__content-link{
-  font-size: 12px;
-  line-height: 16px;
+  .education__content-link {
+    font-size: 12px;
+    line-height: 16px;
   }
   .education__content-link::after {
     top: -6px;

@@ -2,7 +2,7 @@
 @import url(../vendor/splide-core.min.css);
 @import url(../vendor/splide-theme.css);
 @import url(../vendor/fonts.css);
-@import url(../vars/vars.css);
+@import url(../vendor/vars.css);
 
 
 @import url(../blocks/title/title.css);

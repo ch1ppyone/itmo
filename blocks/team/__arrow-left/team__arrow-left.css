@@ -5,3 +5,10 @@
   box-shadow: 0px 4px 30px rgba(224, 240, 255, 0.1);
   background-color: var(--color-blue);
 }
+
+
+@media (max-width: 1300px) {
+  .team__arrow-left  {
+    display: none;
+  }
+}

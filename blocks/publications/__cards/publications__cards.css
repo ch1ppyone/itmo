@@ -23,12 +23,11 @@
   }
 }
 
-  @media (max-width: 380px) {
+  @media (max-width: 320px) {
     .publications__cards {
       padding: 0 16px 0;
-      max-width: 320px;
     }
-}
+  }
 
 
 

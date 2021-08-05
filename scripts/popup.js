@@ -1,4 +1,3 @@
-
 document.querySelectorAll(".button_type_close").forEach(button =>
   button.addEventListener("click", () => {
     closePopup(button.closest('.popup'));
@@ -23,19 +22,4 @@ burgerItem.forEach((item) => {
 
     item.style.cssText = 'font-weight: 600';
   })
-});
-
-
-
-
-//popup-lab
-const popupLab = document.querySelector("#popup-lab");
-
-document.querySelectorAll(".lab__card-button").forEach(button =>
-  button.addEventListener("click", () => {
-    showPopup(popupLab);
-  }));
-
-popupLab.querySelector(".button_type_close-lab").addEventListener("click", () => {
-  closePopup(popupLab);
 });

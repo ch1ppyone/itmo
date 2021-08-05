@@ -84,6 +84,20 @@ new Splide('.team__wrapper', {
   fixedWidth: '255px',
   perPage: 2,
   rewind: true,
+  type: "loop",
+
+  breakpoints: {
+		690: {
+      fixedWidth: '140px',
+        perPage: 2,
+		},
+   820: {
+      perPage: 2,
+      fixedWidth: '210px',
+
+		},
+
+	}
 
 
 }).mount();

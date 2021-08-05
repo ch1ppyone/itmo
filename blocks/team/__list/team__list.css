@@ -12,14 +12,25 @@
 
 @media (max-width: 1109px) {
   .team__list {
-    width: 100%;
-    padding: 0 0 0 39px;
+    max-width: 820px;
+    padding: 0 16px 0;
   }
 }
 
-@media (max-width: 689px) {
+@media (max-width: 820px) {
   .team__list {
-    width: 100%;
-    padding: 0;
+    max-width: 480px;
+    padding: 0 16px 0;
   }
 }
+
+@media (max-width: 690px) {
+  .team__list {
+    padding: 0 16px 0;
+    max-width: 288px;
+  }
+}
+
+
+
+

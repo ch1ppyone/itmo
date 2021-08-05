@@ -23,7 +23,7 @@
 .splide__pagination {
   display: inline-flex;
   align-items: center;
-  width: 95%;
+  width: 100%;
   flex-wrap: wrap;
   justify-content: center;
   margin: 0;
@@ -106,9 +106,8 @@
 
 .splide__pagination {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  max-width: 68px;
+  max-width: inherit;
   list-style-type: none;
   padding: 0;
   margin: 0 auto;
@@ -135,13 +134,22 @@
   background: #ccc;
   border-radius: 50%;
   margin: 3px;
+  margin-right: 12px;
   padding: 0;
   transition: all 0.2s linear;
   border: none;
 }
+
+
+
 .splide__pagination__page.is-active {
   background-color: var(--color-white);
 }
+
+.publications .splide__pagination__page.is-active {
+  background-color: var(--color-dark-blue);
+}
+
 .splide__pagination__page:hover {
   cursor: pointer;
 }

@@ -6,7 +6,7 @@
   align-items: center;
 }
 
-@media (max-width: 1109px) {
+@media (max-width: 975px) {
   .partners__wrapper {
     max-width: 690px;
   }

@@ -1,0 +1,21 @@
+.project__more {
+  margin: 20px 0 0;
+  padding: 0 36px 0 0;
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 600;
+  color: #001337;
+  text-decoration: none;
+  position: relative;
+  display: none;
+}
+
+.project__more::after {
+  content: "";
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: -2px;
+  right: 0;
+  background-image: url("../../../icons/nav_icons/arrow-right.svg");
+}

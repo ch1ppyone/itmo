@@ -1,0 +1,16 @@
+.project__image {
+  max-width: 80%;
+  height: auto;
+}
+
+@media (max-width: 1109px) {
+  .project__image {
+    max-width: 70%;
+  }
+}
+
+@media (max-width: 689px) {
+  .project__image {
+    max-width: 50%;
+  }
+}

@@ -1,0 +1,30 @@
+.project__btn {
+  margin: 0;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  align-self: flex-end;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  border: none;
+  background-image: url("../../../icons/nav_icons/arrow-right.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px 24px;
+}
+
+@media (max-width: 1109px) {
+  .project__btn {
+    width: 30px;
+    height: 30px;
+    background-size: 19px 19px;
+  }
+}
+
+@media (max-width: 689px) {
+  .project__btn {
+    width: 20px;
+    height: 20px;
+    background-size: 12px 12px;
+  }
+}

@@ -4,30 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Сайт национального центра когнитивных разработок"
-    />
-    <meta
-      name="keywords"
-      content="когнитивные технологии, машинное обучение, аспирантура, магистратура,
-       анализ социальных данных, инфраструктура больших данных, облачные вычисления, QA системы"
-    />
-    <meta
-      name="author"
-      content="Сергей Соколов, Андрей Гудков, Максим Николюкин, Иван Кудряшов"
-    />
+    <meta name="description" content="Сайт национального центра когнитивных разработок"/>
+    <meta name="keywords" content="когнитивные технологии, машинное обучение, аспирантура, магистратура, анализ социальных данных, инфраструктура больших данных, облачные вычисления, QA системы"/>
+    <meta name="author" content="Сергей Соколов, Андрей Гудков, Максим Николюкин, Иван Кудряшов"/>
     <title>Национальный центр когнитивных разработок</title>
     <link rel="shortcut icon" href="favicon.png" type="image/png">
     <link rel="stylesheet" href="pages/index.css" />
   </head>
-
   <body class="page">
-
-    <!-- header --->
     <header class="header" id="header">
-
       <div class="header__menu-container">
+
+        <button type="button" class="header__burger" aria-label="кнопка главного меню"></button>
+        <img class="header__logo" src="icons/logos/Logo_AI_1.png" alt="логотип INDUSTRIAL AI RESEARCH LAB"/>
         <button
           type="button"
           class="header__burger"
@@ -40,20 +29,16 @@
           alt="логотип INDUSTRIAL AI RESEARCH LAB"
         />
         </a>
+
         <nav>
           <ul class="header__menu">
-            <li class="header__menu-item">
-              <a class="header__menu-link" href="#about">О нас</a>
-            </li>
-            <li class="header__menu-item">
-              <a class="header__menu-link" href="#lab">Лаборатория</a>
-            </li>
-            <li class="header__menu-item">
-              <a class="header__menu-link" href="#projects">Проекты</a>
-            </li>
+            <li class="header__menu-item"><a class="header__menu-link" href="#about">О нас</a></li>
+            <li class="header__menu-item"><a class="header__menu-link" href="#lab">Лаборатория</a></li>
+            <li class="header__menu-item"><a class="header__menu-link" href="#projects">Проекты</a></li>
             <li class="header__menu-item">
               <a class="header__menu-link" href="#education">Образование</a>
               <ul class="header__submenu">
+
                 <li class="header__menu-item header__menu-item_type_submenu">
                   <a
                     class="header__menu-link header__menu-link_type_submenu"
@@ -70,22 +55,17 @@
                     >Магистратура</a
                   >
                 </li>
+
               </ul>
             </li>
-            <li class="header__menu-item">
-              <a class="header__menu-link" href="#articles">Публикации</a>
-            </li>
-            <li class="header__menu-item">
-              <a class="header__menu-link" href="#team">Команда</a>
-            </li>
-            <li class="header__menu-item">
-              <a class="header__menu-link" href="#contact">Связаться</a>
-            </li>
+            <li class="header__menu-item"><a class="header__menu-link" href="#articles">Публикации</a></li>
+            <li class="header__menu-item"><a class="header__menu-link" href="#team">Команда</a></li>
+            <li class="header__menu-item"><a class="header__menu-link" href="#contact">Связаться</a></li>
           </ul>
         </nav>
       </div>
-
       <div class="header__title-container">
+
         <h1 class="header__title">
           <span class="header__span-accent">Когнитивные технологии,</span>
           машинное обучение
@@ -96,13 +76,10 @@
         <a class="header__button_link" href="#projects">
         <button type="button" class="button button_type_header">НАШИ ПРОЕКТЫ</button>
       </a>
+
       </div>
-
     </header>
-
     <main>
-
-      <!-- section about --->
       <section class="about" id="about">
         <h2 class="title">Несколько слов о нас</h2>
         <p class="about__descr">Национальный центр когнитивных разработок – центр национальной технологической инициативы (НТИ), получивший государственную поддержку по направлению «Технологии машинного обучения и когнитивные технологии».</p>
@@ -113,8 +90,10 @@
         </div>
 
 
+
         <div class="splide__arrows-about">
           <button class="btn-arrow about__arrow-left splide__arrow"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+
             <path d="M21 12L3 12" stroke="#FFFFFF" stroke-linecap="round"/>
             <path d="M9 6L3 12L9 18" stroke="#FFFFFF" stroke-linecap="round"/>
             </svg>
@@ -127,8 +106,6 @@
         </div>
         </div>
       </section>
-
-      <!-- section lab -->
       <section class="lab" id="lab">
         <div class="lab__container">
           <h2 class="lab__title">INDUSTRIAL AI RESEARCH LAB</h2>
@@ -189,8 +166,37 @@
           </ul>
         </div>
       </section>
-
-      <!-- section education --->
+      <section class="project">
+        <div class="project__wrapper">
+          <h2 class="project__title">Наши проекты</h2>
+          <ul class="project__menu-list">
+            <li class="project__menu-item project__menu-item_active">Все проекты</li>
+            <li class="project__menu-item">Гос. проекты</li>
+            <li class="project__menu-item">Спецпрограммы</li>
+            <li class="project__menu-item">В разработке</li>
+          </ul>
+          <ul class="project__list">
+            <li class="project__item">
+              <img src="./icons/logos/gazprom_logo.svg" alt="Логотип газпромв" class="project__image">
+              <p class="project__text">Направление включает в себя исследования и разработки технологий МО и КТ. <span class="project__span">Модули для внедрения в предметные сетевые программы магистратуры с элементами МО и КТ, или программы ДПО.</span></p>
+              <a href="#" class="project__more">Подробнее</a>
+              <button type="button" class="project__btn"></button>
+            </li>
+          </ul>
+          <div class="project__pagination">
+            <button type="button" class="project__pagination-btn project__pagination-btn_right"></button>
+            <ul class="project__pagination-list">
+              <li class="project__pagination-item">1</li>
+              <li class="project__pagination-item">2</li>
+              <li class="project__pagination-item">3</li>
+              <li class="project__pagination-item">4</li>
+              <li class="project__pagination-item">...</li>
+              <li class="project__pagination-item">30</li>
+            </ul>
+            <button type="button" class="project__pagination-btn project__pagination-btn_left"></button>
+          </div>
+        </div>
+      </section>
       <section class="education" id="education">
         <h2 class="education__title">ОБРАЗОВАНИЕ</h2>
         <p class="educatiion__subtitle">
@@ -201,15 +207,10 @@
           электронного и дистанционного образования. Реализуются образовательные
           программы различных форматов.
         </p>
-
         <article class="education__content">
 
           <template class="content-template content-template_type-magistr">
-            <img
-            class="education__content-image"
-            src="./images/study/magistr.jpg"
-            alt="Магистратура"
-          />
+            <img class="education__content-image" src="./images/study/magistr.jpg" alt="Магистратура"/>
             <div class="education__content-info">
               <h3 class="education__content-title">
                 Образовательные программы аспирантуры в области МО и КТ
@@ -247,11 +248,7 @@
           </template>
 
           <template class="content-template content-template_type-aspirant">
-          <img
-          class="education__content-image"
-          src="./images/study/aspirant.jpg"
-          alt="Магистратура"
-        />
+          <img class="education__content-image" src="./images/study/aspirant.jpg" alt="Магистратура"/>
           <div class="education__content-info">
             <h3 class="education__content-title">
               Образовательные программы аспирантуры в области МО и КТ
@@ -294,8 +291,6 @@
           <li class="education__tab education__tab_type-magistr education__tab_active">МАГИСТРАТУРА</li>
         </ul>
       </section>
-
-      <!-- section articles --->
       <section class="publications" id="articles">
         <h2 class="title page__text-color-dark">ПУБЛИКАЦИИ</h2>
         <article class="publications__cards splide">
@@ -365,8 +360,6 @@
           </ul>
         </div>
       </section>
-
-      <!-- section contact --->
       <section class="contact" id="contact">
         <div class="contact__container">
           <h2 class="contact__title">ВСЕГДА НА СВЯЗИ</h2>
@@ -375,6 +368,7 @@
             указанным телефонам, написать на почту или оставтиь свое сообщение
             через форму обратной связи.
           </p>
+
           <form action="#" method="post" name="form" class="contact__contact-form">
             <input
               class="contact__input contact__input_type-name"
@@ -409,16 +403,15 @@
               placeholder="Сообщение"
               name="textarea"
             ></textarea>
+
             <button class="contact__submit" type="submit">Отправить</button>
           </form>
         </div>
       </section>
-
     </main>
-
-    <!-- footer --->
     <footer class="footer" id="footer">
       <div class="footer__wrapper">
+
         <div class="footer__logo-zone">
           <a href="#header">
             <img
@@ -428,6 +421,7 @@
             />
           </a>
         </div>
+
         <p class="footer__copyright">Информация © 2020 Университет ИТМО</p>
         <p class="footer__info">
           Национальный центр когнитивных разработок – центр национальной
@@ -439,45 +433,26 @@
         <div class="footer__menu footer__menu_about">
           <h3 class="footer__menu-title">О центре</h3>
           <ul class="footer__menu-list">
-            <li class="footer__menu-item">
-              <a href="#about" class="footer__menu-link link">О нас</a>
-            </li>
-            <li class="footer__menu-item">
-              <a href="#header" class="footer__menu-link link">Главная</a>
-            </li>
-            <li class="footer__menu-item">
-              <a href="#team" class="footer__menu-link link">Команда</a>
-            </li>
-            <li class="footer__menu-item">
-              <a href="#lab" class="footer__menu-link link">Лаборатория</a>
-            </li>
-            <li class="footer__menu-item">
-              <a href="#footer" class="footer__menu-link link">Контакты</a>
-            </li>
+            <li class="footer__menu-item"><a href="#about" class="footer__menu-link link">О нас</a></li>
+            <li class="footer__menu-item"><a href="#header" class="footer__menu-link link">Главная</a></li>
+            <li class="footer__menu-item"><a href="#team" class="footer__menu-link link">Команда</a></li>
+            <li class="footer__menu-item"><a href="#lab" class="footer__menu-link link">Лаборатория</a></li>
+            <li class="footer__menu-item"><a href="#footer" class="footer__menu-link link">Контакты</a></li>
           </ul>
         </div>
         <div class="footer__menu footer__menu_future">
           <h3 class="footer__menu-title">Развитие</h3>
           <ul class="footer__menu-list">
-            <li class="footer__menu-item">
-              <a href="#education" class="footer__menu-link link">Образование</a>
-            </li>
-            <li class="footer__menu-item">
-              <a href="#education" class="footer__menu-link link">Аспирантура</a>
-            </li>
-            <li class="footer__menu-item">
-              <a href="#education" class="footer__menu-link link">Магистратура</a>
-            </li>
-            <li class="footer__menu-item">
-              <a href="#articles" class="footer__menu-link link">Публикации</a>
-            </li>
-            <li class="footer__menu-item">
-              <a href="#projects" class="footer__menu-link link">Проекты</a>
-            </li>
+            <li class="footer__menu-item"><a href="#education" class="footer__menu-link link">Образование</a></li>
+            <li class="footer__menu-item"><a href="#education" class="footer__menu-link link">Аспирантура</a></li>
+            <li class="footer__menu-item"><a href="#education" class="footer__menu-link link">Магистратура</a></li>
+            <li class="footer__menu-item"><a href="#articles" class="footer__menu-link link">Публикации</a></li>
+            <li class="footer__menu-item"><a href="#projects" class="footer__menu-link link">Проекты</a></li>
           </ul>
         </div>
         <address class="footer__contacts">
           <p class="footer__city">г.Санкт-Петербург</p>
+
           <a href="https://yandex.ru/maps/2/saint-petersburg/?ll=30.295508%2C59.944544&mode=poi&poi%5Bpoint%5D=30.295496%2C59.944170&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D1536272932&rtext=48.707073%2C44.516930~48.536064%2C42.501488&rtt=auto&ruri=~&z=18"
             target="_blank" class="link footer__address">
               199034, Санкт-Петербург,
@@ -495,55 +470,21 @@
             >anna.lutsenko@itmo.ru</a
           >
         </address>
+
         <p class="footer__developer">
           <span class="footer__developer-text">Сделано студентами</span>
-          <a href="https://praktikum.yandex.ru/" target="_blank" class="footer__developer-link"
-            >Яндекс. Практикума</a>
+          <a href="https://praktikum.yandex.ru/" target="_blank" class="footer__developer-link">Яндекс. Практикума</a>
           </p>
         <ul class="social footer__social">
-          <li class="social__item">
-            <a
-              href="#"
-              target="_blank"
-              aria-label="Ссылка на нас Вконтакте"
-              class="social__link social__link_name_vk"
-            ></a>
-          </li>
-          <li class="social__item">
-            <a
-              href="#"
-              target="_blank"
-              aria-label="Ссылка на нас Facebook"
-              class="social__link social__link_name_fb"
-            ></a>
-          </li>
-          <li class="social__item">
-            <a
-              href="#"
-              target="_blank"
-              aria-label="Ссылка на нас Telegram"
-              class="social__link social__link_name_tg"
-            ></a>
-          </li>
-          <li class="social__item">
-            <a
-              href="#"
-              target="_blank"
-              aria-label="Ссылка на нас Instagram"
-              class="social__link social__link_name_inst"
-            ></a>
-          </li>
-          <li class="social__item">
-            <a
-              href="#"
-              target="_blank"
-              aria-label="Ссылка на нас Youtube"
-              class="social__link social__link_name_youtube"
-            ></a>
-          </li>
+          <li class="social__item"><a href="#" target="_blank" aria-label="Ссылка на нас Вконтакте" class="social__link social__link_name_vk"></a></li>
+          <li class="social__item"><a href="#" target="_blank" aria-label="Ссылка на нас Facebook" class="social__link social__link_name_fb"></a></li>
+          <li class="social__item"><a href="#" target="_blank" aria-label="Ссылка на нас Telegram" class="social__link social__link_name_tg"></a></li>
+          <li class="social__item"><a href="#" target="_blank" aria-label="Ссылка на нас Instagram" class="social__link social__link_name_inst"></a></li>
+          <li class="social__item"><a href="#" target="_blank" aria-label="Ссылка на нас Youtube" class="social__link social__link_name_youtube"></a></li>
         </ul>
       </div>
     </footer>
+
 
     <!-- popup-header-menu --->
     <div class="popup" id="popup-header-menu">
@@ -566,6 +507,7 @@
               <ul class="header__submenu-popup">
                 <li class="header__menu-item  header__menu-item_type_popup">
                   <a  class="header__menu-link header__menu-link_type_popup header__menu-link_type_submenu-popup" href="#">Магистратура</a>
+
                 </li>
                 <li class="header__menu-item  header__menu-item_type_popup">
                   <a  class="header__menu-link header__menu-link_type_popup header__menu-link_type_submenu-popup" href="#">Аспирантура</a>
@@ -609,6 +551,8 @@
     </div>
 
     <!-- templates --->
+>
+  
     <template class="about__card-template">
       <li class="card splide__slide">
         <p class="card__date"></p>
@@ -623,6 +567,7 @@
 
     <template class="team__card-template">
       <li class="team__card splide__slide">
+
         <img src="./images/team/man_photo.jpg" alt="Бобцов Алексей Алексеевич" class="team__photo">
         <h3 class="team__surname">Бобцов</h3>
         <h3 class="team__name">Алексей Алексеевич</h3>

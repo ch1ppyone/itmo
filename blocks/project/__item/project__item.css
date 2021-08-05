@@ -1,0 +1,28 @@
+.project__item {
+  margin: 0 0 30px;
+  padding: 20px;
+  width: 254px;
+  height: 228px;
+  border-radius: 10px;
+  background-color: #009FAC;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+@media (max-width: 1109px) {
+  .project__item {
+    width: 210px;
+    height: 199px;
+    padding: 16px;
+  }
+}
+
+@media (max-width: 689px) {
+  .project__item {
+    width: 140px;
+    height: 130px;
+    padding: 10px;
+  }
+}

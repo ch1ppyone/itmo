@@ -147,6 +147,27 @@
 @import url(../blocks/lab/__texts/lab__texts.css);
 @import url(../blocks/lab/__title/lab__title.css);
 
+@import url('../blocks/project/project.css');
+@import url('../blocks/project/__wrapper/project__wrapper.css');
+@import url('../blocks/project/__title/project__title.css');
+@import url('../blocks/project/__menu-list/project__menu-list.css');
+@import url('../blocks/project/__menu-item/project__menu-item.css');
+@import url('../blocks/project/__pagination/project__pagination.css');
+@import url('../blocks/project/__pagination-list/project__pagination-list.css');
+@import url('../blocks/project/__pagination-item/project__pagination-item.css');
+@import url('../blocks/project/__list/project__list.css');
+@import url('../blocks/project/__item/project__item.css');
+@import url('../blocks/project/__span/project__span.css');
+@import url('../blocks/project/__text/project__text.css');
+@import url('../blocks/project/__more/project__more.css');
+@import url('../blocks/project/__btn/project__btn.css');
+@import url('../blocks/project/__menu-item/_active/project__menu-item_active.css');
+@import url('../blocks/project/__image/project__image.css');
+@import url('../blocks/project/__pagination-btn/project__pagination-btn.css');
+@import url('../blocks/project/__pagination-btn/_right/project__pagination-btn_right.css');
+@import url('../blocks/project/__pagination-btn/_left/project__pagination-btn_left.css');
+
+
 @import url('../blocks/education/education.css');
 @import url('../blocks/education/__title/education__title.css');
 @import url('../blocks/education/__subtitle/education__subtitle.css');

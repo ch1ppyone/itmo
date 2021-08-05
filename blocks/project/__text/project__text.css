@@ -1,0 +1,28 @@
+.project__text {
+  margin: 20px 0 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  font-weight: 400;
+  color: #FFFFFF;
+  width: 190px;
+}
+
+@media (max-width: 1109px) {
+  .project__text {
+    font-size: 12px;
+    line-height: 20px;
+    width: 155px;
+    margin: 10px 0 0;
+  }
+}
+
+@media (max-width: 689px) {
+  .project__text {
+    font-size: 10px;
+    line-height: 13px;
+    width: 120px;
+    margin: 6px 0 0;
+  }
+}

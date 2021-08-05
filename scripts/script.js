@@ -42,21 +42,35 @@ const publicationsSocials = document.querySelectorAll('.publications__socials');
 const publicationsSocialLink = document.querySelectorAll('.publications__social-link');
 
 publicationsButton.forEach((item, i) => {
-  item.addEventListener('mouseenter', () => {
+  item.addEventListener('click', () => {
     publicationsSocials.forEach(() => {
-      publicationsSocials[i].classList.add('publications__socials_active');
+      if (!publicationsSocials[i].classList.contains('publications__socials_active')) {
+        publicationsSocials[i].classList.add('publications__socials_active');
+      } else {
+        publicationsSocials[i].classList.remove('publications__socials_active');
+      }
     })
   })
-})
+});
 
-publicationsButton.forEach((item, i) => {
+
+window.addEventListener('click', (e) =>{
+  if (!e.target.classList.contains('publications__socials_active')) {
+    publicationsSocials.forEach(item => {
+      item.classList.remove('publications__socials_active');
+    })
+  }
+});
+
+
+
+/* publicationsButton.forEach((item, i) => {
   item.addEventListener('mouseleave', (e) => {
     setTimeout(() => publicationsSocials.forEach(() => {
       publicationsSocials[i].classList.remove('publications__socials_active')
     }), 500)
   });
-})
-
+}) */
 
 publicationsSocialLink.forEach(item => {
   item.addEventListener('click', () => {

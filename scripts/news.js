@@ -54,17 +54,17 @@ const news = [
 
 ];
 
-const conatainer = document.querySelector(".about__cards >.splide__track>.cards");
-const template = document.querySelector('.about__card-template').content;
+const aboutConatainer = document.querySelector(".about__cards >.splide__track>.cards");
+const aboutTemplate = document.querySelector('.about__card-template').content;
 news.forEach((item) => {
-  const clone = template.cloneNode(true);
+  const clone = aboutTemplate.cloneNode(true);
   const date = clone.querySelector('.card__date');
   const title = clone.querySelector('.card__title');
   const text = clone.querySelector('.card__text');
   date.innerText = item.date;
   title.innerText = item.title;
   text.innerText = item.text;
-  conatainer.append(clone);
+  aboutConatainer.append(clone);
 });
 
 
@@ -75,7 +75,7 @@ new Splide( '.about__cards', {
 		prev  : 'about__arrow-left',
 		next  : 'about__arrow-right',
 	},
-
+  rewind: true,
   gap: 30,
   perPage: 3,
   fixedWidth: '348px',

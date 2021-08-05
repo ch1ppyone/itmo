@@ -47,10 +47,30 @@ const publications = [
       "imur Sokhin, Nikolay Butakov, Denis Nasonov",
     text: "It is common practice nowadays to use multiple social networks for different social roles. Although this, these networks assume differences in content type, communications and style of speech. If we intend to understand human behaviour as a key-feature for recommender systems, banking risk assessm…",
   },
+  {
+    title: "User Profiles Matching for Different Social Networks Based …",
+    img: "./images/publication/6.jpg",
+    link: "https://link.springer.com/chapter/10.1007/978-3-030-29859-3_47https://scholar.google.ru/citations?view_op=view_citation&hl=ru&user=r5WYVCIAAAAJ&sortby=pubdate&citation_for_view=r5WYVCIAAAAJ:O3NaXMp0MMsC",
+    author:
+      "imur Sokhin, Nikolay Butakov, Denis Nasonov",
+    text: "It is common practice nowadays to use multiple social networks for different social roles. Although this, these networks assume differences in content type, communications and style of speech. If we intend to understand human behaviour as a key-feature for recommender systems, banking risk assessm…",
+  },
+  {
+    title: "User Profiles Matching for Different Social Networks Based …",
+    img: "./images/publication/6.jpg",
+    link: "https://link.springer.com/chapter/10.1007/978-3-030-29859-3_47https://scholar.google.ru/citations?view_op=view_citation&hl=ru&user=r5WYVCIAAAAJ&sortby=pubdate&citation_for_view=r5WYVCIAAAAJ:O3NaXMp0MMsC",
+    author:
+      "imur Sokhin, Nikolay Butakov, Denis Nasonov",
+    text: "It is common practice nowadays to use multiple social networks for different social roles. Although this, these networks assume differences in content type, communications and style of speech. If we intend to understand human behaviour as a key-feature for recommender systems, banking risk assessm…",
+  },
 ];
 
-const  publicationsconatainer = document.querySelector(".publications__cards >.splide__track>.cards");
+
+const publicationsconatainer = document.querySelector(".publications__cards >.splide__track>.cards");
 const publicationsTemplate = document.querySelector('.publications__card-template').content;
+
+
+
 publications.forEach((item) => {
   const clone = publicationsTemplate.cloneNode(true);
   const title = clone.querySelector('.card__title');
@@ -59,28 +79,41 @@ publications.forEach((item) => {
   const author = clone.querySelector('.card__date');
   const text = clone.querySelector('.card__text');
 
+
   title.innerText = item.title;
   img.src = item.img;
   link.href = item.link;
   author.innerText = item.author;
   text.innerText = item.text;
+
+  const publicationsButton = clone.querySelector('.publications__button');
+  const publicationsSocials = clone.querySelector('.publications__socials');
+  publicationsButton.addEventListener('click', () => {
+    publicationsSocials.classList.toggle('publications__socials_active');
+  });
   publicationsconatainer.append(clone);
 });
 
 
-new Splide( '.publications__cards', {
+new Splide('.publications__cards', {
+  type: "loop",
+  rewind: true,
   classes: {
-		arrows: 'splide__arrows-publications',
-		arrow : 'splide__arrow',
-		prev  : 'publications__arrow-left',
-		next  : 'publications__arrow-right',
-	},
+    arrows: 'splide__arrows-publications',
+    arrow: 'splide__arrow',
+    prev: 'publications__arrow-left',
+    next: 'publications__arrow-right',
+  },
   grid: {
-		rows: 2,
-		cols: 3,
-		gap : {
-			row: '32px',
-			col: '30px',
-		}
-	},
-} ).mount(window.splide.Extensions);
+    rows: 2,
+    cols: 3,
+    gap: {
+      row: '32px',
+      col: '30px',
+    }
+  },
+}).mount(window.splide.Extensions);
+
+
+
+

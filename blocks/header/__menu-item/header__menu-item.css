@@ -8,14 +8,13 @@
   margin-left: 0;
 }
 
+.header__menu-item:hover .header__submenu {
+  display: block;
+  box-shadow: inset 0px 2px 0px var(--color-emerald);
+}
+
 @media screen and (max-width: 1053px) {
   .header__menu-item {
     margin-left: 10px;
   }
-}
-
-.header__menu-item:hover .header__submenu {
-  display: block;
-  box-shadow: inset 0px 2px 0px var(--color-emerald);
-
 }

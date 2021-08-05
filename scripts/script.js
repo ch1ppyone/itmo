@@ -41,22 +41,21 @@ const publicationsButton = document.querySelectorAll('.publications__button');
 const publicationsSocials = document.querySelectorAll('.publications__socials');
 const publicationsSocialLink = document.querySelectorAll('.publications__social-link');
 
-publicationsButton.forEach((item, i) => {
-  item.addEventListener('mouseenter', () => {
-    publicationsSocials.forEach(() => {
-      publicationsSocials[i].classList.add('publications__socials_active');
+function socialPopup() {
+  publicationsButton.forEach((item, i) => {
+    item.addEventListener('click', () => {
+      publicationsSocials.forEach(() => {
+        if (!publicationsSocials[i].classList.contains('publications__socials_active')) {
+          publicationsSocials[i].classList.add('publications__socials_active');
+        } else {
+          publicationsSocials[i].classList.remove('publications__socials_active');
+        }
+      })
     })
   })
-})
+}
 
-publicationsButton.forEach((item, i) => {
-  item.addEventListener('mouseleave', (e) => {
-    setTimeout(() => publicationsSocials.forEach(() => {
-      publicationsSocials[i].classList.remove('publications__socials_active')
-    }), 500)
-  });
-})
-
+socialPopup();
 
 publicationsSocialLink.forEach(item => {
   item.addEventListener('click', () => {
@@ -225,6 +224,21 @@ function showPopup(popup) {
 function closePopup(popup) {
   popup.classList.remove("popup_opened");
 }
+
+const burgerItem = document.querySelectorAll(".header__menu-link_type_popup");
+
+burgerItem.forEach((item) => {
+
+  item.addEventListener("click", (e) => {
+    burgerItem.forEach(item => {
+      item.style.fontWeight = '400';
+    });
+
+    item.style.cssText = 'font-weight: 600';
+  })
+});
+
+
 
 
 //popup-lab

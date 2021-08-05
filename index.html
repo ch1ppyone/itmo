@@ -1793,30 +1793,39 @@
             указанным телефонам, написать на почту или оставтиь свое сообщение
             через форму обратной связи.
           </p>
-          <form action="#" method="post" class="contact__contact-form">
+          <form action="#" method="post" name="form" class="contact__contact-form">
             <input
               class="contact__input contact__input_type-name"
               type="text"
               placeholder="Имя"
+              name="name"
+              required
             />
             <input
               class="contact__input contact__input_type-surname"
               type="text"
               placeholder="Фамилия"
+              name="surname"
+              required
             />
             <input
               class="contact__input contact__input_type-phone"
               type="tel"
               placeholder="Телефон"
+              name="tel"
+              required
             />
             <input
               class="contact__input contact__input_type-mail"
               type="email"
               placeholder="E-mail"
+              name="e-mail"
+              required
             />
             <textarea
               class="contact__textarea"
               placeholder="Сообщение"
+              name="textarea"
             ></textarea>
             <button class="contact__submit" type="submit">Отправить</button>
           </form>

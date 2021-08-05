@@ -1,10 +1,12 @@
 .publications__card {
   background-color: var(--color-white);
+  max-height: 548px;
 }
 
 @media (max-width: 1023px) {
   .publications__card {
     padding-bottom: 10px;
+    border-radius: 10px 10px 0px 0px;
   }
 }
 

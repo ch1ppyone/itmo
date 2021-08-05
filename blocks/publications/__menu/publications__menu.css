@@ -7,18 +7,21 @@
   align-items: center;
   background: var(--color-emerald);
   border-radius: 0px 0px 10px 10px;
-  max-width: inherit;
+
+
 }
 
 @media (max-width: 1023px) {
   .publications__menu {
     display: flex;
+    max-width: 290px;
   }
 }
 
 @media (max-width: 709px) {
   .publications__menu {
     display: flex;
+
 
 
   }

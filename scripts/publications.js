@@ -259,17 +259,17 @@ new Splide('.publications__cards', {
     next: 'publications__arrow-right',
   },
   grid: {
-    rows: 2,
+    rows: 1,
     cols: 3,
     gap: {
-      row: '32px',
-      col: '30px',
+      row: '0px',
+      col: '32px',
     }
   },
   breakpoints: {
     1300: {
 			grid: {
-				rows: 2,
+				rows: 1,
 				cols: 2,
         gap: {
           row: '0px',

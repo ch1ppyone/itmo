@@ -1,647 +1,630 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Сайт национального центра когнитивных разработок"/>
-    <meta name="keywords" content="когнитивные технологии, машинное обучение, аспирантура, магистратура, анализ социальных данных, инфраструктура больших данных, облачные вычисления, QA системы"/>
-    <meta name="author" content="Сергей Соколов, Андрей Гудков, Максим Николюкин, Иван Кудряшов"/>
-    <title>Национальный центр когнитивных разработок</title>
-    <link rel="shortcut icon" href="favicon.png" type="image/png">
-    <link rel="stylesheet" href="pages/index.css" />
-  </head>
-  <body class="page">
-    <header class="header" id="header">
-      <div class="header__menu-container">
-        <button
-          type="button"
-          class="header__burger"
-          aria-label="кнопка главного меню"
-        ></button>
-        <a href="#header">
-          <img
-          class="header__logo link link__logo"
-          src="icons/logos/Logo_AI_1.png"
-          alt="логотип INDUSTRIAL AI RESEARCH LAB"
-        />
-        </a>
-
-        <nav>
-          <ul class="header__menu">
-            <li class="header__menu-item"><a class="header__menu-link" href="#about">О нас</a></li>
-            <li class="header__menu-item"><a class="header__menu-link" href="#lab">Лаборатория</a></li>
-            <li class="header__menu-item"><a class="header__menu-link" href="#projects">Проекты</a></li>
-            <li class="header__menu-item">
-              <a class="header__menu-link" href="#education">Образование</a>
-              <ul class="header__submenu">
-
-                <li class="header__menu-item header__menu-item_type_submenu">
-                  <a
-                    class="header__menu-link header__menu-link_type_submenu"
-                    href="#education"
-                    id="link-graduate"
-                    >Аспирантура</a
-                  >
-                </li>
-                <li class="header__menu-item header__menu-item_type_submenu">
-                  <a
-                    class="header__menu-link header__menu-link_type_submenu"
-                    href="#education"
-                    id="link-master"
-                    >Магистратура</a
-                  >
-                </li>
-
-              </ul>
-            </li>
-            <li class="header__menu-item"><a class="header__menu-link" href="#articles">Публикации</a></li>
-            <li class="header__menu-item"><a class="header__menu-link" href="#team">Команда</a></li>
-            <li class="header__menu-item"><a class="header__menu-link" href="#contact">Связаться</a></li>
-          </ul>
-        </nav>
-      </div>
-      <div class="header__title-container">
-
-        <h1 class="header__title">
-          <span class="header__span-accent">Когнитивные технологии,</span>
-          машинное обучение
-        </h1>
-        <h2 class="header__subtitle">
-          Системы прикладного искусственного интеллекта
-        </h2>
-        <a class="header__button_link" href="#projects">
-        <button type="button" class="button button_type_header">НАШИ ПРОЕКТЫ</button>
-      </a>
-
-      </div>
-    </header>
-    <main>
-      <section class="about" id="about">
-        <h2 class="title">Несколько слов о нас</h2>
-        <p class="about__descr">Национальный центр когнитивных разработок – центр национальной технологической инициативы (НТИ), получивший государственную поддержку по направлению «Технологии машинного обучения и когнитивные технологии».</p>
-        <div class="about__cards splide">
-          <div class="splide__track">
-          <ul class="cards splide__list">
-          </ul>
-        </div>
-
-
-
-        <div class="splide__arrows-about">
-          <button class="btn-arrow about__arrow-left splide__arrow"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-
-            <path d="M21 12L3 12" stroke="#FFFFFF" stroke-linecap="round"/>
-            <path d="M9 6L3 12L9 18" stroke="#FFFFFF" stroke-linecap="round"/>
-            </svg>
-          </button>
-          <button class="btn-arrow about__arrow-right splide__arrow"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M3 12L21 12" stroke="#FFFFFF" stroke-linecap="round"/>
-            <path d="M15 18L21 12L15 6" stroke="#FFFFFF" stroke-linecap="round"/>
-            </svg>
-          </button>
-        </div>
-        </div>
-      </section>
-      <section class="lab" id="lab">
-        <div class="lab__container">
-          <h2 class="lab__title">INDUSTRIAL AI RESEARCH LAB</h2>
-          <div class="lab__description">
-              <div class="lab__texts">
-                <p class="lab__subtitle">Центр национальной технологической инициативы (НТИ), получивший государственную поддержку
-                    по направлению «Технологии машинного обучения
-                    и когнитивные технологии».
-                </p>
-                <p class="lab__paragraph">Мы изучаем проблемы и выявляем, когда мы работаем вместе с нашими клиентами, новые решения находят, не задумываясь. Работая таким образом
-                    и проявляя гибкость, мы можем поддерживать новый подход для удовлетворения потребностей наших клиентов.
-                </p>
-              </div>
-              <div class="lab__image lab__image_order_first"></div>
-              <div class="lab__image"></div>
-          </div>
-          <ul class="lab__cards">
-              <li class="lab__card lab__card_type_project">
-                <h3 class="lab__card-title">Анализ социальных данных</h3>
-                <div class="lab__card-icon lab__card-icon_type_project"></div>
-                <p class="lab__card-text">Направление включает в себя исследования и разработки технологий МО и КТ</p>
-                <button
-                    type="button"
-                    aria-label="кнопка Подробнее"
-                    class="button lab__card-button">Подробнее
-                </button>
-              </li>
-              <li class="lab__card lab__card_type_ml">
-                <h3 class="lab__card-title">Инфраструктура больших данных</h3>
-                <div class="lab__card-icon lab__card-icon_type_ml"></div>
-                <p class="lab__card-text">Направление включает в себя исследования и разработки технологий МО и КТ</p>
-                <button
-                    type="button"
-                    aria-label="кнопка Подробнее"
-                    class="button lab__card-button">Подробнее
-                </button>
-              </li>
-              <li class="lab__card lab__card_type_data">
-                <h3 class="lab__card-title">Облачные<br />вычисления</h3>
-                <div class="lab__card-icon lab__card-icon_type_data"></div>
-                <p class="lab__card-text">Направление включает в себя исследования и разработки технологий МО и КТ</p>
-                <button
-                    type="button"
-                    aria-label="кнопка Подробнее"
-                    class="button lab__card-button">Подробнее
-                </button>
-              </li>
-              <li class="lab__card lab__card_type_qa">
-                <h3 class="lab__card-title">QA<br />системы</h3>
-                <div class="lab__card-icon lab__card-icon_type_qa"></div>
-                <p class="lab__card-text">Направление включает в себя исследования и разработки технологий МО и КТ</p>
-                <button
-                    type="button"
-                    aria-label="кнопка Подробнее"
-                    class="button lab__card-button">Подробнее
-                </button>
-              </li>
-          </ul>
-        </div>
-      </section>
-      <section class="project" id="projects">
-        <div class="project__wrapper">
-          <h2 class="project__title">Наши проекты</h2>
-          <ul class="project__menu-list">
-            <li class="project__menu-item project__menu-item_active">Все проекты</li>
-            <li class="project__menu-item">Гос. проекты</li>
-            <li class="project__menu-item">Спецпрограммы</li>
-            <li class="project__menu-item">В разработке</li>
-          </ul>
-          <ul class="project__list">
-            <li class="project__item">
-              <img src="./icons/logos/gazprom_logo.svg" alt="Логотип газпромв" class="project__image">
-              <p class="project__text">Направление включает в себя исследования и разработки технологий МО и КТ. <span class="project__span">Модули для внедрения в предметные сетевые программы магистратуры с элементами МО и КТ, или программы ДПО.</span></p>
-              <a href="#" class="project__more">Подробнее</a>
-              <button type="button" class="project__btn"></button>
-            </li>
-          </ul>
-          <div class="project__pagination">
-            <button type="button" class="project__pagination-btn project__pagination-btn_right"></button>
-            <ul class="project__pagination-list">
-              <li class="project__pagination-item">1</li>
-              <li class="project__pagination-item">2</li>
-              <li class="project__pagination-item">3</li>
-              <li class="project__pagination-item">4</li>
-              <li class="project__pagination-item">...</li>
-              <li class="project__pagination-item">30</li>
-            </ul>
-            <button type="button" class="project__pagination-btn project__pagination-btn_left"></button>
-          </div>
-        </div>
-      </section>
-      <section class="education" id="education">
-        <h2 class="education__title">ОБРАЗОВАНИЕ</h2>
-        <p class="educatiion__subtitle">
-          В образовательной деятельности НЦКР активно использует существующую в
-          Университете ИТМО инфраструктуру и опыт реализации сетевых форм
-          обучения, опираясь на вузы-диссеминаторы (ННГУ, ДВФУ, ФГБОУ ВО «МГТУ
-          «СТАНКИН», НовГУ), а также профильную компанию ООО «НЦЭО» в области
-          электронного и дистанционного образования. Реализуются образовательные
-          программы различных форматов.
-        </p>
-        <article class="education__content">
-
-          <template class="content-template content-template_type-magistr">
-            <img class="education__content-image" src="./images/study/magistr.jpg" alt="Магистратура"/>
-            <div class="education__content-info">
-              <h3 class="education__content-title">
-                Образовательные программы аспирантуры в области МО и КТ
-              </h3>
-              <ul class="education__content-list">
-                <li class="education__content-list-item">
-                  Прикладные технологии искусственного интеллекта;
-                </li>
-                <li class="education__content-list-item">
-                  Машинное обучение и искусственный интеллект;
-                </li>
-                <li class="education__content-list-item">
-                  Биометрические информационные системы;
-                </li>
-                <li class="education__content-list-item">
-                  Речевые информационные системы;
-                </li>
-                <li class="education__content-list-item">
-                  Когнитивные вычисления и квантовый интеллект;
-                </li>
-                <li class="education__content-list-item">
-                  Большие данные и экстренные вычисления;
-                </li>
-                <li class="education__content-list-item">
-                  Семантические системы и инженерия знаний;
-                </li>
-                <li class="education__content-list-item">
-                Технологии разработки компьютерных игр
-                </li>
-              </ul>
-              <a href="https://aspirantura.itmo.ru/?main=12" target="_blank" class="education__content-link link link__detailed">
-                Подробнее
-              </a>
-              </div>
-          </template>
-
-          <template class="content-template content-template_type-aspirant">
-          <img class="education__content-image" src="./images/study/aspirant.jpg" alt="Магистратура"/>
-          <div class="education__content-info">
-            <h3 class="education__content-title">
-              Образовательные программы аспирантуры в области МО и КТ
-            </h3>
-            <ul class="education__content-list">
-              <li class="education__content-list-item">
-                Прикладные технологии искусственного интеллекта;
-              </li>
-              <li class="education__content-list-item">
-                Машинное обучение и искусственный интеллект;
-              </li>
-              <li class="education__content-list-item">
-                Биометрические информационные системы;
-              </li>
-              <li class="education__content-list-item">
-                Речевые информационные системы;
-              </li>
-              <li class="education__content-list-item">
-                Когнитивные вычисления и квантовый интеллект;
-              </li>
-              <li class="education__content-list-item">
-                Большие данные и экстренные вычисления;
-              </li>
-              <li class="education__content-list-item">
-                Семантические системы и инженерия знаний;
-              </li>
-              <li class="education__content-list-item">
-              Технологии разработки компьютерных игр
-              </li>
-            </ul>
-            <a href="https://aspirantura.itmo.ru/?main=12" target="_blank" class="education__content-link link link__detailed">
-              Подробнее
-            </a>
-          </div>
-        </template>
-
-        </article>
-        <ul class="education__tabs">
-          <li class="education__tab education__tab_type-aspirant">АСПИРАНТУРА</li>
-          <li class="education__tab education__tab_type-magistr education__tab_active">МАГИСТРАТУРА</li>
-        </ul>
-      </section>
-      <section class="publications" id="articles">
-        <h2 class="title page__text-color-dark">ПУБЛИКАЦИИ</h2>
-        <article class="publications__cards splide">
-          <div class="splide__track">
-          <ul class="cards splide__list">
-          </ul>
-          </div>
-
-          <div class="splide__arrows-publications">
-            <button class="btn-arrow publications__arrow-left"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M21 12L3 12" stroke="#001337" stroke-linecap="round"/>
-              <path d="M9 6L3 12L9 18" stroke="#001337" stroke-linecap="round"/>
-              </svg>
-            </button>
-            <button class="btn-arrow publications__arrow-right"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M3 12L21 12" stroke="#001337" stroke-linecap="round"/>
-              <path d="M15 18L21 12L15 6" stroke="#001337" stroke-linecap="round"/>
-              </svg>
-            </button>
-          </div>
-        </article>
-      </section>
-
-      <!-- section team --->
-       <section class="team" id="team">
-        <div class="team__wrapper splide">
-          <h2 class="team__title">Наша команда</h2>
-
-            <div class="splide__track">
-          <ul class="team__list splide__list">
-          </div>
-          </ul>
-          <div class="splide__arrows-team">
-            <button type="button" aria-label="Кнопка назад" class="btn-arrow team__arrow-right"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M3 12L21 12" stroke="#001337" stroke-linecap="round"/>
-              <path d="M15 18L21 12L15 6" stroke="#001337" stroke-linecap="round"/>
-              </svg></button>
-            <button type="button" aria-label="Кнопка вперед" class="btn-arrow team__arrow-left"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M21 12L3 12" stroke="#001337" stroke-linecap="round"/>
-              <path d="M9 6L3 12L9 18" stroke="#001337" stroke-linecap="round"/>
-              </svg></button>
-          </div>
-
-
-
-        </div>
-
-      </section>
-
-      <!-- section partners --->
-      <section class="partners" id="partners">
-        <div class="partners__wrapper">
-          <h2 class="partners__title">с кем мы работаем</h2>
-          <p class="partners__text">За время сотрудничества компания показала себя как надежный партнер, способный оперативно решать вопросы по внесению необходимых изменений.</p>
-          <p class="partners__text">Отдельно хочется отметить квалифицированный персонал компании, который всегда готов прийти на помощь в решении поставленных задач, дать объективную оценку и свои рекомендации по улучшению деятельности. Надеемся на дальнейшее и плодотворное сотрудничество.</p>
-          <ul class="partners__list">
-            <li class="partners__item"><a href="#" class="partners__link"><img src="./icons/logos/gazprom_logo.svg" class="partners__image partners__image_name_gazprom" alt="Логотип Газпром Нефть"></a></li>
-            <li class="partners__item partners__item_ipad"><a href="#" class="partners__link"><img src="./icons/logos/sberbank_logo.svg" class="partners__image partners__image_name_sberbank" alt="Логотип Сбербанка"></a></li>
-            <li class="partners__item"><a href="#" class="partners__link"><img src="./icons/logos/mail_logo.svg" class="partners__image partners__image_name_mail" alt="Логотип Mail.ru"></a></li>
-            <li class="partners__item"><a href="#" class="partners__link"><img src="./icons/logos/siemens_logo.svg" class="partners__image partners__image_name_siemens" alt="Логотип Siemens"></a></li>
-            <li class="partners__item"><a href="#" class="partners__link"><img src="./icons/logos/huawei_logo.svg" class="partners__image partners__image_name_huawei" alt="Логотип Huawei"></a></li>
-            <li class="partners__item"><a href="#" class="partners__link"><img src="./icons/logos/sberbank_logo.svg" class="partners__image partners__image_name_sberbank" alt="Логотип Сбербанка"></a></li>
-            <li class="partners__item"><a href="#" class="partners__link"><img src="./icons/logos/rosveft_logo.svg" class="partners__image partners__image_name_rosneft" alt="Логотип Роснефти"></a></li>
-            <li class="partners__item"><a href="#" class="partners__link"><img src="./icons/logos/gazprom_logo.svg" class="partners__image partners__image_name_gazprom" alt="Логотип Газпром Нефть"></a></li>
-            <li class="partners__item partners__item_ipad"><a href="#" class="partners__link"><img src="./icons/logos/huawei_logo.svg" class="partners__image partners__image_name_huawei" alt="Логотип Huawei"></a></li>
-            <li class="partners__item"><a href="#" class="partners__link"><img src="./icons/logos/mail_logo.svg" class="partners__image partners__image_name_mail" alt="Логотип Mail.ru"></a></li>
-          </ul>
-        </div>
-      </section>
-      <section class="contact" id="contact">
-        <div class="contact__container">
-          <h2 class="contact__title">ВСЕГДА НА СВЯЗИ</h2>
-          <p class="contact__subtitle">
-            По всем интересующим вас вопросам вы всегда можете обратиться по
-            указанным телефонам, написать на почту или оставтиь свое сообщение
-            через форму обратной связи.
-          </p>
-
-          <form action="#" method="post" name="form" class="contact__contact-form">
-            <input
-              class="contact__input contact__input_type-name"
-              type="text"
-              placeholder="Имя"
-              name="name"
-              required
-            />
-            <input
-              class="contact__input contact__input_type-surname"
-              type="text"
-              placeholder="Фамилия"
-              name="surname"
-              required
-            />
-            <input
-              class="contact__input contact__input_type-phone"
-              type="tel"
-              placeholder="Телефон"
-              name="tel"
-              required
-            />
-            <input
-              class="contact__input contact__input_type-mail"
-              type="email"
-              placeholder="E-mail"
-              name="e-mail"
-              required
-            />
-            <textarea
-              class="contact__textarea"
-              placeholder="Сообщение"
-              name="textarea"
-            ></textarea>
-
-            <button class="contact__submit" type="submit">Отправить</button>
-          </form>
-        </div>
-      </section>
-    </main>
-    <footer class="footer" id="footer">
-      <div class="footer__wrapper">
-
-        <div class="footer__logo-zone">
-          <a href="#header">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="description" content="Сайт национального центра когнитивных разработок"/>
+      <meta name="keywords" content="когнитивные технологии, машинное обучение, аспирантура, магистратура, анализ социальных данных, инфраструктура больших данных, облачные вычисления, QA системы"/>
+      <meta name="author" content="Сергей Соколов, Андрей Гудков, Максим Николюкин, Иван Кудряшов"/>
+      <title>Национальный центр когнитивных разработок</title>
+      <link rel="shortcut icon" href="favicon.png" type="image/png">
+      <link rel="stylesheet" href="pages/index.css" />
+   </head>
+   <body class="page">
+      <header class="header" id="header">
+         <div class="header__menu-container">
+            <button
+               type="button"
+               class="header__burger"
+               aria-label="кнопка главного меню"
+               ></button>
+            <a href="#header">
             <img
-            src="./icons/logos/Logo_AI_1.png"
-            alt="Логотип национального центра когнитивных разработок"
-            class="footer__logo link link__logo"
-            />
-          </a>
-        </div>
-
-        <p class="footer__copyright">Информация © 2020 Университет ИТМО</p>
-        <p class="footer__info">
-          Национальный центр когнитивных разработок – центр национальной
-          технологической инициативы (НТИ), получивший государственную поддержку
-          по направлению «Технологии машинного обучения и когнитивные
-          технологии». Инфраструктурная основа взаимодействия научных,
-          образовательных и промышленных организаций
-        </p>
-        <div class="footer__menu footer__menu_about">
-          <h3 class="footer__menu-title">О центре</h3>
-          <ul class="footer__menu-list">
-            <li class="footer__menu-item"><a href="#about" class="footer__menu-link link">О нас</a></li>
-            <li class="footer__menu-item"><a href="#header" class="footer__menu-link link">Главная</a></li>
-            <li class="footer__menu-item"><a href="#team" class="footer__menu-link link">Команда</a></li>
-            <li class="footer__menu-item"><a href="#lab" class="footer__menu-link link">Лаборатория</a></li>
-            <li class="footer__menu-item"><a href="#footer" class="footer__menu-link link">Контакты</a></li>
-          </ul>
-        </div>
-        <div class="footer__menu footer__menu_future">
-          <h3 class="footer__menu-title">Развитие</h3>
-          <ul class="footer__menu-list">
-            <li class="footer__menu-item"><a href="#education" class="footer__menu-link link">Образование</a></li>
-            <li class="footer__menu-item"><a href="#education" class="footer__menu-link link">Аспирантура</a></li>
-            <li class="footer__menu-item"><a href="#education" class="footer__menu-link link">Магистратура</a></li>
-            <li class="footer__menu-item"><a href="#articles" class="footer__menu-link link">Публикации</a></li>
-            <li class="footer__menu-item"><a href="#projects" class="footer__menu-link link">Проекты</a></li>
-          </ul>
-        </div>
-        <address class="footer__contacts">
-          <p class="footer__city">г.Санкт-Петербург</p>
-
-          <a href="https://yandex.ru/maps/2/saint-petersburg/?ll=30.295508%2C59.944544&mode=poi&poi%5Bpoint%5D=30.295496%2C59.944170&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D1536272932&rtext=48.707073%2C44.516930~48.536064%2C42.501488&rtt=auto&ruri=~&z=18"
-            target="_blank" class="link footer__address">
-              199034, Санкт-Петербург,
-              <span class="footer__span">
-                Биржевая линия, д. 4, лит. М, ауд. 302С
-              </span>
-          </a>
-          <a href="tel:+78123376490" target="_blank" class="footer__phone link"
-            >+7 (812) 337-64-90</a
-          >
-          <a href="tel:+78123376494" target="_blank" class="footer__phone link"
-            >+7 (812) 337-64-94</a
-          >
-          <a href="mailto:anna.lutsenko@itmo.ru" target="_blank" class="footer__mail link"
-            >anna.lutsenko@itmo.ru</a
-          >
-        </address>
-
-        <p class="footer__developer">
-          <span class="footer__developer-text">Сделано студентами</span>
-          <a href="https://praktikum.yandex.ru/" target="_blank" class="footer__developer-link">Яндекс. Практикума</a>
-          </p>
-        <ul class="social footer__social">
-          <li class="social__item"><a href="#" target="_blank" aria-label="Ссылка на нас Вконтакте" class="social__link social__link_name_vk"></a></li>
-          <li class="social__item"><a href="#" target="_blank" aria-label="Ссылка на нас Facebook" class="social__link social__link_name_fb"></a></li>
-          <li class="social__item"><a href="#" target="_blank" aria-label="Ссылка на нас Telegram" class="social__link social__link_name_tg"></a></li>
-          <li class="social__item"><a href="#" target="_blank" aria-label="Ссылка на нас Instagram" class="social__link social__link_name_inst"></a></li>
-          <li class="social__item"><a href="#" target="_blank" aria-label="Ссылка на нас Youtube" class="social__link social__link_name_youtube"></a></li>
-        </ul>
-      </div>
-    </footer>
-
-
-    <!-- popup-header-menu --->
-    <div class="popup" id="popup-header-menu">
-      <div class="popup__container-burger">
-        <img class="header__logo header__logo_type_popup" src="/icons/logos/Logo_AI_1.png" alt="логотип INDUSTRIAL AI RESEARCH LAB" />
-        <button type="button" class="button button_type_close" aria-label="кнопка Закрыть форму"></button>
-        <nav>
-          <ul class="header__menu header__menu_type_popup">
-            <li class="header__menu-item header__menu-item_type_popup">
-              <a class="header__menu-link header__menu-link_type_popup" href="#about">О нас</a>
-            </li>
-            <li class="header__menu-item header__menu-item_type_popup">
-              <a class="header__menu-link header__menu-link_type_popup" href="#lab">Лаборатория</a>
-            </li>
-            <li class="header__menu-item header__menu-item_type_popup">
-              <a class="header__menu-link header__menu-link_type_popup" href="#projects">Проекты</a>
-            </li>
-            <li class="header__menu-item header__menu-item_type_popup">
-              <a class="header__menu-link header__menu-link_type_popup" href="#education">Образование</a>
-              <ul class="header__submenu-popup">
-                <li class="header__menu-item  header__menu-item_type_popup">
-                  <a  class="header__menu-link header__menu-link_type_popup header__menu-link_type_submenu-popup"
-                      href="#education"
-                      id="link-master_popup"
-                      >Магистратура</a>
-                </li>
-                <li class="header__menu-item  header__menu-item_type_popup">
-                  <a  class="header__menu-link header__menu-link_type_popup header__menu-link_type_submenu-popup"
-                      href="#education"
-                      id="link-graduate_popup"
-                      >Аспирантура</a>
-                </li>
-              </ul>
-            </li>
-            <li class="header__menu-item header__menu-item_type_popup">
-              <a class="header__menu-link header__menu-link_type_popup" href="#articles">Публикации</a>
-            </li>
-            <li class="header__menu-item header__menu-item_type_popup">
-              <a class="header__menu-link header__menu-link_type_popup" href="#team">Команда</a>
-            </li>
-            <li class="header__menu-item header__menu-item_type_popup">
-              <a class="header__menu-link header__menu-link_type_popup" href="#contact">Связаться</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-
-    <!-- popup-lab --->
-    <div class="popup popup-lab" id="popup-lab">
-      <div class="popup-lab__container">
-        <div class="popup-lab__image"></div>
-          <h3 class="popup-lab__title">Анализ социальных данных</h3>
-          <p class="popup-lab__text popup-lab__text_order_1">Учебные лаборатории оснащены современным компьютерным оборудованием, техническими средствами защиты информации, программными и программно-аппаратными комплексами средств защиты, разработанными ведущими производителями: Positive Technologies, Infotecs, SearchInform, «Лаборатория ППШ» и других вендоров. Некоторые из лабораторных установок являются уникальными по своим исследовательским задачам.</p>
-          <p class="popup-lab__text popup-lab__text_order_2">Начиная с первого курса бакалавриата, студенты погружаются в область их будущей профессиональной деятельности, активно развивают навыки программирования, исследования защищенности информации в независимости от формы ее представления, проектирования комплексных интегрированных систем защиты информации, проходят различные виды практик.</p>
-          <div class="popup-lab__text popup-lab__text_order_3">
-            <p class="popup-lab__text">В состав факультета входит ряд научных лабораторий и центров, в которых проводятся исследования:</p>
-            <ul class="popup-lab__list">
-              <li class="popup-lab__list-item">безопасные киберфизические системы;</li>
-              <li class="popup-lab__list-item">разработка средств защиты информации;</li>
-              <li class="popup-lab__list-item">функциональная безопасность беспилотных транспортных средств;</li>
-              <li class="popup-lab__list-item">теория информации и кодирования;</li>
-              <li class="popup-lab__list-item">информационные процессы в Интернет и безопасность виртуального пространства;
-              <li class="popup-lab__list-item">интеллектуальные защищенные системы мультиагентного взаимодействия и пр.</li>
-            </ul>
-          </div>
-        <button type="button" class="button button_type_close-lab" aria-label="кнопка Закрыть форму"></button>
-      </div>
-    </div>
-
-    <!-- templates --->
->
-
-    <template class="about__card-template">
-      <li class="card splide__slide">
-        <p class="card__date"></p>
-        <h3 class="card__title"></h3>
-        <div class="card__line"></div>
-        <p class="card__text"> </p>
-        <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M5.72874 18.3443L3.20274 22.2443L3.47154 23.5199L4.74354 23.2475L7.26834 19.3499C6.72541 19.0626 6.21004 18.7259 5.72874 18.3443ZM16.4231 16.9823C16.4399 16.9475 16.4507 16.9091 16.4663 16.8719C16.5299 16.7315 16.5863 16.5911 16.6319 16.4435C16.6391 16.4171 16.6427 16.3907 16.6511 16.3667C16.698 16.2054 16.7372 16.042 16.7687 15.8771V15.8519C17.0027 14.4491 16.5947 12.8843 15.6611 11.4707L16.9931 9.41387C18.5279 9.60947 19.8551 9.22307 20.4935 8.23547C21.6011 6.52787 20.2535 3.68507 17.4875 1.88387C14.7191 0.0814677 11.5799 0.00586757 10.4747 1.71107C9.83395 2.69987 10.0211 4.07147 10.8263 5.39867L9.49194 7.45547C7.82514 7.17587 6.23274 7.43627 5.04834 8.22347C5.04114 8.22587 5.03275 8.22827 5.02794 8.23307C4.88956 8.32715 4.75655 8.42891 4.62954 8.53787C4.60914 8.55467 4.58514 8.57027 4.56834 8.58707C4.45314 8.68887 4.34452 8.79789 4.24314 8.91347C4.21914 8.94227 4.18554 8.96747 4.16274 8.99747C4.03494 9.14221 3.91859 9.29667 3.81474 9.45947C2.15394 12.0191 3.57114 15.8927 6.97434 18.1103C10.3799 20.3279 14.4863 20.0471 16.1435 17.4875C16.2479 17.3255 16.3439 17.1563 16.4231 16.9823ZM15.4451 5.03267C14.3807 4.34027 13.8611 3.24827 14.2871 2.58947C14.7119 1.93307 15.9203 1.96307 16.9823 2.65547C18.0491 3.34787 18.5639 4.44227 18.1403 5.09867C17.7167 5.75507 16.5107 5.72507 15.4451 5.03267Z" fill="#009FAC"/>
-          </svg></div>
-      </li>
-      </template>
-
-    <template class="team__card-template">
-      <li class="team__card splide__slide">
-
-        <img src="./images/team/man_photo.jpg" alt="Бобцов Алексей Алексеевич" class="team__photo">
-        <h3 class="team__surname">Бобцов</h3>
-        <h3 class="team__name">Алексей Алексеевич</h3>
-        <p class="team__job">Директор, <span class="team__job-span">профессор,</span> ДТН</p>
-      </li>
-    </template>
-
-    <template class= "publications__card-template">
-      <li class="publications__card-wrapper publications__card-wrapper_active splide__slide">
-        <div class="card publications__card card_active">
-          <img src="" alt="фото" class="card__img publications__card-img">
-          <h3 class="card__title publications__card-title"></h3>
-          <p class="card__date publications__card-italic-text"> </p>
-          <p class="card__text"></p>
-        </div>
-        <div class="publications__menu">
-          <a href="" target="_blank" class="publications__link">
-            <p class="publications__link-text">Читать полностью</p>
-            <div class="publications__link-arrow"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M3 12L21 12" stroke="#FFFFFF" stroke-linecap="round"/>
-              <path d="M15 18L21 12L15 6" stroke="#FFFFFF" stroke-linecap="round"/>
-              </svg>
+               class="header__logo link link__logo"
+               src="icons/logos/Logo_AI_1.png"
+               alt="логотип INDUSTRIAL AI RESEARCH LAB"
+               />
+            </a>
+            <nav>
+               <ul class="header__menu">
+                  <li class="header__menu-item"><a class="header__menu-link" href="#about">О нас</a></li>
+                  <li class="header__menu-item"><a class="header__menu-link" href="#lab">Лаборатория</a></li>
+                  <li class="header__menu-item"><a class="header__menu-link" href="#projects">Проекты</a></li>
+                  <li class="header__menu-item">
+                     <a class="header__menu-link" href="#education">Образование</a>
+                     <ul class="header__submenu">
+                        <li class="header__menu-item header__menu-item_type_submenu">
+                           <a
+                              class="header__menu-link header__menu-link_type_submenu"
+                              href="#education"
+                              id="link-graduate"
+                              >Аспирантура</a
+                              >
+                        </li>
+                        <li class="header__menu-item header__menu-item_type_submenu">
+                           <a
+                              class="header__menu-link header__menu-link_type_submenu"
+                              href="#education"
+                              id="link-master"
+                              >Магистратура</a
+                              >
+                        </li>
+                     </ul>
+                  </li>
+                  <li class="header__menu-item"><a class="header__menu-link" href="#articles">Публикации</a></li>
+                  <li class="header__menu-item"><a class="header__menu-link" href="#team">Команда</a></li>
+                  <li class="header__menu-item"><a class="header__menu-link" href="#contact">Связаться</a></li>
+               </ul>
+            </nav>
+         </div>
+         <div class="header__title-container">
+            <h1 class="header__title">
+               <span class="header__span-accent">Когнитивные технологии,</span>
+               машинное обучение
+            </h1>
+            <h2 class="header__subtitle">
+               Системы прикладного искусственного интеллекта
+            </h2>
+            <a class="header__button_link" href="#projects">
+            <button type="button" class="button button_type_header">НАШИ ПРОЕКТЫ</button>
+            </a>
+         </div>
+      </header>
+      <main>
+         <section class="about" id="about">
+            <h2 class="title">Несколько слов о нас</h2>
+            <p class="about__descr">Национальный центр когнитивных разработок – центр национальной технологической инициативы (НТИ), получивший государственную поддержку по направлению «Технологии машинного обучения и когнитивные технологии».</p>
+            <div class="about__cards splide">
+               <div class="splide__track">
+                  <ul class="cards splide__list">
+                  </ul>
+               </div>
+               <div class="splide__arrows-about">
+                  <button class="btn-arrow about__arrow-left splide__arrow">
+                     <svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M21 12L3 12" stroke="#FFFFFF" stroke-linecap="round"/>
+                        <path d="M9 6L3 12L9 18" stroke="#FFFFFF" stroke-linecap="round"/>
+                     </svg>
+                  </button>
+                  <button class="btn-arrow about__arrow-right splide__arrow">
+                     <svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3 12L21 12" stroke="#FFFFFF" stroke-linecap="round"/>
+                        <path d="M15 18L21 12L15 6" stroke="#FFFFFF" stroke-linecap="round"/>
+                     </svg>
+                  </button>
+               </div>
             </div>
-          </a>
-          <button class="publications__button link"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M18.3533 16.0002C17.9042 16.0019 17.4602 16.0943 17.0478 16.2719C16.6354 16.4494 16.2631 16.7085 15.9533 17.0335L7.82659 12.9668C8.0265 12.3607 8.0265 11.7063 7.82659 11.1002L15.9666 6.96016C16.5496 7.57458 17.3403 7.95027 18.1849 8.0142C19.0295 8.07813 19.8678 7.82574 20.5366 7.30609C21.2055 6.78644 21.6573 6.03664 21.8042 5.20244C21.9511 4.36825 21.7825 3.50924 21.3313 2.79238C20.8801 2.07553 20.1785 1.55204 19.3628 1.32367C18.5472 1.0953 17.6757 1.17836 16.9179 1.5567C16.1601 1.93505 15.57 2.58165 15.2623 3.37083C14.9547 4.16001 14.9514 5.03539 15.2533 5.82683L7.19326 9.92683C6.75796 9.39446 6.16865 9.00975 5.50613 8.82545C4.84361 8.64114 4.1403 8.66625 3.49261 8.89734C2.84492 9.12843 2.28456 9.55418 1.88833 10.1162C1.49211 10.6783 1.27942 11.3491 1.27942 12.0368C1.27942 12.7245 1.49211 13.3954 1.88833 13.9574C2.28456 14.5195 2.84492 14.9452 3.49261 15.1763C4.1403 15.4074 4.84361 15.4325 5.50613 15.2482C6.16865 15.0639 6.75796 14.6792 7.19326 14.1468L15.2333 18.1935C15.0974 18.5583 15.0274 18.9443 15.0266 19.3335C15.0266 19.9928 15.2221 20.6372 15.5884 21.1854C15.9546 21.7336 16.4752 22.1608 17.0843 22.4131C17.6934 22.6654 18.3636 22.7314 19.0102 22.6028C19.6568 22.4742 20.2508 22.1567 20.7169 21.6905C21.1831 21.2243 21.5006 20.6304 21.6292 19.9838C21.7578 19.3372 21.6918 18.667 21.4395 18.0579C21.1872 17.4488 20.76 16.9282 20.2118 16.5619C19.6637 16.1957 19.0192 16.0002 18.3599 16.0002H18.3533Z" fill="#FFFFFF"/>
-            </svg>
-          </button>
-          <ul class="publications__socials">
-            <li class="publications__social-link">
-              <a href="#" class="publications__social-vk"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M22.9998 20.5556V3.44444C22.9998 2.1 21.8961 1 20.5492 1H3.45031C2.04476 1 0.999756 2.04256 0.999756 3.44444V20.5556C0.999756 21.9587 2.04476 23 3.45031 23H20.5492C21.1978 22.999 21.8196 22.7414 22.2788 22.2833C22.738 21.8253 22.9972 21.2041 22.9998 20.5556ZM18.3358 13.9641C18.3358 13.9641 19.7193 15.3293 20.0603 15.9624C20.0701 15.9759 20.0738 15.9881 20.0774 15.993C20.2155 16.2252 20.251 16.4086 20.1813 16.543C20.0664 16.7667 19.6753 16.8791 19.5421 16.8889H17.0989C16.9278 16.8889 16.5733 16.8449 16.1431 16.5479C15.8131 16.3181 15.4868 15.938 15.169 15.5677C14.6948 15.0177 14.2841 14.541 13.871 14.541C13.8186 14.5409 13.7665 14.5496 13.717 14.5667C13.4029 14.6669 13.0044 15.113 13.0044 16.3047C13.0044 16.6774 12.7111 16.8901 12.5033 16.8901H11.3838C11.0024 16.8901 9.01631 16.7569 7.25753 14.9003C5.09909 12.627 3.16064 8.06689 3.14353 8.02656C3.02131 7.732 3.27431 7.57189 3.54931 7.57189H6.0182C6.34942 7.57189 6.45576 7.77233 6.53153 7.952C6.61709 8.15611 6.93976 8.97989 7.46776 9.90633C8.32698 11.4133 8.8562 12.0269 9.27787 12.0269C9.35671 12.0264 9.43413 12.0058 9.50276 11.967C10.054 11.6627 9.95131 9.69733 9.92687 9.29156C9.92687 9.21456 9.92564 8.41278 9.64453 8.02778C9.44164 7.74911 9.0982 7.64278 8.89042 7.60244C8.97515 7.4857 9.08664 7.39098 9.21553 7.32622C9.5932 7.138 10.274 7.11111 10.9511 7.11111H11.3275C12.0621 7.12089 12.2528 7.16856 12.518 7.23578C13.0545 7.36411 13.0655 7.71244 13.0179 8.898C13.0044 9.23533 12.9898 9.61789 12.9898 10.0664C12.9898 10.163 12.9861 10.2693 12.9861 10.3793C12.969 10.9856 12.9494 11.6712 13.3772 11.9523C13.4326 11.987 13.4964 12.0056 13.5618 12.0061C13.7109 12.0061 14.157 12.0061 15.3658 9.932C15.8974 9.01655 16.3069 7.93611 16.335 7.85544C16.3777 7.76823 16.4395 7.69177 16.5159 7.63178C16.5785 7.59926 16.6482 7.58288 16.7188 7.58411H19.6215C19.9393 7.58411 20.1544 7.63178 20.1948 7.75278C20.2644 7.94711 20.1813 8.53989 18.8552 10.3317L18.2649 11.1139C17.0622 12.6881 17.0622 12.7688 18.3358 13.9641Z" fill="#009FAC"/>
-              </svg>
-            </a></li>
-            <li class="publications__social-link">
-              <a href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M20.5553 1H3.4442C2.09976 1 0.999756 2.1 0.999756 3.44444V20.5556C0.999756 21.9012 2.09976 23 3.4442 23H11.9998V14.4444H9.55531V11.4194H11.9998V8.91389C11.9998 6.269 13.4811 4.41122 16.6026 4.41122L18.8063 4.41367V7.59756H17.3433C16.1284 7.59756 15.6664 8.50933 15.6664 9.35511V11.4207H18.8051L18.1109 14.4444H15.6664V23H20.5553C21.8998 23 22.9998 21.9012 22.9998 20.5556V3.44444C22.9998 2.1 21.8998 1 20.5553 1Z" fill="#009FAC"/></svg>
-              </a>
-            </li>
-            <li class="publications__social-link">
-              <a href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M4 1C2.34315 1 1 2.34315 1 4V20C1 21.6569 2.34315 23 4 23H20C21.6569 23 23 21.6569 23 20V4C23 2.34315 21.6569 1 20 1H4ZM3.7938 11.208L18.8525 5.09863C19.5396 4.77158 20.2038 5.27288 19.9414 6.38002L17.3772 19.0939C17.198 19.9982 16.6808 20.2126 15.9605 19.7953L12.0544 16.7598L10.1766 18.681C10.1695 18.6881 10.1626 18.6952 10.1557 18.7023C9.94617 18.9154 9.77252 19.0921 9.39432 19.0921L9.66101 14.8994L9.65931 14.8985H9.66101L16.9084 8.01706C17.226 7.72039 16.8396 7.57473 16.4166 7.84549L7.47142 13.7833L3.60524 12.5144C2.77204 12.2455 2.7661 11.6423 3.7938 11.208Z" fill="#009FAC"/>
-                </svg>
-              </a>
-            </li>
-            <li class="publications__social-link">
-              <a href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M16.1249 12C16.1249 10.8542 15.7238 9.88021 14.9218 9.07812C14.1197 8.27604 13.1457 7.875 11.9999 7.875C10.854 7.875 9.88009 8.27604 9.078 9.07812C8.27592 9.88021 7.87488 10.8542 7.87488 12C7.87488 13.1458 8.27592 14.1198 9.078 14.9219C9.88009 15.724 10.854 16.125 11.9999 16.125C13.1457 16.125 14.1197 15.724 14.9218 14.9219C15.7238 14.1198 16.1249 13.1458 16.1249 12ZM0.999878 10.625V20.25C0.999878 21.0091 1.26843 21.6572 1.80554 22.1943C2.34265 22.7314 2.99076 23 3.74988 23H20.2499C21.009 23 21.6571 22.7314 22.1942 22.1943C22.7313 21.6572 22.9999 21.0091 22.9999 20.25V3.75C22.9999 2.99089 22.7313 2.34277 22.1942 1.80566C21.6571 1.26855 21.009 1 20.2499 1H3.74988C2.99076 1 2.34265 1.26855 1.80554 1.80566C1.26843 2.34277 0.999878 2.99089 0.999878 3.75V7.875H6.49988C7.14441 7.02995 7.94649 6.36035 8.90613 5.86621C9.86576 5.37207 10.897 5.125 11.9999 5.125C13.1027 5.125 14.134 5.37207 15.0936 5.86621C16.0533 6.36035 16.8553 7.02995 17.4999 7.875H22.9999V10.625H18.746C18.8319 11.0833 18.8749 11.5417 18.8749 12C18.8749 13.2461 18.5669 14.3955 17.951 15.4482C17.3352 16.501 16.5009 17.3353 15.4481 17.9512C14.3954 18.5671 13.246 18.875 11.9999 18.875C10.7538 18.875 9.60437 18.5671 8.55164 17.9512C7.4989 17.3353 6.66459 16.501 6.04871 15.4482C5.43282 14.3955 5.12488 13.2461 5.12488 12C5.12488 11.5417 5.16785 11.0833 5.25378 10.625H0.999878Z" fill="#009FAC"/>
-                </svg>
-                </a>
-            </li>
-            <li class="publications__social-link">
-              <a href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M4 1C2.34315 1 1 2.34315 1 4V20C1 21.6569 2.34315 23 4 23H20C21.6569 23 23 21.6569 23 20V4C23 2.34315 21.6569 1 20 1H4ZM8.25 6.80385L18 12L8.25 17.1962V6.80385Z" fill="#009FAC"/>
-                </svg>
-              </a>
-            </li>
-          </ul>
-          <div class="publications__triagle"></div>
-        </div>
-      </li>
-    </template>
-
-    <!-- scripts --->
-    <script src="scripts/splide.js"></script>
-    <script src="scripts/splide-grid.js"></script>
-    <script src="scripts/header.js"></script>
-    <script src="scripts/news.js"></script>
-    <script src="scripts/education.js"></script>
-    <script src="scripts/publications.js"></script>
-    <script src="scripts/team.js"></script>
-    <script src="scripts/script.js"></script>
-
-  </body>
+         </section>
+         <section class="lab" id="lab">
+            <div class="lab__container">
+               <h2 class="lab__title">INDUSTRIAL AI RESEARCH LAB</h2>
+               <div class="lab__description">
+                  <div class="lab__texts">
+                     <p class="lab__subtitle">Центр национальной технологической инициативы (НТИ), получивший государственную поддержку
+                        по направлению «Технологии машинного обучения
+                        и когнитивные технологии».
+                     </p>
+                     <p class="lab__paragraph">Мы изучаем проблемы и выявляем, когда мы работаем вместе с нашими клиентами, новые решения находят, не задумываясь. Работая таким образом
+                        и проявляя гибкость, мы можем поддерживать новый подход для удовлетворения потребностей наших клиентов.
+                     </p>
+                  </div>
+                  <div class="lab__image lab__image_order_first"></div>
+                  <div class="lab__image"></div>
+               </div>
+               <ul class="lab__cards">
+                  <li class="lab__card lab__card_type_project">
+                     <h3 class="lab__card-title">Анализ социальных данных</h3>
+                     <div class="lab__card-icon lab__card-icon_type_project"></div>
+                     <p class="lab__card-text">Направление включает в себя исследования и разработки технологий МО и КТ</p>
+                     <button
+                        type="button"
+                        aria-label="кнопка Подробнее"
+                        class="button lab__card-button">Подробнее
+                     </button>
+                  </li>
+                  <li class="lab__card lab__card_type_ml">
+                     <h3 class="lab__card-title">Инфраструктура больших данных</h3>
+                     <div class="lab__card-icon lab__card-icon_type_ml"></div>
+                     <p class="lab__card-text">Направление включает в себя исследования и разработки технологий МО и КТ</p>
+                     <button
+                        type="button"
+                        aria-label="кнопка Подробнее"
+                        class="button lab__card-button">Подробнее
+                     </button>
+                  </li>
+                  <li class="lab__card lab__card_type_data">
+                     <h3 class="lab__card-title">Облачные<br />вычисления</h3>
+                     <div class="lab__card-icon lab__card-icon_type_data"></div>
+                     <p class="lab__card-text">Направление включает в себя исследования и разработки технологий МО и КТ</p>
+                     <button
+                        type="button"
+                        aria-label="кнопка Подробнее"
+                        class="button lab__card-button">Подробнее
+                     </button>
+                  </li>
+                  <li class="lab__card lab__card_type_qa">
+                     <h3 class="lab__card-title">QA<br />системы</h3>
+                     <div class="lab__card-icon lab__card-icon_type_qa"></div>
+                     <p class="lab__card-text">Направление включает в себя исследования и разработки технологий МО и КТ</p>
+                     <button
+                        type="button"
+                        aria-label="кнопка Подробнее"
+                        class="button lab__card-button">Подробнее
+                     </button>
+                  </li>
+               </ul>
+            </div>
+         </section>
+         <section class="project" id="projects">
+            <div class="project__wrapper">
+               <h2 class="project__title">Наши проекты</h2>
+               <ul class="project__menu-list">
+                  <li class="project__menu-item project__menu-item_active">Все проекты</li>
+                  <li class="project__menu-item">Гос. проекты</li>
+                  <li class="project__menu-item">Спецпрограммы</li>
+                  <li class="project__menu-item">В разработке</li>
+               </ul>
+               <ul class="project__list">
+                  <li class="project__item">
+                     <img src="./icons/logos/gazprom_logo.svg" alt="Логотип газпромв" class="project__image">
+                     <p class="project__text">Направление включает в себя исследования и разработки технологий МО и КТ. <span class="project__span">Модули для внедрения в предметные сетевые программы магистратуры с элементами МО и КТ, или программы ДПО.</span></p>
+                     <a href="#" class="project__more">Подробнее</a>
+                     <button type="button" class="project__btn"></button>
+                  </li>
+               </ul>
+               <div class="project__pagination">
+                  <button type="button" class="project__pagination-btn project__pagination-btn_right"></button>
+                  <ul class="project__pagination-list">
+                     <li class="project__pagination-item">1</li>
+                     <li class="project__pagination-item">2</li>
+                     <li class="project__pagination-item">3</li>
+                     <li class="project__pagination-item">4</li>
+                     <li class="project__pagination-item">...</li>
+                     <li class="project__pagination-item">30</li>
+                  </ul>
+                  <button type="button" class="project__pagination-btn project__pagination-btn_left"></button>
+               </div>
+            </div>
+         </section>
+         <section class="education" id="education">
+            <h2 class="education__title">ОБРАЗОВАНИЕ</h2>
+            <p class="educatiion__subtitle">
+               В образовательной деятельности НЦКР активно использует существующую в
+               Университете ИТМО инфраструктуру и опыт реализации сетевых форм
+               обучения, опираясь на вузы-диссеминаторы (ННГУ, ДВФУ, ФГБОУ ВО «МГТУ
+               «СТАНКИН», НовГУ), а также профильную компанию ООО «НЦЭО» в области
+               электронного и дистанционного образования. Реализуются образовательные
+               программы различных форматов.
+            </p>
+            <article class="education__content">
+               <template class="content-template content-template_type-magistr">
+                  <img class="education__content-image" src="./images/study/magistr.jpg" alt="Магистратура"/>
+                  <div class="education__content-info">
+                     <h3 class="education__content-title">
+                        Образовательные программы аспирантуры в области МО и КТ
+                     </h3>
+                     <ul class="education__content-list">
+                        <li class="education__content-list-item">
+                           Прикладные технологии искусственного интеллекта;
+                        </li>
+                        <li class="education__content-list-item">
+                           Машинное обучение и искусственный интеллект;
+                        </li>
+                        <li class="education__content-list-item">
+                           Биометрические информационные системы;
+                        </li>
+                        <li class="education__content-list-item">
+                           Речевые информационные системы;
+                        </li>
+                        <li class="education__content-list-item">
+                           Когнитивные вычисления и квантовый интеллект;
+                        </li>
+                        <li class="education__content-list-item">
+                           Большие данные и экстренные вычисления;
+                        </li>
+                        <li class="education__content-list-item">
+                           Семантические системы и инженерия знаний;
+                        </li>
+                        <li class="education__content-list-item">
+                           Технологии разработки компьютерных игр
+                        </li>
+                     </ul>
+                     <a href="https://aspirantura.itmo.ru/?main=12" target="_blank" class="education__content-link link link__detailed">
+                     Подробнее
+                     </a>
+                  </div>
+               </template>
+               <template class="content-template content-template_type-aspirant">
+                  <img class="education__content-image" src="./images/study/aspirant.jpg" alt="Магистратура"/>
+                  <div class="education__content-info">
+                     <h3 class="education__content-title">
+                        Образовательные программы аспирантуры в области МО и КТ
+                     </h3>
+                     <ul class="education__content-list">
+                        <li class="education__content-list-item">
+                           Прикладные технологии искусственного интеллекта;
+                        </li>
+                        <li class="education__content-list-item">
+                           Машинное обучение и искусственный интеллект;
+                        </li>
+                        <li class="education__content-list-item">
+                           Биометрические информационные системы;
+                        </li>
+                        <li class="education__content-list-item">
+                           Речевые информационные системы;
+                        </li>
+                        <li class="education__content-list-item">
+                           Когнитивные вычисления и квантовый интеллект;
+                        </li>
+                        <li class="education__content-list-item">
+                           Большие данные и экстренные вычисления;
+                        </li>
+                        <li class="education__content-list-item">
+                           Семантические системы и инженерия знаний;
+                        </li>
+                        <li class="education__content-list-item">
+                           Технологии разработки компьютерных игр
+                        </li>
+                     </ul>
+                     <a href="https://aspirantura.itmo.ru/?main=12" target="_blank" class="education__content-link link link__detailed">
+                     Подробнее
+                     </a>
+                  </div>
+               </template>
+            </article>
+            <ul class="education__tabs">
+               <li class="education__tab education__tab_type-aspirant">АСПИРАНТУРА</li>
+               <li class="education__tab education__tab_type-magistr education__tab_active">МАГИСТРАТУРА</li>
+            </ul>
+         </section>
+         <section class="publications" id="articles">
+            <h2 class="title page__text-color-dark">ПУБЛИКАЦИИ</h2>
+            <article class="publications__cards splide">
+               <div class="splide__track">
+                  <ul class="cards splide__list">
+                  </ul>
+               </div>
+               <div class="splide__arrows-publications">
+                  <button class="btn-arrow publications__arrow-left">
+                     <svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M21 12L3 12" stroke="#001337" stroke-linecap="round"/>
+                        <path d="M9 6L3 12L9 18" stroke="#001337" stroke-linecap="round"/>
+                     </svg>
+                  </button>
+                  <button class="btn-arrow publications__arrow-right">
+                     <svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3 12L21 12" stroke="#001337" stroke-linecap="round"/>
+                        <path d="M15 18L21 12L15 6" stroke="#001337" stroke-linecap="round"/>
+                     </svg>
+                  </button>
+               </div>
+            </article>
+         </section>
+         <!-- section team --->
+         <section class="team" id="team">
+            <div class="team__wrapper splide">
+               <h2 class="team__title">Наша команда</h2>
+               <div class="splide__track">
+                  <ul class="team__list splide__list">
+               </div>
+               </ul>
+               <div class="splide__arrows-team">
+                  <button type="button" aria-label="Кнопка назад" class="btn-arrow team__arrow-right">
+                     <svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3 12L21 12" stroke="#001337" stroke-linecap="round"/>
+                        <path d="M15 18L21 12L15 6" stroke="#001337" stroke-linecap="round"/>
+                     </svg>
+                  </button>
+                  <button type="button" aria-label="Кнопка вперед" class="btn-arrow team__arrow-left">
+                     <svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M21 12L3 12" stroke="#001337" stroke-linecap="round"/>
+                        <path d="M9 6L3 12L9 18" stroke="#001337" stroke-linecap="round"/>
+                     </svg>
+                  </button>
+               </div>
+            </div>
+         </section>
+         <!-- section partners --->
+         <section class="partners" id="partners">
+            <div class="partners__wrapper">
+               <h2 class="partners__title">с кем мы работаем</h2>
+               <p class="partners__text">За время сотрудничества компания показала себя как надежный партнер, способный оперативно решать вопросы по внесению необходимых изменений.</p>
+               <p class="partners__text">Отдельно хочется отметить квалифицированный персонал компании, который всегда готов прийти на помощь в решении поставленных задач, дать объективную оценку и свои рекомендации по улучшению деятельности. Надеемся на дальнейшее и плодотворное сотрудничество.</p>
+               <ul class="partners__list">
+                  <li class="partners__item"><a href="#" class="partners__link"><img src="./icons/logos/gazprom_logo.svg" class="partners__image partners__image_name_gazprom" alt="Логотип Газпром Нефть"></a></li>
+                  <li class="partners__item partners__item_ipad"><a href="#" class="partners__link"><img src="./icons/logos/sberbank_logo.svg" class="partners__image partners__image_name_sberbank" alt="Логотип Сбербанка"></a></li>
+                  <li class="partners__item"><a href="#" class="partners__link"><img src="./icons/logos/mail_logo.svg" class="partners__image partners__image_name_mail" alt="Логотип Mail.ru"></a></li>
+                  <li class="partners__item"><a href="#" class="partners__link"><img src="./icons/logos/siemens_logo.svg" class="partners__image partners__image_name_siemens" alt="Логотип Siemens"></a></li>
+                  <li class="partners__item"><a href="#" class="partners__link"><img src="./icons/logos/huawei_logo.svg" class="partners__image partners__image_name_huawei" alt="Логотип Huawei"></a></li>
+                  <li class="partners__item"><a href="#" class="partners__link"><img src="./icons/logos/sberbank_logo.svg" class="partners__image partners__image_name_sberbank" alt="Логотип Сбербанка"></a></li>
+                  <li class="partners__item"><a href="#" class="partners__link"><img src="./icons/logos/rosveft_logo.svg" class="partners__image partners__image_name_rosneft" alt="Логотип Роснефти"></a></li>
+                  <li class="partners__item"><a href="#" class="partners__link"><img src="./icons/logos/gazprom_logo.svg" class="partners__image partners__image_name_gazprom" alt="Логотип Газпром Нефть"></a></li>
+                  <li class="partners__item partners__item_ipad"><a href="#" class="partners__link"><img src="./icons/logos/huawei_logo.svg" class="partners__image partners__image_name_huawei" alt="Логотип Huawei"></a></li>
+                  <li class="partners__item"><a href="#" class="partners__link"><img src="./icons/logos/mail_logo.svg" class="partners__image partners__image_name_mail" alt="Логотип Mail.ru"></a></li>
+               </ul>
+            </div>
+         </section>
+         <section class="contact" id="contact">
+            <div class="contact__container">
+               <h2 class="contact__title">ВСЕГДА НА СВЯЗИ</h2>
+               <p class="contact__subtitle">
+                  По всем интересующим вас вопросам вы всегда можете обратиться по
+                  указанным телефонам, написать на почту или оставтиь свое сообщение
+                  через форму обратной связи.
+               </p>
+               <form action="#" method="post" name="form" class="contact__contact-form">
+                  <input
+                     class="contact__input contact__input_type-name"
+                     type="text"
+                     placeholder="Имя"
+                     name="name"
+                     required
+                     />
+                  <input
+                     class="contact__input contact__input_type-surname"
+                     type="text"
+                     placeholder="Фамилия"
+                     name="surname"
+                     required
+                     />
+                  <input
+                     class="contact__input contact__input_type-phone"
+                     type="tel"
+                     placeholder="Телефон"
+                     name="tel"
+                     required
+                     />
+                  <input
+                     class="contact__input contact__input_type-mail"
+                     type="email"
+                     placeholder="E-mail"
+                     name="e-mail"
+                     required
+                     />
+                  <textarea
+                     class="contact__textarea"
+                     placeholder="Сообщение"
+                     name="textarea"
+                     ></textarea>
+                  <button class="contact__submit" type="submit">Отправить</button>
+               </form>
+            </div>
+         </section>
+      </main>
+      <footer class="footer" id="footer">
+         <div class="footer__wrapper">
+            <div class="footer__logo-zone">
+               <a href="#header">
+               <img
+                  src="./icons/logos/Logo_AI_1.png"
+                  alt="Логотип национального центра когнитивных разработок"
+                  class="footer__logo link link__logo"
+                  />
+               </a>
+            </div>
+            <p class="footer__copyright">Информация © 2020 Университет ИТМО</p>
+            <p class="footer__info">
+               Национальный центр когнитивных разработок – центр национальной
+               технологической инициативы (НТИ), получивший государственную поддержку
+               по направлению «Технологии машинного обучения и когнитивные
+               технологии». Инфраструктурная основа взаимодействия научных,
+               образовательных и промышленных организаций
+            </p>
+            <div class="footer__menu footer__menu_about">
+               <h3 class="footer__menu-title">О центре</h3>
+               <ul class="footer__menu-list">
+                  <li class="footer__menu-item"><a href="#about" class="footer__menu-link link">О нас</a></li>
+                  <li class="footer__menu-item"><a href="#header" class="footer__menu-link link">Главная</a></li>
+                  <li class="footer__menu-item"><a href="#team" class="footer__menu-link link">Команда</a></li>
+                  <li class="footer__menu-item"><a href="#lab" class="footer__menu-link link">Лаборатория</a></li>
+                  <li class="footer__menu-item"><a href="#footer" class="footer__menu-link link">Контакты</a></li>
+               </ul>
+            </div>
+            <div class="footer__menu footer__menu_future">
+               <h3 class="footer__menu-title">Развитие</h3>
+               <ul class="footer__menu-list">
+                  <li class="footer__menu-item"><a href="#education" class="footer__menu-link link">Образование</a></li>
+                  <li class="footer__menu-item"><a href="#education" class="footer__menu-link link">Аспирантура</a></li>
+                  <li class="footer__menu-item"><a href="#education" class="footer__menu-link link">Магистратура</a></li>
+                  <li class="footer__menu-item"><a href="#articles" class="footer__menu-link link">Публикации</a></li>
+                  <li class="footer__menu-item"><a href="#projects" class="footer__menu-link link">Проекты</a></li>
+               </ul>
+            </div>
+            <address class="footer__contacts">
+               <p class="footer__city">г.Санкт-Петербург</p>
+               <a href="https://yandex.ru/maps/2/saint-petersburg/?ll=30.295508%2C59.944544&mode=poi&poi%5Bpoint%5D=30.295496%2C59.944170&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D1536272932&rtext=48.707073%2C44.516930~48.536064%2C42.501488&rtt=auto&ruri=~&z=18"
+                  target="_blank" class="link footer__address">
+               199034, Санкт-Петербург,
+               <span class="footer__span">
+               Биржевая линия, д. 4, лит. М, ауд. 302С
+               </span>
+               </a>
+               <a href="tel:+78123376490" target="_blank" class="footer__phone link"
+                  >+7 (812) 337-64-90</a
+                  >
+               <a href="tel:+78123376494" target="_blank" class="footer__phone link"
+                  >+7 (812) 337-64-94</a
+                  >
+               <a href="mailto:anna.lutsenko@itmo.ru" target="_blank" class="footer__mail link"
+                  >anna.lutsenko@itmo.ru</a
+                  >
+            </address>
+            <p class="footer__developer">
+               <span class="footer__developer-text">Сделано студентами</span>
+               <a href="https://praktikum.yandex.ru/" target="_blank" class="footer__developer-link">Яндекс. Практикума</a>
+            </p>
+            <ul class="social footer__social">
+               <li class="social__item"><a href="#" target="_blank" aria-label="Ссылка на нас Вконтакте" class="social__link social__link_name_vk"></a></li>
+               <li class="social__item"><a href="#" target="_blank" aria-label="Ссылка на нас Facebook" class="social__link social__link_name_fb"></a></li>
+               <li class="social__item"><a href="#" target="_blank" aria-label="Ссылка на нас Telegram" class="social__link social__link_name_tg"></a></li>
+               <li class="social__item"><a href="#" target="_blank" aria-label="Ссылка на нас Instagram" class="social__link social__link_name_inst"></a></li>
+               <li class="social__item"><a href="#" target="_blank" aria-label="Ссылка на нас Youtube" class="social__link social__link_name_youtube"></a></li>
+            </ul>
+         </div>
+      </footer>
+      <!-- popup-header-menu --->
+      <div class="popup" id="popup-header-menu">
+         <div class="popup__container-burger">
+            <img class="header__logo header__logo_type_popup" src="/icons/logos/Logo_AI_1.png" alt="логотип INDUSTRIAL AI RESEARCH LAB" />
+            <button type="button" class="button button_type_close" aria-label="кнопка Закрыть форму"></button>
+            <nav>
+               <ul class="header__menu header__menu_type_popup">
+                  <li class="header__menu-item header__menu-item_type_popup">
+                     <a class="header__menu-link header__menu-link_type_popup" href="#about">О нас</a>
+                  </li>
+                  <li class="header__menu-item header__menu-item_type_popup">
+                     <a class="header__menu-link header__menu-link_type_popup" href="#lab">Лаборатория</a>
+                  </li>
+                  <li class="header__menu-item header__menu-item_type_popup">
+                     <a class="header__menu-link header__menu-link_type_popup" href="#projects">Проекты</a>
+                  </li>
+                  <li class="header__menu-item header__menu-item_type_popup">
+                     <a class="header__menu-link header__menu-link_type_popup" href="#education">Образование</a>
+                     <ul class="header__submenu-popup">
+                        <li class="header__menu-item  header__menu-item_type_popup">
+                           <a  class="header__menu-link header__menu-link_type_popup header__menu-link_type_submenu-popup"
+                              href="#education"
+                              id="link-master_popup"
+                              >Магистратура</a>
+                        </li>
+                        <li class="header__menu-item  header__menu-item_type_popup">
+                           <a  class="header__menu-link header__menu-link_type_popup header__menu-link_type_submenu-popup"
+                              href="#education"
+                              id="link-graduate_popup"
+                              >Аспирантура</a>
+                        </li>
+                     </ul>
+                  </li>
+                  <li class="header__menu-item header__menu-item_type_popup">
+                     <a class="header__menu-link header__menu-link_type_popup" href="#articles">Публикации</a>
+                  </li>
+                  <li class="header__menu-item header__menu-item_type_popup">
+                     <a class="header__menu-link header__menu-link_type_popup" href="#team">Команда</a>
+                  </li>
+                  <li class="header__menu-item header__menu-item_type_popup">
+                     <a class="header__menu-link header__menu-link_type_popup" href="#contact">Связаться</a>
+                  </li>
+               </ul>
+            </nav>
+         </div>
+      </div>
+      <!-- popup-lab --->
+      <div class="popup popup-lab" id="popup-lab">
+         <div class="popup-lab__container">
+            <div class="popup-lab__image"></div>
+            <h3 class="popup-lab__title">Анализ социальных данных</h3>
+            <p class="popup-lab__text popup-lab__text_order_1">Учебные лаборатории оснащены современным компьютерным оборудованием, техническими средствами защиты информации, программными и программно-аппаратными комплексами средств защиты, разработанными ведущими производителями: Positive Technologies, Infotecs, SearchInform, «Лаборатория ППШ» и других вендоров. Некоторые из лабораторных установок являются уникальными по своим исследовательским задачам.</p>
+            <p class="popup-lab__text popup-lab__text_order_2">Начиная с первого курса бакалавриата, студенты погружаются в область их будущей профессиональной деятельности, активно развивают навыки программирования, исследования защищенности информации в независимости от формы ее представления, проектирования комплексных интегрированных систем защиты информации, проходят различные виды практик.</p>
+            <div class="popup-lab__text popup-lab__text_order_3">
+               <p class="popup-lab__text">В состав факультета входит ряд научных лабораторий и центров, в которых проводятся исследования:</p>
+               <ul class="popup-lab__list">
+                  <li class="popup-lab__list-item">безопасные киберфизические системы;</li>
+                  <li class="popup-lab__list-item">разработка средств защиты информации;</li>
+                  <li class="popup-lab__list-item">функциональная безопасность беспилотных транспортных средств;</li>
+                  <li class="popup-lab__list-item">теория информации и кодирования;</li>
+                  <li class="popup-lab__list-item">информационные процессы в Интернет и безопасность виртуального пространства;
+                  <li class="popup-lab__list-item">интеллектуальные защищенные системы мультиагентного взаимодействия и пр.</li>
+               </ul>
+            </div>
+            <button type="button" class="button button_type_close-lab" aria-label="кнопка Закрыть форму"></button>
+         </div>
+      </div>
+      <!-- templates --->
+      >
+      <template class="about__card-template">
+         <li class="card splide__slide">
+            <p class="card__date"></p>
+            <h3 class="card__title"></h3>
+            <div class="card__line"></div>
+            <p class="card__text"> </p>
+            <div class="card__icon">
+               <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5.72874 18.3443L3.20274 22.2443L3.47154 23.5199L4.74354 23.2475L7.26834 19.3499C6.72541 19.0626 6.21004 18.7259 5.72874 18.3443ZM16.4231 16.9823C16.4399 16.9475 16.4507 16.9091 16.4663 16.8719C16.5299 16.7315 16.5863 16.5911 16.6319 16.4435C16.6391 16.4171 16.6427 16.3907 16.6511 16.3667C16.698 16.2054 16.7372 16.042 16.7687 15.8771V15.8519C17.0027 14.4491 16.5947 12.8843 15.6611 11.4707L16.9931 9.41387C18.5279 9.60947 19.8551 9.22307 20.4935 8.23547C21.6011 6.52787 20.2535 3.68507 17.4875 1.88387C14.7191 0.0814677 11.5799 0.00586757 10.4747 1.71107C9.83395 2.69987 10.0211 4.07147 10.8263 5.39867L9.49194 7.45547C7.82514 7.17587 6.23274 7.43627 5.04834 8.22347C5.04114 8.22587 5.03275 8.22827 5.02794 8.23307C4.88956 8.32715 4.75655 8.42891 4.62954 8.53787C4.60914 8.55467 4.58514 8.57027 4.56834 8.58707C4.45314 8.68887 4.34452 8.79789 4.24314 8.91347C4.21914 8.94227 4.18554 8.96747 4.16274 8.99747C4.03494 9.14221 3.91859 9.29667 3.81474 9.45947C2.15394 12.0191 3.57114 15.8927 6.97434 18.1103C10.3799 20.3279 14.4863 20.0471 16.1435 17.4875C16.2479 17.3255 16.3439 17.1563 16.4231 16.9823ZM15.4451 5.03267C14.3807 4.34027 13.8611 3.24827 14.2871 2.58947C14.7119 1.93307 15.9203 1.96307 16.9823 2.65547C18.0491 3.34787 18.5639 4.44227 18.1403 5.09867C17.7167 5.75507 16.5107 5.72507 15.4451 5.03267Z" fill="#009FAC"/>
+               </svg>
+            </div>
+         </li>
+      </template>
+      <template class="team__card-template">
+         <li class="team__card splide__slide">
+            <img src="./images/team/man_photo.jpg" alt="Бобцов Алексей Алексеевич" class="team__photo">
+            <h3 class="team__surname">Бобцов</h3>
+            <h3 class="team__name">Алексей Алексеевич</h3>
+            <p class="team__job">Директор, <span class="team__job-span">профессор,</span> ДТН</p>
+         </li>
+      </template>
+      <template class= "publications__card-template">
+         <li class="publications__card-wrapper publications__card-wrapper_active splide__slide">
+            <div class="card publications__card card_active">
+               <img src="" alt="фото" class="card__img publications__card-img">
+               <h3 class="card__title publications__card-title"></h3>
+               <p class="card__date publications__card-italic-text"> </p>
+               <p class="card__text"></p>
+            </div>
+            <div class="publications__menu">
+               <a href="" target="_blank" class="publications__link">
+                  <p class="publications__link-text">Читать полностью</p>
+                  <div class="publications__link-arrow">
+                     <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3 12L21 12" stroke="#FFFFFF" stroke-linecap="round"/>
+                        <path d="M15 18L21 12L15 6" stroke="#FFFFFF" stroke-linecap="round"/>
+                     </svg>
+                  </div>
+               </a>
+               <button class="publications__button link">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M18.3533 16.0002C17.9042 16.0019 17.4602 16.0943 17.0478 16.2719C16.6354 16.4494 16.2631 16.7085 15.9533 17.0335L7.82659 12.9668C8.0265 12.3607 8.0265 11.7063 7.82659 11.1002L15.9666 6.96016C16.5496 7.57458 17.3403 7.95027 18.1849 8.0142C19.0295 8.07813 19.8678 7.82574 20.5366 7.30609C21.2055 6.78644 21.6573 6.03664 21.8042 5.20244C21.9511 4.36825 21.7825 3.50924 21.3313 2.79238C20.8801 2.07553 20.1785 1.55204 19.3628 1.32367C18.5472 1.0953 17.6757 1.17836 16.9179 1.5567C16.1601 1.93505 15.57 2.58165 15.2623 3.37083C14.9547 4.16001 14.9514 5.03539 15.2533 5.82683L7.19326 9.92683C6.75796 9.39446 6.16865 9.00975 5.50613 8.82545C4.84361 8.64114 4.1403 8.66625 3.49261 8.89734C2.84492 9.12843 2.28456 9.55418 1.88833 10.1162C1.49211 10.6783 1.27942 11.3491 1.27942 12.0368C1.27942 12.7245 1.49211 13.3954 1.88833 13.9574C2.28456 14.5195 2.84492 14.9452 3.49261 15.1763C4.1403 15.4074 4.84361 15.4325 5.50613 15.2482C6.16865 15.0639 6.75796 14.6792 7.19326 14.1468L15.2333 18.1935C15.0974 18.5583 15.0274 18.9443 15.0266 19.3335C15.0266 19.9928 15.2221 20.6372 15.5884 21.1854C15.9546 21.7336 16.4752 22.1608 17.0843 22.4131C17.6934 22.6654 18.3636 22.7314 19.0102 22.6028C19.6568 22.4742 20.2508 22.1567 20.7169 21.6905C21.1831 21.2243 21.5006 20.6304 21.6292 19.9838C21.7578 19.3372 21.6918 18.667 21.4395 18.0579C21.1872 17.4488 20.76 16.9282 20.2118 16.5619C19.6637 16.1957 19.0192 16.0002 18.3599 16.0002H18.3533Z" fill="#FFFFFF"/>
+                  </svg>
+               </button>
+               <ul class="publications__socials">
+                  <li class="publications__social-link">
+                     <a href="#" class="publications__social-vk">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M22.9998 20.5556V3.44444C22.9998 2.1 21.8961 1 20.5492 1H3.45031C2.04476 1 0.999756 2.04256 0.999756 3.44444V20.5556C0.999756 21.9587 2.04476 23 3.45031 23H20.5492C21.1978 22.999 21.8196 22.7414 22.2788 22.2833C22.738 21.8253 22.9972 21.2041 22.9998 20.5556ZM18.3358 13.9641C18.3358 13.9641 19.7193 15.3293 20.0603 15.9624C20.0701 15.9759 20.0738 15.9881 20.0774 15.993C20.2155 16.2252 20.251 16.4086 20.1813 16.543C20.0664 16.7667 19.6753 16.8791 19.5421 16.8889H17.0989C16.9278 16.8889 16.5733 16.8449 16.1431 16.5479C15.8131 16.3181 15.4868 15.938 15.169 15.5677C14.6948 15.0177 14.2841 14.541 13.871 14.541C13.8186 14.5409 13.7665 14.5496 13.717 14.5667C13.4029 14.6669 13.0044 15.113 13.0044 16.3047C13.0044 16.6774 12.7111 16.8901 12.5033 16.8901H11.3838C11.0024 16.8901 9.01631 16.7569 7.25753 14.9003C5.09909 12.627 3.16064 8.06689 3.14353 8.02656C3.02131 7.732 3.27431 7.57189 3.54931 7.57189H6.0182C6.34942 7.57189 6.45576 7.77233 6.53153 7.952C6.61709 8.15611 6.93976 8.97989 7.46776 9.90633C8.32698 11.4133 8.8562 12.0269 9.27787 12.0269C9.35671 12.0264 9.43413 12.0058 9.50276 11.967C10.054 11.6627 9.95131 9.69733 9.92687 9.29156C9.92687 9.21456 9.92564 8.41278 9.64453 8.02778C9.44164 7.74911 9.0982 7.64278 8.89042 7.60244C8.97515 7.4857 9.08664 7.39098 9.21553 7.32622C9.5932 7.138 10.274 7.11111 10.9511 7.11111H11.3275C12.0621 7.12089 12.2528 7.16856 12.518 7.23578C13.0545 7.36411 13.0655 7.71244 13.0179 8.898C13.0044 9.23533 12.9898 9.61789 12.9898 10.0664C12.9898 10.163 12.9861 10.2693 12.9861 10.3793C12.969 10.9856 12.9494 11.6712 13.3772 11.9523C13.4326 11.987 13.4964 12.0056 13.5618 12.0061C13.7109 12.0061 14.157 12.0061 15.3658 9.932C15.8974 9.01655 16.3069 7.93611 16.335 7.85544C16.3777 7.76823 16.4395 7.69177 16.5159 7.63178C16.5785 7.59926 16.6482 7.58288 16.7188 7.58411H19.6215C19.9393 7.58411 20.1544 7.63178 20.1948 7.75278C20.2644 7.94711 20.1813 8.53989 18.8552 10.3317L18.2649 11.1139C17.0622 12.6881 17.0622 12.7688 18.3358 13.9641Z" fill="#009FAC"/>
+                        </svg>
+                     </a>
+                  </li>
+                  <li class="publications__social-link">
+                     <a href="#">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M20.5553 1H3.4442C2.09976 1 0.999756 2.1 0.999756 3.44444V20.5556C0.999756 21.9012 2.09976 23 3.4442 23H11.9998V14.4444H9.55531V11.4194H11.9998V8.91389C11.9998 6.269 13.4811 4.41122 16.6026 4.41122L18.8063 4.41367V7.59756H17.3433C16.1284 7.59756 15.6664 8.50933 15.6664 9.35511V11.4207H18.8051L18.1109 14.4444H15.6664V23H20.5553C21.8998 23 22.9998 21.9012 22.9998 20.5556V3.44444C22.9998 2.1 21.8998 1 20.5553 1Z" fill="#009FAC"/>
+                        </svg>
+                     </a>
+                  </li>
+                  <li class="publications__social-link">
+                     <a href="#">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path fill-rule="evenodd" clip-rule="evenodd" d="M4 1C2.34315 1 1 2.34315 1 4V20C1 21.6569 2.34315 23 4 23H20C21.6569 23 23 21.6569 23 20V4C23 2.34315 21.6569 1 20 1H4ZM3.7938 11.208L18.8525 5.09863C19.5396 4.77158 20.2038 5.27288 19.9414 6.38002L17.3772 19.0939C17.198 19.9982 16.6808 20.2126 15.9605 19.7953L12.0544 16.7598L10.1766 18.681C10.1695 18.6881 10.1626 18.6952 10.1557 18.7023C9.94617 18.9154 9.77252 19.0921 9.39432 19.0921L9.66101 14.8994L9.65931 14.8985H9.66101L16.9084 8.01706C17.226 7.72039 16.8396 7.57473 16.4166 7.84549L7.47142 13.7833L3.60524 12.5144C2.77204 12.2455 2.7661 11.6423 3.7938 11.208Z" fill="#009FAC"/>
+                        </svg>
+                     </a>
+                  </li>
+                  <li class="publications__social-link">
+                     <a href="#">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M16.1249 12C16.1249 10.8542 15.7238 9.88021 14.9218 9.07812C14.1197 8.27604 13.1457 7.875 11.9999 7.875C10.854 7.875 9.88009 8.27604 9.078 9.07812C8.27592 9.88021 7.87488 10.8542 7.87488 12C7.87488 13.1458 8.27592 14.1198 9.078 14.9219C9.88009 15.724 10.854 16.125 11.9999 16.125C13.1457 16.125 14.1197 15.724 14.9218 14.9219C15.7238 14.1198 16.1249 13.1458 16.1249 12ZM0.999878 10.625V20.25C0.999878 21.0091 1.26843 21.6572 1.80554 22.1943C2.34265 22.7314 2.99076 23 3.74988 23H20.2499C21.009 23 21.6571 22.7314 22.1942 22.1943C22.7313 21.6572 22.9999 21.0091 22.9999 20.25V3.75C22.9999 2.99089 22.7313 2.34277 22.1942 1.80566C21.6571 1.26855 21.009 1 20.2499 1H3.74988C2.99076 1 2.34265 1.26855 1.80554 1.80566C1.26843 2.34277 0.999878 2.99089 0.999878 3.75V7.875H6.49988C7.14441 7.02995 7.94649 6.36035 8.90613 5.86621C9.86576 5.37207 10.897 5.125 11.9999 5.125C13.1027 5.125 14.134 5.37207 15.0936 5.86621C16.0533 6.36035 16.8553 7.02995 17.4999 7.875H22.9999V10.625H18.746C18.8319 11.0833 18.8749 11.5417 18.8749 12C18.8749 13.2461 18.5669 14.3955 17.951 15.4482C17.3352 16.501 16.5009 17.3353 15.4481 17.9512C14.3954 18.5671 13.246 18.875 11.9999 18.875C10.7538 18.875 9.60437 18.5671 8.55164 17.9512C7.4989 17.3353 6.66459 16.501 6.04871 15.4482C5.43282 14.3955 5.12488 13.2461 5.12488 12C5.12488 11.5417 5.16785 11.0833 5.25378 10.625H0.999878Z" fill="#009FAC"/>
+                        </svg>
+                     </a>
+                  </li>
+                  <li class="publications__social-link">
+                     <a href="#">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path fill-rule="evenodd" clip-rule="evenodd" d="M4 1C2.34315 1 1 2.34315 1 4V20C1 21.6569 2.34315 23 4 23H20C21.6569 23 23 21.6569 23 20V4C23 2.34315 21.6569 1 20 1H4ZM8.25 6.80385L18 12L8.25 17.1962V6.80385Z" fill="#009FAC"/>
+                        </svg>
+                     </a>
+                  </li>
+               </ul>
+               <div class="publications__triagle"></div>
+            </div>
+         </li>
+      </template>
+      <!-- scripts --->
+      <script src="scripts/splide.js"></script>
+      <script src="scripts/splide-grid.js"></script>
+      <script src="scripts/header.js"></script>
+      <script src="scripts/news.js"></script>
+      <script src="scripts/education.js"></script>
+      <script src="scripts/publications.js"></script>
+      <script src="scripts/team.js"></script>
+      <script src="scripts/script.js"></script>
+   </body>
 </html>

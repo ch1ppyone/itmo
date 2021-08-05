@@ -86,13 +86,6 @@
 @import url(../blocks/publications/__card-wrapper/publications__card-wrapper.css);
 @import url(../blocks/publications/__card-wrapper/_active/publications__card-wrapper_active.css);
 
-/* БЛОК ПОД УДАЛЕНИЕБ ЕСЛИ НИКТО НЕ ИСПОЛЬЗУЕТ ЭТИ КЛАССЫ // ФИКС ОШИБОК В КОНСОЛИ
-@import url(../blocks/about/__btn/about__btn.css);
-@import url(../blocks/about/__btn/_position/about__btn_position_left.css);
-@import url(../blocks/about/__btn/_position/about__btn_position_right.css);
-@import url(../blocks/about/__dots/about__dots.css);
-@import url(../blocks/about/__dot/about__dot.css);
-@import url(../blocks/about/__dot/_active/about__dot_active.css); */
 
 
 @import url('../blocks/team/team.css');
@@ -106,7 +99,6 @@
 @import url('../blocks/team/__job/team__job.css');
 @import url('../blocks/team/__arrow-left/team__arrow-left.css');
 @import url('../blocks/team/__arrow-right/team__arrow-right.css');
-@import url('../blocks/team/__button/_left/team__button_left.css');
 @import url('../blocks/team/__pagination-list/team__pagination-list.css');
 @import url('../blocks/team/__pagination-item/team__pagination-item.css');
 @import url('../blocks/team/__pagination-item/_active/team__pagination-item_active.css');

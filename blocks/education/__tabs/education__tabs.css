@@ -9,17 +9,20 @@
   max-width: 540px;
   border: 1px solid var(--color-light-blue);
   border-radius: 10px;
+
 }
 
 @media screen and (max-width: 1168px) {
   .education__tabs {
     max-width: 450px;
+
   }
 }
 
 @media screen and (max-width: 733px) {
   .education__tabs  {
     max-width: 288px;
+
   }
 }
 

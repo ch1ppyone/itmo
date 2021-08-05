@@ -14,6 +14,12 @@
   margin-top: 8px;
 }
 
+.contact__submit:hover {
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+
 @media screen and (max-width: 900px) {
   .contact__submit {
     height: 44px;

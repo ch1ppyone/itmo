@@ -15,6 +15,8 @@
 @import url(../blocks/button/_type/button_type_close-lab.css);
 @import url(../blocks/button/_type/button_type_header.css);
 @import url(../blocks/link/link.css);
+@import url(../blocks/link/__logo/link__logo.css);
+@import url(../blocks/link/__detailed/link__detailed.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__menu-container/header__menu-container.css);
@@ -157,7 +159,6 @@
 @import url('../blocks/education/__content-info/education__content-info.css');
 @import url('../blocks/education/__content-title/education__content-title.css');
 @import url('../blocks/education/__content-link/education__content-link.css');
-@import url('../blocks/education/__link-arrow/education__link-arrow.css');
 @import url('../blocks/education/__content-image/education__content-image.css');
 @import url('../blocks/education/__content-list/education__content-list.css');
 @import url('../blocks/education/__content-list-item/education__content-list-item.css');

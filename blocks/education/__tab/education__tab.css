@@ -11,6 +11,12 @@
   letter-spacing: 0.1px;
   height: 60px;
   color: var(--color-white);
+  cursor: pointer;
+}
+
+.education__tab:hover {
+  opacity: 0.6;
+  transition: 0.3s;
 }
 
 @media screen and (max-width: 1168px) {
